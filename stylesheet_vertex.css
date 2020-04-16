@@ -1,0 +1,517 @@
+/* stylesheet_vertex.css */
+
+html, body {
+	margin: 0;
+	padding: 0;
+		background: #ffffff;
+		font-family: 'Montserrat', sans-serif;
+		color: #000000;
+}
+
+#header-container {
+	display: flex;
+	flex-direction: row;
+	height: 85px;
+	flex-wrap: wrap;
+	align-items: center;
+	border-bottom: 1px solid #cccccc;
+}
+
+#header-left {
+	display: flex;
+	flex-basis: 40%;
+	text-transform: uppercase;
+	color: #676767; /* matches what VE uses for this brand styling */
+	font-size: 18px;
+	align-items: center;
+	flex-shrink: 0;
+}
+
+.logo-text {
+	flex-shrink: 0;
+	border-left: 1px solid #e1e1e1;
+	padding-left: 15px;
+	margin-left: 15px;
+}
+
+#header-right {
+	display: flex;
+	flex-basis: 60%;
+	/*flex-shrink: 0;*/
+	align-content: flex-end;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+#search-input {
+  /*margin-left: 260px; /* TODO - temporary hack; convert this to appropriate flex-box properties before finalizing */
+
+  border: 1px solid #cfcfcf;
+  width: 25vw;
+  padding: 12px 45px;
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+}
+
+#search-input:focus {
+    border: 2px solid #c3d941; /* vertex grn #C1D82F */
+    background-color: white;
+    outline: none; /* necessary for Chrome or else border color looks off */
+}
+
+#search-submit-btn { /* Search Submit button */
+	width: 150px;
+	margin-left: 15px;
+	margin-right: 25px;
+	height: 40px;
+	border-color: #c3d941; /* vertex grn #C1D82F */
+	background-color: #c3d941;
+	color: #131313;
+	font-size: .875rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#search-submit-btn:hover {
+	border-color: #a3b536; /* darker green, same as vertexinc.com */
+	background-color: #a3b536;
+}
+
+.content-container {
+	display: flex;
+}
+
+#topic-container {
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	flex-basis: 70%;
+	padding-left: 20px;
+	padding-right: 15px;
+	flex-grow: 1;
+}
+
+.sidebar {
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+button:focus { /* removes blue border from buttons after click in Chrome browser */
+	outline:0;
+}
+
+.left-sidebar-toggle-col,
+.right-sidebar-toggle-col {
+	padding-top: 10px;
+	color: #898989;
+}
+
+.sidebar-left {
+	flex-basis: 24%;
+	transition: flex-basis 0.2s;
+	max-width: 24vw;
+	overflow-x: hidden; /* need to remove this once wrap is fixed! */
+}
+
+#sidebar-right-content { /* overrides the .searchResults font size of result excerpts */
+	font-size: 12px;
+	color: #898989;
+}
+
+.searchResults a { /* .searchResults is initially defined in AIT stylesheet */
+	color: #222277; /* vertex dk blue */
+	font-size: 14px; /* makes search result title/link larger than excerpt */
+}
+
+/******** FOLLOWING TOC STYLES PROBABLY BETTER HANDLED IN AIT STYLESHEET - APPLIED HERE FOR DEV */
+#toc-container {
+	padding-left: 30px;
+	overflow-wrap: break-word; /* not working */
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+iframe #Buttons { /* Qualtrics Submit Button */
+	background-color: #0064D6; /* vertex light blue */
+    font-family: 'Montserrat', sans-serif;
+    width: 50px;
+    border: none;
+    color: #ffffff;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+#toc-container a {
+	color: #898989;
+	text-decoration: none;
+}
+
+#toc-container a:hover {
+	color: #ffffff;
+	background-color: #222277;
+}
+
+.toc {
+	text-indent: 0pt; /* fixes the odd 16px indent that AIT has by default */
+} 
+
+/* .toc a and hover add the elipsis and wrap to the toc entries. Width needs to be in pixels to work correctly. Display is needed. */
+.toc a {
+	width: 200px;
+	display: inline-block;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.toc a:hover {
+	text-overflow: clip;
+    white-space: normal;
+    word-break: break-word;	
+}
+
+.toc img {
+	cursor: pointer;
+}
+
+/************************************* END TOC STYLES */
+
+.sidebar-right {
+	flex-basis: 16%;
+		transition: flex-basis 0.2s;
+}
+
+.sidebar-left-toggle, 
+.sidebar-right-toggle {
+  background: #ffffff; 
+  border: 0;
+  cursor: pointer;
+  font-size: 16px;
+  color: #cccccc;
+}
+
+.sidebar-left-toggle:hover,
+.sidebar-right-toggle:hover {
+	color: #898989;
+}
+
+.sidebar-collapsed {
+  flex-basis: 0;
+  overflow: hidden;
+}
+
+.sidebar-title {
+	font-size: 16px;
+	/* color: #cccccc;*/
+	color: #676767;
+}
+
+.breadcrumb {
+  font-size: 12px;
+  color: #b2b2b2;
+}
+
+.breadcrumb a {
+  color: #b2b2b2;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  color: #222277;
+}
+
+.topic-title {
+  padding-top: 17px;
+  font-size: 20px;
+  color: #222277;
+}
+
+.prev-next-topic-links { /* the < previous and next > topic links */
+  color: #cccccc;
+  font-size: 12px;
+  padding-top: 18px;
+  padding-bottom: 10px;
+}
+
+.prev-next-topic-links a {
+  color: #b2b2b2;
+  text-decoration: none;
+}
+
+.prev-next-topic-links a:hover {
+  color: #222277;
+}
+
+#next-topic-link {
+    padding-left: 30px;
+}
+
+.button {
+    background-color: #0064D6; /* vertex light blue */
+    /* font-family: 'Montserrat', sans-serif; */
+	font-family: montserratmedium,sans-serif !important;
+    width: 50px;
+    /* border: none; */
+    color: #ffffff;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 10px;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+    cursor: pointer;
+	box-shadow: 0 2px 10px 0 rgba(0,0,0,.12), 0 2px 5px 0 rgba(0,0,0,.12);
+	border: 2px solid transparent;
+    border-radius: 3px;
+}
+
+.button:hover {
+  background-color: #003a7a; /* verte dk blue */
+
+}
+
+#printbutton {
+	border: none;
+    cursor: pointer;
+	/*color: #898989;*/
+	color: #ffffff;
+	border-radius: 3px;
+	position: relative;
+	left: 55px;
+	background-color: #0064D6;
+    font-family: montserratmedium,sans-serif !important;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    font-size: 14px;
+    transition: box-shadow .25s,border-color .25s,background-color .25s,color .25s,-webkit-box-shadow .25s;
+}
+
+ #printbutton:hover {
+	background-color: #003a7a; /* verte dk blue */
+	color: #ffffff;
+}
+
+#feedbackbutton {
+	border: none;
+    cursor: pointer;
+	/*color: #898989;*/
+	color: #ffffff;
+	border-radius: 3px;
+	position: relative;
+	left: 60px;
+	background-color: #0064D6;
+    font-family: montserratmedium,sans-serif !important;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    font-size: 14px;
+    transition: box-shadow .25s,border-color .25s,background-color .25s,color .25s,-webkit-box-shadow .25s;
+}
+
+#feedbackbutton:hover {
+	background-color: #003a7a; /* verte dk blue */
+	color: #ffffff;
+}
+
+
+/* printicon is the blue icon to the right of the search button */
+#printicon:hover {
+	cursor:pointer;
+}
+
+#footer-container {
+	display: flex;
+	height: 8vh;
+	flex-direction: row;
+	border-top: 1px solid #cccccc;
+	font-size: 11px;
+	color: #9b9b9b;
+
+}
+
+#footer-left {
+	flex-basis: 1;
+	padding-left: 30px;
+}
+
+#footer-right {
+	flex-basis: 1;
+	align-content: flex-end;
+	padding-right: 30px;
+}
+
+#footer-policy-links a {
+  text-decoration: none;
+  color: #9b9b9b;
+}
+
+#footer-policy-links a:hover {
+  text-decoration: none;
+  color: #222277;
+}
+
+
+#footer-copyright {
+
+}
+
+/*************************** TOPIC STYLE OVERRIDES ******************************/
+.tableintopic {
+ 	width: 100%;
+}
+.relatedtopics.belowtopictext {
+	padding-bottom: 18px
+}
+
+.bodytext {
+	line-height: 1.5;
+    font-size: 10pt;
+    font-family: montserratregular,sans-serif;
+    color: #131313;
+    -webkit-font-smoothing: antialiased;
+}
+
+.testtableheading {
+	font-size: 15px;
+	font-weight: bold;
+	color: #ffffff;
+	border-right-style: none;
+}
+
+.tabletext {
+	font-size: 10pt;
+	font-weight: normal;
+	color: #131313;
+	margin-left: 3pt;
+}
+
+.zzzembeddediconfiletemplate {
+	position: relative;
+	top: -25px;
+}
+
+#f124:hover {
+	box-shadow: 1px 1px 2px grey;
+	border-radius: 4px;
+}
+
+#f125:hover {
+	box-shadow: 1px 1px 2px grey;
+	border-radius: 4px;
+}
+
+#f126:hover {
+	box-shadow: 1px 1px 2px grey;
+	border-radius: 4px;
+}
+
+.heading1 {
+        background: none;
+        color: #003e7a;
+        font-size: 20pt;
+    }
+	
+.zzzrelatedheading {
+        margin-top: 30px;
+    }
+
+#header-container a {
+	color: #003e7a;
+	text-decoration: none;
+}
+
+#header-container a:visited {
+	color: #003e7a;
+}
+
+#header-container a:hover {
+	color: #222277;
+	opacity: 0.5;
+}
+
+.procedurecodeinsentence 
+{display: inline;
+        font-family: Courier New,sans-serif !important;
+        font-size: small;
+        color: #000000;
+        background-color: inherit;
+        vertical-align: baseline;
+        padding-top: 0pt;
+        padding-bottom: 0pt;
+        padding-left: 0pt;
+        padding-right: 0pt;
+       }
+
+/******END TOPIC STYLE OVERRIDES ************************************************/
+
+/* Responsive breakpoints */
+/* To accommodate tablet viewports such as iPad in portrait width 768px */
+@media only screen and (max-width: 850px) {
+
+	/* TODO need to shrink logo too */
+	#header-left {
+		width: 80vw;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#header-right {
+		width: 80vw;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.logo-text {
+		display: none;
+	}
+
+	#search-input {
+		margin-top: 15px;
+		margin-left: 10px;
+		margin-bottom: 15px;
+	}
+
+	#search-submit-btn {
+		display: none;
+	}
+
+	.sidebar {
+		font-size: 8px;
+
+	}
+
+	.sidebar-collapsed {
+  		flex-basis: 0;
+  		overflow: hidden;
+	}
+
+	.sidebar-title {
+		font-size: 8px;
+		padding-top: 5px;
+		padding-left: 0px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	
+}

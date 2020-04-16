@@ -1,0 +1,31 @@
+body {visibility:hidden;}
+#topic-container {
+	border-left: 0px solid #cccccc;
+	border-right: 0px solid #cccccc;
+}
+
+.topic-container {
+	width: 900px;
+}
+
+.left-sidebar-toggle-col {
+	border-right: 0px;
+}
+
+#footer-copyright {
+position: fixed;
+left: 30px;
+bottom: 0;
+}
+
+/* hides the navigation icons when printing */
+#f126, #f125, #f124 {
+	display: none;
+}
+
+.print {visibility:visible;}
+
+/* hides the feedback survey */
+#feedback-container {
+	display: none;
+}
