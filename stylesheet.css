@@ -424,12 +424,12 @@ li.numberlist2, li.s145
         height: auto;
         white-space: normal;
        }
-.optional 
+.procedureinterfaceelement 
 {display: inline;
         font-family: "Arial", verdana, arial, helvetica, sans-serif;
-        font-style: italic;
+        font-weight: bold;
         font-size: 10pt;
-        color: #235937;
+        color: #000000;
         background-color: inherit;
         vertical-align: baseline;
         padding-top: 0pt;
@@ -437,12 +437,12 @@ li.numberlist2, li.s145
         padding-left: 0pt;
         padding-right: 0pt;
        }
-.procedureinterfaceelement 
+.optional 
 {display: inline;
         font-family: "Arial", verdana, arial, helvetica, sans-serif;
-        font-weight: bold;
+        font-style: italic;
         font-size: 10pt;
-        color: #000000;
+        color: #235937;
         background-color: inherit;
         vertical-align: baseline;
         padding-top: 0pt;
