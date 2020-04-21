@@ -102,6 +102,19 @@ ol {list-style-image: none;}.paragraphheading
         padding-left: 0pt;
         padding-right: 0pt;
        }
+.homepage-tabs-link 
+{display: inline;
+        font-family: "Montserrat", verdana, arial, helvetica, sans-serif;
+        font-weight: 300;
+        font-size: 16pt;
+        color: #414141;
+        background-color: inherit;
+        vertical-align: middle;
+        padding-top: 0pt;
+        padding-bottom: 0pt;
+        padding-left: 0pt;
+        padding-right: 0pt;
+       }
 .zzzchaptersectionmapheading 
 {font-family: "Arial", verdana, arial, helvetica, sans-serif;
         font-style: normal;
