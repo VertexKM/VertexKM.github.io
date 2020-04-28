@@ -220,70 +220,6 @@ li.bullet, li.s13
         height: auto;
         white-space: normal;
        }
-.zzzrelatedheading 
-{font-family: "Arial", verdana, arial, helvetica, sans-serif;
-        font-style: normal;
-        font-variant: normal;
-        font-weight: bold;
-        font-size: 10pt;
-        color: #8F8F8F;
-        background-color: inherit;
-        word-spacing: normal;
-        letter-spacing: normal;
-        vertical-align: baseline;
-        text-decoration: none;
-        text-transform: none;
-        line-height: normal;
-        margin-top: 6px;
-        margin-bottom: 1px;
-        margin-left: 0pt;
-        margin-right: 0pt;
-        padding-top: 6px;
-        padding-bottom: 6px;
-        padding-left: 4px;
-        padding-right: 4px;
-        border-color: #FFFFFF;
-        border-bottom-style: solid;
-        border-bottom-width: thin;
-        border-bottom-color: #005072;
-        float: none;
-        clear: none;
-        text-align: left;
-        text-indent: 0cm;
-        width: auto;
-        height: auto;
-        white-space: normal;
-       }
-.zzzrelateditem 
-{font-family: "Arial", verdana, arial, helvetica, sans-serif;
-        font-style: normal;
-        font-variant: normal;
-        font-weight: normal;
-        font-size: 9pt;
-        color: #000000;
-        background-color: inherit;
-        word-spacing: normal;
-        letter-spacing: normal;
-        vertical-align: baseline;
-        text-decoration: none;
-        text-transform: none;
-        line-height: normal;
-        margin-top: 0pt;
-        margin-bottom: 0pt;
-        margin-left: 2pt;
-        margin-right: 0pt;
-        padding-top: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
-        float: none;
-        clear: none;
-        text-align: left;
-        text-indent: 0cm;
-        width: auto;
-        height: auto;
-        white-space: normal;
-       }
 .figure 
 {display: block;
         font-family: "Arial", verdana, arial, helvetica, sans-serif;
@@ -344,6 +280,70 @@ li.bullet2, li.s14
         padding-bottom: 0pt;
         padding-left: 0pt;
         padding-right: 0pt;
+        float: none;
+        clear: none;
+        text-align: left;
+        text-indent: 0cm;
+        width: auto;
+        height: auto;
+        white-space: normal;
+       }
+.zzzrelatedheading 
+{font-family: "Arial", verdana, arial, helvetica, sans-serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        font-size: 10pt;
+        color: #8F8F8F;
+        background-color: inherit;
+        word-spacing: normal;
+        letter-spacing: normal;
+        vertical-align: baseline;
+        text-decoration: none;
+        text-transform: none;
+        line-height: normal;
+        margin-top: 6px;
+        margin-bottom: 1px;
+        margin-left: 0pt;
+        margin-right: 0pt;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 4px;
+        padding-right: 4px;
+        border-color: #FFFFFF;
+        border-bottom-style: solid;
+        border-bottom-width: thin;
+        border-bottom-color: #005072;
+        float: none;
+        clear: none;
+        text-align: left;
+        text-indent: 0cm;
+        width: auto;
+        height: auto;
+        white-space: normal;
+       }
+.zzzrelateditem 
+{font-family: "Arial", verdana, arial, helvetica, sans-serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 9pt;
+        color: #000000;
+        background-color: inherit;
+        word-spacing: normal;
+        letter-spacing: normal;
+        vertical-align: baseline;
+        text-decoration: none;
+        text-transform: none;
+        line-height: normal;
+        margin-top: 0pt;
+        margin-bottom: 0pt;
+        margin-left: 2pt;
+        margin-right: 0pt;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
         float: none;
         clear: none;
         text-align: left;
@@ -789,6 +789,17 @@ li.tablebullet, li.s89
         height: auto;
         white-space: normal;
        }
+.emphasis 
+{display: inline;
+        font-style: italic;
+        color: inherit;
+        background-color: inherit;
+        vertical-align: baseline;
+        padding-top: 0pt;
+        padding-bottom: 0pt;
+        padding-left: 0pt;
+        padding-right: 0pt;
+       }
 ul.numberbullet2 
 {list-style-type: Circle;
         list-style-image: none;
@@ -814,6 +825,37 @@ li.numberbullet2, li.s9336
         margin-bottom: 0pt;
         margin-left: -14pt;
         margin-right: 0pt;
+        padding-top: 0pt;
+        padding-bottom: 0pt;
+        padding-left: 0pt;
+        padding-right: 0pt;
+        float: none;
+        clear: none;
+        text-align: left;
+        text-indent: 0cm;
+        width: auto;
+        height: auto;
+        white-space: normal;
+       }
+.numbertext 
+{display: block;
+        font-family: "Arial", verdana, arial, helvetica, sans-serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 10pt;
+        color: #000000;
+        background-color: inherit;
+        word-spacing: normal;
+        letter-spacing: normal;
+        vertical-align: baseline;
+        text-decoration: none;
+        text-transform: none;
+        line-height: normal;
+        margin-top: 6pt;
+        margin-bottom: 6pt;
+        margin-left: 0cm;
+        margin-right: 0cm;
         padding-top: 0pt;
         padding-bottom: 0pt;
         padding-left: 0pt;
