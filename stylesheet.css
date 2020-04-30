@@ -102,19 +102,6 @@ ol {list-style-image: none;}.paragraphheading
         padding-left: 0pt;
         padding-right: 0pt;
        }
-.homepage-tabs-link 
-{display: inline;
-        font-family: "Montserrat", verdana, arial, helvetica, sans-serif;
-        font-weight: 300;
-        font-size: 16pt;
-        color: #414141;
-        background-color: inherit;
-        vertical-align: middle;
-        padding-top: 0pt;
-        padding-bottom: 0pt;
-        padding-left: 0pt;
-        padding-right: 0pt;
-       }
 .zzzchaptersectionmapheading 
 {font-family: "Arial", verdana, arial, helvetica, sans-serif;
         font-style: normal;
@@ -182,6 +169,19 @@ ol {list-style-image: none;}.paragraphheading
         width: auto;
         height: auto;
         white-space: normal;
+       }
+.homepage-tabs-link 
+{display: inline;
+        font-family: "Montserrat", verdana, arial, helvetica, sans-serif;
+        font-weight: 300;
+        font-size: 16pt;
+        color: #414141;
+        background-color: inherit;
+        vertical-align: middle;
+        padding-top: 0pt;
+        padding-bottom: 0pt;
+        padding-left: 0pt;
+        padding-right: 0pt;
        }
 ul.bullet 
 {list-style-type: Disc;
@@ -860,6 +860,129 @@ li.numberbullet2, li.s9336
         padding-bottom: 0pt;
         padding-left: 0pt;
         padding-right: 0pt;
+        float: none;
+        clear: none;
+        text-align: left;
+        text-indent: 0cm;
+        width: auto;
+        height: auto;
+        white-space: normal;
+       }
+.numbertext2 
+{display: block;
+        font-family: "Arial", verdana, arial, helvetica, sans-serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 10pt;
+        color: #000000;
+        background-color: inherit;
+        word-spacing: normal;
+        letter-spacing: normal;
+        vertical-align: baseline;
+        text-decoration: none;
+        text-transform: none;
+        line-height: normal;
+        margin-top: 6pt;
+        margin-bottom: 6pt;
+        margin-left: 0pt;
+        margin-right: 0pt;
+        padding-top: 0pt;
+        padding-bottom: 0pt;
+        padding-left: 0pt;
+        padding-right: 0pt;
+        float: none;
+        clear: none;
+        text-align: left;
+        text-indent: 0cm;
+        width: auto;
+        height: auto;
+        white-space: normal;
+       }
+.procedurecodeinsentence 
+{display: inline;
+        font-family: "Courier New", verdana, arial, helvetica, sans-serif;
+        font-size: small;
+        color: #000000;
+        background-color: inherit;
+        vertical-align: baseline;
+        padding-top: 0pt;
+        padding-bottom: 0pt;
+        padding-left: 0pt;
+        padding-right: 0pt;
+       }
+ul.notesbullet 
+{list-style-type: Square;
+        list-style-image: none;
+        list-style-position: outside;
+        margin-top: 0pt;
+        margin-bottom: 0pt;
+        }
+li.notesbullet, li.s2287 
+{font-family: "Arial", verdana, arial, helvetica, sans-serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 10pt;
+        color: #000000;
+        background-color: #E5E9EF;
+        word-spacing: normal;
+        letter-spacing: normal;
+        vertical-align: baseline;
+        text-decoration: none;
+        text-transform: none;
+        line-height: normal;
+        margin-top: 0pt;
+        margin-bottom: 0pt;
+        margin-left: -16pt;
+        margin-right: 0pt;
+        padding-top: 0pt;
+        padding-bottom: 0pt;
+        padding-left: 0pt;
+        padding-right: 0pt;
+        float: none;
+        clear: none;
+        text-align: left;
+        text-indent: 0cm;
+        width: auto;
+        height: auto;
+        white-space: normal;
+       }
+.zzznoteslabel 
+{display: inline;
+        font-family: "Arial", verdana, arial, helvetica, sans-serif;
+        font-weight: bold;
+        color: #000000;
+        background-color: inherit;
+        vertical-align: baseline;
+        padding-top: 0pt;
+        padding-bottom: 0pt;
+        padding-left: 0pt;
+        padding-right: 0pt;
+       }
+.tablenote 
+{display: block;
+        font-family: "Arial", verdana, arial, helvetica, sans-serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 10pt;
+        color: #000000;
+        background-color: #E5E9EF;
+        word-spacing: normal;
+        letter-spacing: normal;
+        vertical-align: baseline;
+        text-decoration: none;
+        text-transform: none;
+        line-height: normal;
+        margin-top: 6pt;
+        margin-bottom: 6pt;
+        margin-left: 0pt;
+        margin-right: 0pt;
+        padding-top: 4pt;
+        padding-bottom: 4pt;
+        padding-left: 4pt;
+        padding-right: 4pt;
         float: none;
         clear: none;
         text-align: left;

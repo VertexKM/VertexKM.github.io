@@ -1,0 +1,156 @@
+﻿<!-- Based on AIT Template: HTML No Frames\body_template.htm -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<meta charset="utf-8">-->
+<meta content="text/html; charset=utf-8">
+<title> About Office Groups 365 </title>
+<link href="favicon.ico" rel="icon" type="image/x-icon" />
+<meta name="Generator" content="Author-it">
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- fallback to local jquery if CDN load fails or restricted via no cross-origin -->
+<!-- <script>window.jQuery || document.write('<script src="jquery-3.3.1.min.js"><\/script>');</script> -->
+<script>window.jQuery || document.write('<script src="jquery-3.4.1.min.js"><\/script>');</script>
+<script src="dhtml_toc.js"></script>
+<script src="dhtml_search.js"></script>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link rel="stylesheet" type="text/css" href="stylesheet_vertex.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+<link rel="stylesheet" href="print.css" type="text/css" media="print">
+<style>
+* { font-family: "Montserrat", sans-serif !important; }
+</style>
+<script type="text/javascript" src="vertex.js"></script>
+
+<script type="text/javascript">
+	var topicID = '161430'; // to be passed to survey form via query string
+	var activeTopic = 'none'; // stores the currently loaded topic
+
+	function readyFn( jQuery ) { // executes when window, including all content, is loaded and ready. Functions in vertex.js.
+
+	    $('#toc-container').load('toc.htm', init); // load the toc, then call tocLoaded
+	    init();
+		setActiveLinkStyle(activeTopic);
+
+		// sidebar toggle button handlers
+		$(".sidebar-left-toggle").click(function(){
+    		$(".sidebar-left").toggleClass("sidebar-collapsed");
+		});
+
+		/* SEARCH FORM */
+		$("#search-form").submit(function(){
+
+			//Get the value of the input field
+			var searchtext = $('#search-input').val();
+
+			// Call AIT search() with the param submitted by user
+			console.log('calling search(' + searchtext + ')...');
+			var results = search(searchtext);
+			console.log('loading results in topic-container...');
+			// Write the results to sidebar-right-content
+			//$('#sidebar-right-content').html("<p>" + searchtext + "<p>"); //obviously handle the html via css for production
+			$('#topic-container').html('<br /><a href="javascript:location.reload();">Cancel Search</a><h2>Search Results</h1>' + results);
+			console.log('Search submitted value: ' + searchtext);
+	        event.preventDefault();
+	    });
+
+	};
+
+	$( window ).on( "load", readyFn ); 	// executes once DOM is ready to be manipulated, but before images loaded, etc.
+
+</script>
+<script>function myFunction() { window.print(); }</script>
+</head>
+<body  onload="if (isTOCLoaded()) {expand('165220');expand('165197');highlight('161430')}">
+<div id="header-container">
+<a href="index.htm">
+	<div id="header-left">
+		<img src="logo-vertex-inc-header.svg" alt="Vertex Inc. Online Help" style="padding-left: 30px;"/><span class="logo-text">Online Help</span>
+	</div></a>
+	<div id="header-right">
+		<span class="search-input">
+	        <form id="search-form" action="#">
+	          <input type="text" id="search-input" placeholder="Search topics..." onfocus="this.value=''">
+	          <input type="submit" class="button" id="search-submit-btn" value="Search">
+	        </form> 
+      	</span>
+	</div>
+</div>
+<div class="content-container">
+	<div class="sidebar sidebar-left">
+		<div class="sidebar-title">
+          <span style="padding-left: 30px;">Table of Contents</span>
+        </div>
+        <div id="toc-container">
+        	loading...
+        </div>
+	</div>
+	<div class="left-sidebar-toggle-col">
+		<button class="sidebar-left-toggle"><img src="TOCCollapse.gif">
+		<!--<i class="fas fa-angle-double-left"></i> --></button>
+	</div>
+	<div id="topic-container" class="print">
+		<div class="topic-header-row">
+	      <span class="breadcrumb">
+	      	<p class="breadcrumbs"><a class="breadcrumblink" href="165197.htm">Office Groups 365 Training</a><span class="breadcrumbdelimiter"> &gt; </span><a class="breadcrumblink" href="165220.htm">Office Groups 365 Overview</a><span class="breadcrumbactive"><span class="breadcrumbdelimiter"> &gt; </span>About Office Groups 365</span></p>
+	      </span>
+  		<button id="printbutton" onclick="myFunction()">Print this topic</button>
+		<button id="feedbackbutton" onclick="window.location.href = '#feedback-container';">Feedback</button>
+	    </div>
+	   <!-- <div class="topic-title">
+	      About Office Groups 365
+	    </div> -->
+	    <div class="topic-container">
+	    	<!-- need to replace with AIT topic content shortcode -->
+		<table class="relatedtopics aboveheading" cellpadding="0" cellspacing="0" border="0">
+<tr valign="top">
+<td width= "18">
+<p class="bodytext"><a href="165220.htm" target="_self"><img id="f125" src="125.gif" class="zzzembeddediconfiletemplate" alt="Previous Topic" vspace="0" hspace="0" align="bottom" border="0"></a></p></td>
+<td width= "18">
+<p class="bodytext"><a href="161928.htm" target="_self"><img id="f124" src="124.gif" class="zzzembeddediconfiletemplate" alt="Next Topic" vspace="0" hspace="0" align="bottom" border="0"></a></p></td>
+</tr>
+</table>
+<h3 id="t161430" class="heading3">About Office Groups 365</h3>
+<p class="bodytext">Microsoft Office 365 Groups is a suite of applications designed to help foster team interaction and collaboration. Included in Office Groups are Microsoft SharePoint, Microsoft Teams, Microsoft OneDrive for Business, and Microsoft Outlook. All of these applications are essentially different user interfaces to the underlying SharePoint architecture.</p>
+<p class="bodytext">The following diagram shows how the underlying SharePoint architecture is accessed through the SharePoint site, the Teams site, OneDrive, or Outlook.</p>
+<p class="figure"><img id="f161716" src="161716.png" class="embeddedpngfile-40%template" alt="SharePoint Architecture" height="288" width="512" vspace="0" hspace="0" align="bottom" border="0"></p>
+<p class="bodytext">When an Office Group is created, a SharePoint site is created. The underlying architecture of this SharePoint site is the core engine for communication and file sharing for the group. The other applications in the suite, such as Teams and OneDrive, are additional views and points of entry to the underlying SharePoint architecture. </p>
+<p class="bodytext">The SharePoint site interface (the view the user has for the site) is created using the team template (not to be confused with Microsoft Teams which is another application in the Office Groups suite). This template includes applications and tools, such as Conversations and OneNote, to facilitate team communication and collaboration. The SharePoint site can be used by members of a team as well as users outside of the team. It is intended to provide a more global approach to communication and knowledge sharing.</p>
+<p class="bodytext">Another application in the Office Groups suite is Microsoft Teams. This is the hub for communication and collaboration within a department or project team. It is a tool that includes team communication, file sharing, and knowledge sharing in one centralized interface. Teams is intended for use by a specific department or project team to foster communication and collaboration within that team. It has a more limited structure than SharePoint and is not meant to provide the global access that SharePoint provides.</p>
+<p class="bodytext">Microsoft OneDrive for Business is the online file storage application in the Office Groups suite. All Vertex employees are provided with a OneDrive folder for their own use. The personal OneDrive folder uses a cloud icon followed by OneDrive - Vertex, Inc (<img id="f163072" src="163072.png" alt="" height="14" width="146" vspace="0" hspace="0" align="bottom" border="0">). In addition to OneDrive folders for individual use, a OneDrive for Business folder is created for each Office Group that is created. The corporate OneDrive folder uses a building icon followed by Vertex, Inc (<img id="f163073" src="163073.png" alt="" height="16" width="79" vspace="0" hspace="0" align="bottom" border="0">). Note that this is a different location than the individual employee folders. The OneDrive for Business folder that is created with the Office Group is where the document libraries for that group are housed and files in those libraries are stored. It is not recommended that you synchronize a SharePoint folder with OneDrive. Synchronizing may cause problems, such as files always opening as read-only.</p>
+<p class="bodytext">The final application in the Office Groups suite is Microsoft Outlook. When an Office Group is created, the group is added to Outlook for all members. This enables communication with all group members using email.</p>
+<p class="bodytext">When you plan your Office Groups strategy, it is important to understand the relationships between the different applications and how they can best work for the project. Some good questions to ask include the followings:</p>
+<ul class="bullet"><li class="bullet">Who will need access to the site? Each component in the Groups suite is intended for specific audiences. Knowing who will need to access the information in the site can impact the focus of the site or the security settings. For example, SharePoint can be used by members of the team, users outside of the team, and even users outside of the company. It is intended to provide a more global approach to communication. Microsoft Teams, however, it is intended more for use by a specific team and to foster communication and collaboration within that team. Note, however, that since SharePoint is still used as the underlying architecture, you can open parts of a Team site to users outside of your team.</li><li class="bullet">How will the site be used? This plays a key role in determining what applications to install with the site. For example, you can use a wiki, a discussion board, Microsoft Planner, Microsoft OneNote, surveys and forms, and more. Understanding what the users will need and how they will use the site will help you determine what to install and where. If you use both SharePoint and Teams, you have additional options for incorporating applications. For example, you can use a SharePoint Document Library to share files with users outside of the team but a Microsoft Teams wiki for sharing information within the team.</li><li class="bullet">What is the purpose of the site? This will help you determine what components to use. For example, if the purpose of the site is to share knowledge with the rest of the company, then SharePoint is a better tool than Teams.</li></ul><table class="relatedtopics belowtopictext" cellpadding="0" cellspacing="0" border="0">
+<tr valign="top">
+<td width= "454">
+<p class="zzzchaptersectionmapheading">In this chapter</p><p class="zzzchaptersectionmapitem"><a href="161928.htm" target="_self">Finding and sharing the link to a SharePoint site</a></p></td>
+</tr>
+</table>
+
+
+	    <!--	<authorit:SYS_TOPIC_BODY> -->
+	      <!-- <script>$('.topic-container').load('example-content/example-topic.htm');</script> -->
+	    </div>
+	    <!-- This is the destination for the Feedback button.-->
+		<div id="feedback-container" style="margin-top: 20px; padding-bottom: 30px;">
+			<div id="feedback-survey">
+				<!-- see init() - the src url is rewritten to append the AIT OBJECT ID for inclusion in email notifications -->
+	      		<iframe id="surveyform" src="https://vertexinc.co1.qualtrics.com/jfe/form/SV_3JJ80LWsExAasPH" scrolling="no" style="border: 0; padding-top: 25px;" width="100%" height="400px"></iframe>
+	    	</div>
+		</div>
+    </div>
+</div>
+
+<div id="footer-container">
+	<div id="footer-left">
+		<!--<span id="footer-policy-links"><a href="#">Terms and Conditions  |  Privacy Policy  |  Cookie Policy</a></span>-->
+	</div>
+	<div id="footer-right" class="print">
+		<span id="footer-copyright">Copyright &copy 2020 Vertex, Inc. All rights reserved</span>
+	</div>
+</div>
+</body>
+</html>

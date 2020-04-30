@@ -1,0 +1,145 @@
+﻿<!-- Based on AIT Template: HTML No Frames\body_template.htm -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<meta charset="utf-8">-->
+<meta content="text/html; charset=utf-8">
+<title> Sharing files in channel posts </title>
+<link href="favicon.ico" rel="icon" type="image/x-icon" />
+<meta name="Generator" content="Author-it">
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- fallback to local jquery if CDN load fails or restricted via no cross-origin -->
+<!-- <script>window.jQuery || document.write('<script src="jquery-3.3.1.min.js"><\/script>');</script> -->
+<script>window.jQuery || document.write('<script src="jquery-3.4.1.min.js"><\/script>');</script>
+<script src="dhtml_toc.js"></script>
+<script src="dhtml_search.js"></script>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link rel="stylesheet" type="text/css" href="stylesheet_vertex.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+<link rel="stylesheet" href="print.css" type="text/css" media="print">
+<style>
+* { font-family: "Montserrat", sans-serif !important; }
+</style>
+<script type="text/javascript" src="vertex.js"></script>
+
+<script type="text/javascript">
+	var topicID = '164276'; // to be passed to survey form via query string
+	var activeTopic = 'none'; // stores the currently loaded topic
+
+	function readyFn( jQuery ) { // executes when window, including all content, is loaded and ready. Functions in vertex.js.
+
+	    $('#toc-container').load('toc.htm', init); // load the toc, then call tocLoaded
+	    init();
+		setActiveLinkStyle(activeTopic);
+
+		// sidebar toggle button handlers
+		$(".sidebar-left-toggle").click(function(){
+    		$(".sidebar-left").toggleClass("sidebar-collapsed");
+		});
+
+		/* SEARCH FORM */
+		$("#search-form").submit(function(){
+
+			//Get the value of the input field
+			var searchtext = $('#search-input').val();
+
+			// Call AIT search() with the param submitted by user
+			console.log('calling search(' + searchtext + ')...');
+			var results = search(searchtext);
+			console.log('loading results in topic-container...');
+			// Write the results to sidebar-right-content
+			//$('#sidebar-right-content').html("<p>" + searchtext + "<p>"); //obviously handle the html via css for production
+			$('#topic-container').html('<br /><a href="javascript:location.reload();">Cancel Search</a><h2>Search Results</h1>' + results);
+			console.log('Search submitted value: ' + searchtext);
+	        event.preventDefault();
+	    });
+
+	};
+
+	$( window ).on( "load", readyFn ); 	// executes once DOM is ready to be manipulated, but before images loaded, etc.
+
+</script>
+<script>function myFunction() { window.print(); }</script>
+</head>
+<body  onload="if (isTOCLoaded()) {expand('161588');expand('161262');expand('165197');highlight('164276')}">
+<div id="header-container">
+<a href="index.htm">
+	<div id="header-left">
+		<img src="logo-vertex-inc-header.svg" alt="Vertex Inc. Online Help" style="padding-left: 30px;"/><span class="logo-text">Online Help</span>
+	</div></a>
+	<div id="header-right">
+		<span class="search-input">
+	        <form id="search-form" action="#">
+	          <input type="text" id="search-input" placeholder="Search topics..." onfocus="this.value=''">
+	          <input type="submit" class="button" id="search-submit-btn" value="Search">
+	        </form> 
+      	</span>
+	</div>
+</div>
+<div class="content-container">
+	<div class="sidebar sidebar-left">
+		<div class="sidebar-title">
+          <span style="padding-left: 30px;">Table of Contents</span>
+        </div>
+        <div id="toc-container">
+        	loading...
+        </div>
+	</div>
+	<div class="left-sidebar-toggle-col">
+		<button class="sidebar-left-toggle"><img src="TOCCollapse.gif">
+		<!--<i class="fas fa-angle-double-left"></i> --></button>
+	</div>
+	<div id="topic-container" class="print">
+		<div class="topic-header-row">
+	      <span class="breadcrumb">
+	      	<p class="breadcrumbs"><a class="breadcrumblink" href="165197.htm">Office Groups 365 Training</a><span class="breadcrumbdelimiter"> &gt; </span><a class="breadcrumblink" href="161262.htm">Teams</a><span class="breadcrumbdelimiter"> &gt; </span><a class="breadcrumblink" href="161588.htm">About file sharing and collaboration in Microsoft Teams</a><span class="breadcrumbactive"><span class="breadcrumbdelimiter"> &gt; </span>Sharing files in channel posts</span></p>
+	      </span>
+  		<button id="printbutton" onclick="myFunction()">Print this topic</button>
+		<button id="feedbackbutton" onclick="window.location.href = '#feedback-container';">Feedback</button>
+	    </div>
+	   <!-- <div class="topic-title">
+	      Sharing files in channel posts
+	    </div> -->
+	    <div class="topic-container">
+	    	<!-- need to replace with AIT topic content shortcode -->
+		<table class="relatedtopics aboveheading" cellpadding="0" cellspacing="0" border="0">
+<tr valign="top">
+<td width= "16">
+<p class="bodytext"><a href="161588.htm" target="_self"><img id="f126" src="126.gif" class="zzzembeddediconfiletemplate" alt="Home" vspace="0" hspace="0" align="bottom" border="0"></a></p></td>
+<td width= "16">
+<p class="bodytext"><a href="161588.htm" target="_self"><img id="f125" src="125.gif" class="zzzembeddediconfiletemplate" alt="Previous Topic" vspace="0" hspace="0" align="bottom" border="0"></a></p></td>
+<td width= "16">
+<p class="bodytext"><a href="164386.htm" target="_self"><img id="f124" src="124.gif" class="zzzembeddediconfiletemplate" alt="Next Topic" vspace="0" hspace="0" align="bottom" border="0"></a></p></td>
+</tr>
+</table>
+<h4 id="t164276" class="heading4">Sharing files in channel posts</h4>
+<p class="bodytext">Complete the file to share a file in a channel post:</p>
+<ol class="numberlist"><li class="numberlist">Start or Reply to a post in Teams.</li><li class="numberlist">Click the <span class="procedureinterfaceelement">Attach </span>icon (<img id="f164298" src="164298.png" class="embeddedpngfile-90%template" alt="" height="16.2" width="13.5" vspace="0" hspace="0" align="bottom" border="0">).</li><li class="numberlist">In the pop up dialog, select the location of the file. Choose from the following locations:<ul class="numberbullet"><li class="numberbullet">Recent</li><li class="numberbullet">Browse Teams and Channels</li><li class="numberbullet">OneDrive</li><li class="numberbullet">Upload from my computer</li></ul></li><li class="numberlist">Locate and select the file.</li><li class="numberlist">Add the file using the appropriate option, such as Open, Upload a copy, or Share a link. The option changes depending on the source location of the file.</li></ol>
+
+
+	    <!--	<authorit:SYS_TOPIC_BODY> -->
+	      <!-- <script>$('.topic-container').load('example-content/example-topic.htm');</script> -->
+	    </div>
+	    <!-- This is the destination for the Feedback button.-->
+		<div id="feedback-container" style="margin-top: 20px; padding-bottom: 30px;">
+			<div id="feedback-survey">
+				<!-- see init() - the src url is rewritten to append the AIT OBJECT ID for inclusion in email notifications -->
+	      		<iframe id="surveyform" src="https://vertexinc.co1.qualtrics.com/jfe/form/SV_3JJ80LWsExAasPH" scrolling="no" style="border: 0; padding-top: 25px;" width="100%" height="400px"></iframe>
+	    	</div>
+		</div>
+    </div>
+</div>
+
+<div id="footer-container">
+	<div id="footer-left">
+		<!--<span id="footer-policy-links"><a href="#">Terms and Conditions  |  Privacy Policy  |  Cookie Policy</a></span>-->
+	</div>
+	<div id="footer-right" class="print">
+		<span id="footer-copyright">Copyright &copy 2020 Vertex, Inc. All rights reserved</span>
+	</div>
+</div>
+</body>
+</html>

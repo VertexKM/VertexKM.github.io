@@ -195,6 +195,14 @@
 	display: none;
 }
 
+.heading2 {
+	display: none;
+}
+
+.heading3 {
+	display: none;
+}
+
 #topic-container {
 	border-left: 1px solid #cccccc;
 	border-right: 1px solid #cccccc;
