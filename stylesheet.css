@@ -170,19 +170,6 @@ ol {list-style-image: none;}.paragraphheading
         height: auto;
         white-space: normal;
        }
-.homepage-tabs-link 
-{display: inline;
-        font-family: "Montserrat", verdana, arial, helvetica, sans-serif;
-        font-weight: 300;
-        font-size: 16pt;
-        color: #414141;
-        background-color: inherit;
-        vertical-align: middle;
-        padding-top: 0pt;
-        padding-bottom: 0pt;
-        padding-left: 0pt;
-        padding-right: 0pt;
-       }
 ul.bullet 
 {list-style-type: Disc;
         list-style-image: none;
@@ -219,6 +206,19 @@ li.bullet, li.s13
         width: auto;
         height: auto;
         white-space: normal;
+       }
+.homepage-tabs-link 
+{display: inline;
+        font-family: "Montserrat", verdana, arial, helvetica, sans-serif;
+        font-weight: 300;
+        font-size: 16pt;
+        color: #414141;
+        background-color: inherit;
+        vertical-align: middle;
+        padding-top: 0pt;
+        padding-bottom: 0pt;
+        padding-left: 0pt;
+        padding-right: 0pt;
        }
 .zzzrelatedheading 
 {font-family: "Arial", verdana, arial, helvetica, sans-serif;
