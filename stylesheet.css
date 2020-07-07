@@ -991,6 +991,19 @@ li.bullet3, li.s10115
         height: auto;
         white-space: normal;
        }
+.codevarialbe 
+{display: inline;
+        font-family: "Courier New", verdana, arial, helvetica, sans-serif;
+        font-style: italic;
+        font-size: small;
+        color: #000000;
+        background-color: inherit;
+        vertical-align: baseline;
+        padding-top: 0pt;
+        padding-bottom: 0pt;
+        padding-left: 0pt;
+        padding-right: 0pt;
+       }
 .heading1 
 {font-family: "Arial", verdana, arial, helvetica, sans-serif;
         font-style: normal;
