@@ -3,7 +3,7 @@
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Friday, August 28, 2020 10:07:14 AM
+  Started : Friday, August 28, 2020 10:26:43 AM
    Source : C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\
      Dest : C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\content\en\
 
@@ -18,7 +18,7 @@ Exc Files : KM Knowledge Center.xml
 
 ------------------------------------------------------------------------------
 
-	  New Dir        340	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\
+	  New Dir        294	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\
 	    New File  		     355	124.gif  0%  100%  
 	    New File  		     353	125.gif  0%  100%  
 	    New File  		     357	126.gif  0%  100%  
@@ -64,11 +64,10 @@ Exc Files : KM Knowledge Center.xml
 	    New File  		    8996	135173.html  0%  100%  
 	    New File  		    1374	135174.html  0%  100%  
 	    New File  		     422	135213.html  0%  100%  
-	    New File  		    5471	135214.png  0%  100%  
 	    New File  		   10742	135216.html  0%  100%  
 	    New File  		    2515	135217.png  0%  100%  
 	    New File  		    1107	135219.html  0%  100%  
-	    New File  		     575	135229.html  0%  100%  
+	    New File  		     538	135229.html  0%  100%  
 	    New File  		    2281	135230.html  0%  100%  
 	    New File  		     368	135231.html  0%  100%  
 	    New File  		    7062	135232.html  0%  100%  
@@ -88,7 +87,6 @@ Exc Files : KM Knowledge Center.xml
 	    New File  		    4058	135243.html  0%  100%  
 	    New File  		    1022	135244.html  0%  100%  
 	    New File  		     296	135245.html  0%  100%  
-	    New File  		    1424	135246.html  0%  100%  
 	    New File  		    1158	135247.html  0%  100%  
 	    New File  		     331	135248.html  0%  100%  
 	    New File  		     965	135250.html  0%  100%  
@@ -286,55 +284,19 @@ Exc Files : KM Knowledge Center.xml
 	    New File  		     907	135441.png  0%  100%  
 	    New File  		  229998	135442.png  0%   56%  100%  
 	    New File  		  196923	135443.png  0%   66%  100%  
-	    New File  		    4533	135444.png  0%  100%  
-	    New File  		    4955	135446.png  0%  100%  
-	    New File  		    3301	135448.png  0%  100%  
-	    New File  		    4489	135450.png  0%  100%  
-	    New File  		    5012	135452.png  0%  100%  
-	    New File  		    8880	135454.png  0%  100%  
-	    New File  		    3143	135456.png  0%  100%  
-	    New File  		    4408	135458.png  0%  100%  
-	    New File  		    4558	135460.png  0%  100%  
-	    New File  		    3462	135462.png  0%  100%  
-	    New File  		    2174	135464.png  0%  100%  
-	    New File  		    7837	135466.png  0%  100%  
-	    New File  		   15213	135468.png  0%  100%  
-	    New File  		    8881	135470.png  0%  100%  
-	    New File  		    4799	135472.png  0%  100%  
-	    New File  		    7527	135474.png  0%  100%  
-	    New File  		    4620	135476.png  0%  100%  
-	    New File  		    4029	135478.png  0%  100%  
-	    New File  		    4691	135480.png  0%  100%  
-	    New File  		    1976	135482.png  0%  100%  
-	    New File  		   15281	135484.png  0%  100%  
-	    New File  		    9198	135486.png  0%  100%  
-	    New File  		   10827	135488.png  0%  100%  
-	    New File  		    8213	135491.png  0%  100%  
-	    New File  		    7765	135493.png  0%  100%  
-	    New File  		    4720	135495.png  0%  100%  
-	    New File  		    2482	135496.png  0%  100%  
-	    New File  		    5188	135498.png  0%  100%  
-	    New File  		    2272	135500.png  0%  100%  
-	    New File  		    9256	135501.png  0%  100%  
 	    New File  		     181	135502.png  0%  100%  
 	    New File  		     353	135503.png  0%  100%  
 	    New File  		     387	135504.png  0%  100%  
 	    New File  		   52609	135505.png  0%  100%  
-	    New File  		    4731	135506.png  0%  100%  
-	    New File  		    3345	135508.png  0%  100%  
-	    New File  		    3200	135510.png  0%  100%  
-	    New File  		    2522	135512.png  0%  100%  
 	    New File  		   17102	135818.png  0%  100%  
 	    New File  		    5471	135819.png  0%  100%  
 	    New File  		   10340	19936.gif  0%  100%  
-	    New File  		    5084	body_template_HomePage.htm  0%  100%  
 	    New File  		     216	footer.json  0%  100%  
 	    New File  		    2361	f_109.html  0%  100%  
 	    New File  		    6118	f_121286.html  0%  100%  
 	    New File  		     142	f_135111.html  0%  100%  
 	    New File  		     283	f_4756.html  0%  100%  
-	    New File  		  740521	helpcenter_header.png  0%   35%   70%  100%  
-	    New File  		     626	landingpage.json  0%  100%  
+	    New File  		     945	landingpage.json  0%  100%  
 	    New File  		     140	l_135096.html  0%  100%  
 	    New File  		     147	l_135098.html  0%  100%  
 	    New File  		     337	l_135809.html  0%  100%  
@@ -342,42 +304,34 @@ Exc Files : KM Knowledge Center.xml
 	    New File  		     355	l_135811.html  0%  100%  
 	    New File  		     465	l_135812.html  0%  100%  
 	    New File  		     367	l_135813.html  0%  100%  
-	    New File  		     209	l_135814.html  0%  100%  
+	    New File  		     273	l_135814.html  0%  100%  
 	    New File  		     209	l_135815.html  0%  100%  
 	    New File  		     209	l_135816.html  0%  100%  
 	    New File  		    1354	open_parent.js  0%  100%  
-	    New File  		    6284	stylesheet_vertex_home.css  0%  100%  
-	    New File  		   82066	toc.json  0%  100%  
-	    New File  		    1817	VertexLogo-white.png  0%  100%  
-	    New File  		    1984	welcome-AIT101.html  0%  100%  
-	    New File  		    1998	welcome-ait201.html  0%  100%  
-	    New File  		     960	welcome-ait301.html  0%  100%  
-	    New File  		    1315	welcome-kmsiteoverview.html  0%  100%  
-	    New File  		    2690	welcome-sharepoint.htm.html  0%  100%  
-	    New File  		    2366	welcome-teams.htm.html  0%  100%  
+	    New File  		   79866	toc.json  0%  100%  
 
 ------------------------------------------------------------------------------
 
                Total    Copied   Skipped  Mismatch    FAILED    Extras
     Dirs :         2         1         1         0         0         0
-   Files :       340       336         4         0         0         0
-   Bytes :    3.34 m    3.34 m     6.1 k         0         0         0
-   Times :   0:00:06   0:00:06                       0:00:00   0:00:00
+   Files :       294       290         4         0         0         0
+   Bytes :    2.42 m    2.41 m     6.1 k         0         0         0
+   Times :   0:00:07   0:00:07                       0:00:00   0:00:00
 
 
-   Speed :              521740 Bytes/sec.
-   Speed :              29.854 MegaBytes/min.
-   Ended : Friday, August 28, 2020 10:07:21 AM
+   Speed :              350626 Bytes/sec.
+   Speed :              20.063 MegaBytes/min.
+   Ended : Friday, August 28, 2020 10:26:50 AM
 
 
-2020/08/28 10:07:21 ERROR 32 (0x00000020) Deleting Source Directory C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\
+2020/08/28 10:26:50 ERROR 32 (0x00000020) Deleting Source Directory C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\
 The process cannot access the file because it is being used by another process.
 
 -------------------------------------------------------------------------------
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Friday, August 28, 2020 10:07:21 AM
+  Started : Friday, August 28, 2020 10:26:50 AM
    Source : C:\Program Files\Author-it\Engines\Magellan\
      Dest : C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\
 
@@ -391,7 +345,7 @@ The process cannot access the file because it is being used by another process.
 	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\content\
 	  *EXTRA File 		     812	indexerLog.log
 	  *EXTRA File 		    1093	magellan-script.log
-	  *EXTRA File 		   19598	robocopy.log
+	  *EXTRA File 		   17065	robocopy.log
 	  *EXTRA File 		    4572	saxon.log
 	    New File  		   12491	3rdpartylicenses.txt
 	    New File  		    5430	favicon.ico
@@ -512,21 +466,21 @@ The process cannot access the file because it is being used by another process.
                Total    Copied   Skipped  Mismatch    FAILED    Extras
     Dirs :        26        25         1         0         0         1
    Files :        88        88         0         0         0         4
-   Bytes :    4.71 m    4.71 m         0         0         0    25.4 k
+   Bytes :    4.71 m    4.71 m         0         0         0    22.9 k
    Times :   0:00:01   0:00:00                       0:00:00   0:00:00
 
 
-   Speed :             4951521 Bytes/sec.
-   Speed :             283.328 MegaBytes/min.
-   Ended : Friday, August 28, 2020 10:07:23 AM
+   Speed :             5147315 Bytes/sec.
+   Speed :             294.531 MegaBytes/min.
+   Ended : Friday, August 28, 2020 10:26:51 AM
 
 
 -------------------------------------------------------------------------------
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Friday, August 28, 2020 10:07:23 AM
-   Source : \\corporate\shares\AuthorIT\NewData\Templates\Magellan\Teal\
+  Started : Friday, August 28, 2020 10:26:52 AM
+   Source : \\corporate\shares\AuthorIT\NewData\Templates\Magellan\Red\
      Dest : C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\
 
     Files : *.*
@@ -535,10 +489,11 @@ The process cannot access the file because it is being used by another process.
 
 ------------------------------------------------------------------------------
 
-	                   0	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Teal\
+	                   0	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Red\
 	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\
 	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\content\
 	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\fonts\
+	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\images\
 	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\js\
 	  *EXTRA File 		   12491	3rdpartylicenses.txt
 	  *EXTRA File 		    5430	favicon.ico
@@ -549,14 +504,14 @@ The process cannot access the file because it is being used by another process.
 	  *EXTRA File 		    1300	magellan-script.log
 	  *EXTRA File 		  406857	main.bb1f61b7092385f4ba1e.bundle.js
 	  *EXTRA File 		  115285	polyfills.ef59c4914bd69e024385.bundle.js
-	  *EXTRA File 		   27487	robocopy.log
+	  *EXTRA File 		   24954	robocopy.log
 	  *EXTRA File 		    4572	saxon.log
 	  *EXTRA File 		  404323	scripts.6e22b6b7916fdc122797.bundle.js
 	  *EXTRA File 		    4179	siteconfig.json
 	  *EXTRA File 		       0	styles.ac89bfdd6de82636b768.bundle.css
 	  *EXTRA File 		  777878	vendor.e4d437197b465110d9e5.bundle.js
 	  *EXTRA File 		       8	version
-	                   1	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Teal\css\
+	                   1	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Red\css\
 	  *EXTRA File 		    3121	32px.png
 	  *EXTRA File 		    1880	40px.png
 	  *EXTRA File 		  187820	allcss.min.css
@@ -566,58 +521,27 @@ The process cannot access the file because it is being used by another process.
 	  *EXTRA File 		     711	jquery.rateyo.min.css
 	  *EXTRA File 		   81350	mainstyles.css
 	  *EXTRA File 		    1720	throbber.gif
-	    Older     		    3073	themestyles.css
-	                   1	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Teal\images\
-	  *EXTRA File 		     701	add_fav_icon.png
-	  *EXTRA File 		    1147	arrow_right.png
-	  *EXTRA File 		    1105	arrow_top.png
-	  *EXTRA File 		     281	arrow_top_grey.png
-	  *EXTRA File 		     281	cancel_icon.png
-	  *EXTRA File 		    1032	disqus-social-icon-dark.png
-	  *EXTRA File 		     723	dis_icon.png
-	  *EXTRA File 		     723	dis_icon2.png
-	  *EXTRA File 		    1008	down_arrow.png
-	  *EXTRA File 		    1751	fb_icon.png
-	  *EXTRA File 		    1109	file_icon.png
-	  *EXTRA File 		     618	heart_icon.png
-	  *EXTRA File 		    1963	ln_icon.png
-	  *EXTRA File 		   10379	ln_icon_bw.png
-	  *EXTRA File 		    3148	logo.png
-	  *EXTRA File 		    3772	logo2.png
-	  *EXTRA File 		    2024	mail_icon.png
-	  *EXTRA File 		     668	most_recent_icon.png
-	  *EXTRA File 		     651	my_saved_icon.png
-	  *EXTRA File 		    1326	pdf_icon.png
-	  *EXTRA File 		     703	recent_icon.png
-	  *EXTRA File 		     717	resources_icon.png
-	  *EXTRA File 		     697	share_icon.png
-	  *EXTRA File 		    1795	star_icon.png
-	  *EXTRA File 		    2190	twitter_icon.png
-	  *EXTRA File 		    1771	vertical_ellipsis.svg
-	  *EXTRA File 		     700	what_icon.png
-	  *EXTRA File 		    1323	word_icon.png
-	  *EXTRA File 		    3925	xls.png
-	    Older     		  633756	landing_bg.jpg
+	    Older     		    3092	themestyles.css
 
 ------------------------------------------------------------------------------
 
                Total    Copied   Skipped  Mismatch    FAILED    Extras
-    Dirs :         3         0         3         0         0         4
-   Files :         2         2         0         0         0        54
-   Bytes :   621.9 k   621.9 k         0         0         0    2.09 m
-   Times :   0:00:01   0:00:00                       0:00:00   0:00:00
+    Dirs :         2         0         2         0         0         5
+   Files :         1         1         0         0         0        25
+   Bytes :     3.0 k     3.0 k         0         0         0    2.04 m
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
 
 
-   Speed :              903303 Bytes/sec.
-   Speed :              51.687 MegaBytes/min.
-   Ended : Friday, August 28, 2020 10:07:24 AM
+   Speed :               22244 Bytes/sec.
+   Speed :               1.272 MegaBytes/min.
+   Ended : Friday, August 28, 2020 10:26:52 AM
 
 
 -------------------------------------------------------------------------------
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Friday, August 28, 2020 10:07:25 AM
+  Started : Friday, August 28, 2020 10:26:53 AM
    Source : C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\
      Dest : C:\inetpub\wwwroot\magellan\135817\
 
@@ -630,7 +554,7 @@ The process cannot access the file because it is being used by another process.
 	                  16	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\
 	    Newer     		     812	indexerLog.log
 	    Newer     		    1505	magellan-script.log
-	    Newer     		   31615	robocopy.log
+	    Newer     		   27829	robocopy.log
 	    Newer     		    4572	saxon.log
 	                   0	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\
 	                   0	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\
@@ -654,13 +578,59 @@ The process cannot access the file because it is being used by another process.
 	                   1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\vi\
 	                   2	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\zh\
 	                   0	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\content\
-	                 336	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\content\en\
+	                 290	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\content\en\
 	  *EXTRA File 		    5508	135211.png
+	  *EXTRA File 		    5471	135214.png
+	  *EXTRA File 		    1424	135246.html
+	  *EXTRA File 		    4533	135444.png
+	  *EXTRA File 		    4955	135446.png
+	  *EXTRA File 		    3301	135448.png
+	  *EXTRA File 		    4489	135450.png
+	  *EXTRA File 		    5012	135452.png
+	  *EXTRA File 		    8880	135454.png
+	  *EXTRA File 		    3143	135456.png
+	  *EXTRA File 		    4408	135458.png
+	  *EXTRA File 		    4558	135460.png
+	  *EXTRA File 		    3462	135462.png
+	  *EXTRA File 		    2174	135464.png
+	  *EXTRA File 		    7837	135466.png
+	  *EXTRA File 		   15213	135468.png
+	  *EXTRA File 		    8881	135470.png
+	  *EXTRA File 		    4799	135472.png
+	  *EXTRA File 		    7527	135474.png
+	  *EXTRA File 		    4620	135476.png
+	  *EXTRA File 		    4029	135478.png
+	  *EXTRA File 		    4691	135480.png
+	  *EXTRA File 		    1976	135482.png
+	  *EXTRA File 		   15281	135484.png
+	  *EXTRA File 		    9198	135486.png
+	  *EXTRA File 		   10827	135488.png
+	  *EXTRA File 		    8213	135491.png
+	  *EXTRA File 		    7765	135493.png
+	  *EXTRA File 		    4720	135495.png
+	  *EXTRA File 		    2482	135496.png
+	  *EXTRA File 		    5188	135498.png
+	  *EXTRA File 		    2272	135500.png
+	  *EXTRA File 		    9256	135501.png
+	  *EXTRA File 		    4731	135506.png
+	  *EXTRA File 		    3345	135508.png
+	  *EXTRA File 		    3200	135510.png
+	  *EXTRA File 		    2522	135512.png
+	  *EXTRA File 		    5084	body_template_HomePage.htm
+	  *EXTRA File 		  740521	helpcenter_header.png
 	  *EXTRA File 		      51	index.json
 	  *EXTRA File 		      92	metadata.json
 	  *EXTRA File 		       2	modifiedtopics.json
 	  *EXTRA File 		       2	resources.json
 	  *EXTRA File 		     268	searchindex.json
+	  *EXTRA File 		    6284	stylesheet_vertex_home.css
+	  *EXTRA File 		    1817	VertexLogo-white.png
+	  *EXTRA File 		    1984	welcome-AIT101.html
+	  *EXTRA File 		    1998	welcome-ait201.html
+	  *EXTRA File 		     960	welcome-ait301.html
+	  *EXTRA File 		    1315	welcome-kmsiteoverview.html
+	  *EXTRA File 		    2690	welcome-sharepoint.htm.html
+	  *EXTRA File 		    2366	welcome-teams.htm.html
 	    Newer     		     355	124.gif
 	    Newer     		     353	125.gif
 	    Newer     		     357	126.gif
@@ -706,11 +676,10 @@ The process cannot access the file because it is being used by another process.
 	    Newer     		    8996	135173.html
 	    Newer     		    1374	135174.html
 	    Newer     		     422	135213.html
-	    Newer     		    5471	135214.png
 	    Newer     		   10742	135216.html
 	    Newer     		    2515	135217.png
 	    Newer     		    1107	135219.html
-	    Newer     		     575	135229.html
+	    Newer     		     538	135229.html
 	    Newer     		    2281	135230.html
 	    Newer     		     368	135231.html
 	    Newer     		    7062	135232.html
@@ -730,7 +699,6 @@ The process cannot access the file because it is being used by another process.
 	    Newer     		    4058	135243.html
 	    Newer     		    1022	135244.html
 	    Newer     		     296	135245.html
-	    Newer     		    1424	135246.html
 	    Newer     		    1158	135247.html
 	    Newer     		     331	135248.html
 	    Newer     		     965	135250.html
@@ -928,54 +896,19 @@ The process cannot access the file because it is being used by another process.
 	    Newer     		     907	135441.png
 	    Newer     		  229998	135442.png
 	    Newer     		  196923	135443.png
-	    Newer     		    4533	135444.png
-	    Newer     		    4955	135446.png
-	    Newer     		    3301	135448.png
-	    Newer     		    4489	135450.png
-	    Newer     		    5012	135452.png
-	    Newer     		    8880	135454.png
-	    Newer     		    3143	135456.png
-	    Newer     		    4408	135458.png
-	    Newer     		    4558	135460.png
-	    Newer     		    3462	135462.png
-	    Newer     		    2174	135464.png
-	    Newer     		    7837	135466.png
-	    Newer     		   15213	135468.png
-	    Newer     		    8881	135470.png
-	    Newer     		    4799	135472.png
-	    Newer     		    7527	135474.png
-	    Newer     		    4620	135476.png
-	    Newer     		    4029	135478.png
-	    Newer     		    4691	135480.png
-	    Newer     		    1976	135482.png
-	    Newer     		   15281	135484.png
-	    Newer     		    9198	135486.png
-	    Newer     		   10827	135488.png
-	    Newer     		    8213	135491.png
-	    Newer     		    7765	135493.png
-	    Newer     		    4720	135495.png
-	    Newer     		    2482	135496.png
-	    Newer     		    5188	135498.png
-	    Newer     		    2272	135500.png
-	    Newer     		    9256	135501.png
 	    Newer     		     181	135502.png
 	    Newer     		     353	135503.png
 	    Newer     		     387	135504.png
 	    Newer     		   52609	135505.png
-	    Newer     		    4731	135506.png
-	    Newer     		    3345	135508.png
-	    Newer     		    3200	135510.png
-	    Newer     		    2522	135512.png
 	    Newer     		   17102	135818.png
 	    Newer     		    5471	135819.png
 	    Newer     		   10340	19936.gif
-	    Newer     		    5084	body_template_HomePage.htm
 	    Newer     		     216	footer.json
 	    Newer     		    2361	f_109.html
 	    Newer     		    6118	f_121286.html
 	    Newer     		     142	f_135111.html
 	    Newer     		     283	f_4756.html
-	    Newer     		     626	landingpage.json
+	    Newer     		     945	landingpage.json
 	    Newer     		     140	l_135096.html
 	    Newer     		     147	l_135098.html
 	    Newer     		     337	l_135809.html
@@ -983,32 +916,28 @@ The process cannot access the file because it is being used by another process.
 	    Newer     		     355	l_135811.html
 	    Newer     		     465	l_135812.html
 	    Newer     		     367	l_135813.html
-	    Newer     		     209	l_135814.html
+	    Newer     		     273	l_135814.html
 	    Newer     		     209	l_135815.html
 	    Newer     		     209	l_135816.html
 	    Newer     		    1354	open_parent.js
-	    Newer     		   82066	toc.json
-	    Newer     		    1984	welcome-AIT101.html
-	    Newer     		    1998	welcome-ait201.html
-	    Newer     		     960	welcome-ait301.html
-	    Newer     		    1315	welcome-kmsiteoverview.html
-	    Newer     		    2690	welcome-sharepoint.htm.html
-	    Newer     		    2366	welcome-teams.htm.html
+	    Newer     		   79866	toc.json
 	                  10	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\css\
+	    Changed   		    3092	themestyles.css
 	                  11	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\fonts\
 	                  30	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\images\
+	    Newer     		  980125	landing_bg.jpg
 	                   4	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\js\
 
 ------------------------------------------------------------------------------
 
                Total    Copied   Skipped  Mismatch    FAILED    Extras
     Dirs :        28         0        28         0         0         0
-   Files :       428       337        91         0         0         6
-   Bytes :    7.76 m    2.66 m    5.10 m         0         0     5.7 k
-   Times :   0:00:04   0:00:04                       0:00:00   0:00:00
+   Files :       382       296        86         0         0        52
+   Bytes :    7.16 m    3.38 m    3.77 m         0         0   952.4 k
+   Times :   0:00:03   0:00:03                       0:00:00   0:00:00
 
 
-   Speed :              692544 Bytes/sec.
-   Speed :              39.627 MegaBytes/min.
-   Ended : Friday, August 28, 2020 10:07:29 AM
+   Speed :              928179 Bytes/sec.
+   Speed :              53.110 MegaBytes/min.
+   Ended : Friday, August 28, 2020 10:26:56 AM
 

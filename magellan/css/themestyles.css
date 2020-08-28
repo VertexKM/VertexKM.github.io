@@ -16,16 +16,16 @@
 
 
 html {
-/* base colors */
-   --primary-color: #286F71;
-    --primary-light-color: #48A4A7;
-    --secondary-color: #305676;
+    /* base colors */
+    --primary-color: #9f1c35;
+    --primary-light-color: #9AA0A4;
+    --secondary-color: #36424a;
     --secondary-light-color: #C7E2F2;
     --dark-gray-color: #404040;
     --gray-color: #6C6C6C;
     --medium-gray-color: #AAAAAA;
     --light-gray-color: #CECECE;
-/* functional colors */
+    /* functional colors */
     --background-color: white;
     --landing-bg-color: white;
     --heading-bg-color: var(--light-gray-color);
@@ -40,8 +40,8 @@ html {
     --form-bg-color: white;
     --widget-bg-color: white;
     --text-color: var(--dark-gray-color);
-    --title-color:white;
-    --title-outline-color:black;
+    --title-color: white;
+    --title-outline-color: black;
     --footer-text-color: var(--dark-gray-color);
     --heading-text-color: var(--dark-gray-color);
     --panel-head-text-color: var(--dark-gray-color);
@@ -50,11 +50,11 @@ html {
     --active-btn-text-color: var(--dark-gray-color);
     --submit-btn-text-color: white;
     --shadow-color: var(--light-gray-color);
-/* functional elements */
+    /* functional elements */
     --border-radius-small: 2px;
     --border-radius-large: 4px;
     --transition-speed: 0.4s;
-/* default icons - FontAwesome */
+    /* default icons - FontAwesome */
     --toc-open: '\f0d7';
     --toc-closed: '\f0da';
     --left-pane-open: '\f104';
