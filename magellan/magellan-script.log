@@ -1,0 +1,34 @@
+web.xslt found in C:\Program Files\Author-it\Transformations\
+ 
+[28-Aug-2020 08:15:45:AM] Generate Magellan output started
+----------------------------------------------
+ 
+[28-Aug-2020 08:15:45:AM] Saxon Transform started
+[28-Aug-2020 08:15:50:AM] Saxon Transform completed
+----------------------------------------------
+ 
+[28-Aug-2020 08:15:50:AM] Building Search Index started
+[28-Aug-2020 08:15:51:AM] Building Search Index completed
+----------------------------------------------
+ 
+[28-Aug-2020 08:15:51:AM] Delete unwanted files started
+[28-Aug-2020 08:15:51:AM] Delete unwanted files completed
+----------------------------------------------
+ 
+[28-Aug-2020 08:15:51:AM] Move Published Content into Sub folder started
+[28-Aug-2020 08:15:51:AM] Move Published Content into Sub folder completed
+----------------------------------------------
+ 
+[28-Aug-2020 08:15:51:AM] Copy Magellan Engine to Publishing Folder started
+[28-Aug-2020 08:15:52:AM] Copy Magellan Engine to Publishing Folder completed
+----------------------------------------------
+ 
+[28-Aug-2020 08:15:52:AM] Copy Magellan Themes to Publishing Folder started
+[28-Aug-2020 08:15:52:AM] Magellan Themes folder is not exist
+[28-Aug-2020 08:15:52:AM] Copy the output to the web server folder started
+[28-Aug-2020 08:15:52:AM] Web server Folder not found: C:\inetpub\wwwroot\magellan\135805
+[28-Aug-2020 08:15:52:AM] Trying to create web server folder of the parent folder
+[28-Aug-2020 08:15:56:AM] The web server folder is create, copying the output to the web server folder 
+[28-Aug-2020 08:15:57:AM] Copy the output to the web server folder completed
+----------------------------------------------
+ 
