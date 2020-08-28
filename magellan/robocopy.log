@@ -3,7 +3,7 @@
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Friday, August 28, 2020 9:21:33 AM
+  Started : Friday, August 28, 2020 9:48:33 AM
    Source : C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\
      Dest : C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\content\en\
 
@@ -18,62 +18,366 @@ Exc Files : KM Knowledge Center.xml
 
 ------------------------------------------------------------------------------
 
-	  New Dir         36	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\
+	  New Dir        340	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\
 	    New File  		     355	124.gif  0%  100%  
 	    New File  		     353	125.gif  0%  100%  
 	    New File  		     357	126.gif  0%  100%  
 	    New File  		     804	126432.png  0%  100%  
 	    New File  		   25246	130997.png  0%  100%  
-	    New File  		    5508	135211.png  0%  100%  
+	    New File  		    1194	135133.html  0%  100%  
+	    New File  		    1658	135134.html  0%  100%  
+	    New File  		     838	135135.html  0%  100%  
+	    New File  		    4704	135136.html  0%  100%  
+	    New File  		    1569	135137.html  0%  100%  
+	    New File  		    1168	135138.html  0%  100%  
+	    New File  		    4700	135139.html  0%  100%  
+	    New File  		    1803	135140.html  0%  100%  
+	    New File  		   86202	135142.png  0%  100%  
+	    New File  		    2052	135143.html  0%  100%  
+	    New File  		    8873	135144.html  0%  100%  
+	    New File  		   84630	135145.png  0%  100%  
+	    New File  		    4558	135146.html  0%  100%  
+	    New File  		    2564	135147.html  0%  100%  
+	    New File  		    4847	135149.html  0%  100%  
+	    New File  		    2682	135150.html  0%  100%  
+	    New File  		   85784	135152.png  0%  100%  
+	    New File  		   86017	135153.png  0%  100%  
+	    New File  		    4086	135154.html  0%  100%  
+	    New File  		    2521	135155.html  0%  100%  
+	    New File  		   67657	135156.png  0%  100%  
+	    New File  		    2665	135157.html  0%  100%  
+	    New File  		  212171	135158.png  0%   61%  100%  
+	    New File  		     577	135159.html  0%  100%  
+	    New File  		    1754	135160.html  0%  100%  
+	    New File  		    2556	135161.html  0%  100%  
+	    New File  		    1556	135162.html  0%  100%  
+	    New File  		   10570	135163.html  0%  100%  
+	    New File  		    3388	135164.html  0%  100%  
+	    New File  		    1153	135165.html  0%  100%  
+	    New File  		    6841	135166.html  0%  100%  
+	    New File  		     577	135167.png  0%  100%  
+	    New File  		     777	135168.html  0%  100%  
+	    New File  		    7827	135169.html  0%  100%  
+	    New File  		    2733	135170.html  0%  100%  
+	    New File  		    1008	135171.html  0%  100%  
+	    New File  		    6864	135172.html  0%  100%  
+	    New File  		    8996	135173.html  0%  100%  
+	    New File  		    1374	135174.html  0%  100%  
+	    New File  		     422	135213.html  0%  100%  
 	    New File  		    5471	135214.png  0%  100%  
+	    New File  		   10742	135216.html  0%  100%  
 	    New File  		    2515	135217.png  0%  100%  
+	    New File  		    1107	135219.html  0%  100%  
+	    New File  		     575	135229.html  0%  100%  
+	    New File  		    2281	135230.html  0%  100%  
+	    New File  		     368	135231.html  0%  100%  
+	    New File  		    7062	135232.html  0%  100%  
+	    New File  		    1786	135233.html  0%  100%  
+	    New File  		    1788	135233_1.html  0%  100%  
+	    New File  		    1827	135234.html  0%  100%  
+	    New File  		     535	135235.html  0%  100%  
+	    New File  		    1162	135236.html  0%  100%  
+	    New File  		    1164	135236_1.html  0%  100%  
+	    New File  		    1072	135237.html  0%  100%  
+	    New File  		    1074	135237_1.html  0%  100%  
+	    New File  		     522	135238.html  0%  100%  
+	    New File  		    2344	135239.html  0%  100%  
+	    New File  		    1402	135240.html  0%  100%  
+	    New File  		     857	135241.html  0%  100%  
+	    New File  		    1101	135242.html  0%  100%  
+	    New File  		    4058	135243.html  0%  100%  
+	    New File  		    1022	135244.html  0%  100%  
+	    New File  		     296	135245.html  0%  100%  
+	    New File  		    1424	135246.html  0%  100%  
+	    New File  		    1158	135247.html  0%  100%  
+	    New File  		     331	135248.html  0%  100%  
+	    New File  		     965	135250.html  0%  100%  
+	    New File  		    6001	135251.html  0%  100%  
+	    New File  		    1880	135252.html  0%  100%  
+	    New File  		    2866	135253.html  0%  100%  
+	    New File  		    1030	135254.html  0%  100%  
+	    New File  		     723	135255.html  0%  100%  
+	    New File  		    2014	135256.html  0%  100%  
+	    New File  		    1020	135257.png  0%  100%  
+	    New File  		    5167	135258.html  0%  100%  
+	    New File  		    7590	135259.html  0%  100%  
+	    New File  		   11427	135260.html  0%  100%  
+	    New File  		    5023	135261.html  0%  100%  
+	    New File  		    2558	135262.html  0%  100%  
+	    New File  		    2049	135263.html  0%  100%  
+	    New File  		     942	135264.html  0%  100%  
+	    New File  		     944	135264_1.html  0%  100%  
+	    New File  		     818	135265.html  0%  100%  
+	    New File  		     820	135265_1.html  0%  100%  
+	    New File  		     804	135266.html  0%  100%  
+	    New File  		     806	135266_1.html  0%  100%  
+	    New File  		     952	135267.html  0%  100%  
+	    New File  		     954	135267_1.html  0%  100%  
+	    New File  		    1081	135268.html  0%  100%  
+	    New File  		    1083	135268_1.html  0%  100%  
+	    New File  		     790	135269.html  0%  100%  
+	    New File  		     792	135269_1.html  0%  100%  
+	    New File  		    2002	135270.html  0%  100%  
+	    New File  		   13830	135271.html  0%  100%  
+	    New File  		    1196	135272.html  0%  100%  
+	    New File  		    1246	135273.html  0%  100%  
+	    New File  		    1658	135274.html  0%  100%  
+	    New File  		     905	135275.png  0%  100%  
+	    New File  		    2939	135276.html  0%  100%  
+	    New File  		     750	135277.html  0%  100%  
+	    New File  		    3721	135278.html  0%  100%  
+	    New File  		    3054	135279.html  0%  100%  
+	    New File  		    1358	135280.html  0%  100%  
+	    New File  		    4437	135281.html  0%  100%  
+	    New File  		    1709	135282.html  0%  100%  
+	    New File  		    1328	135283.html  0%  100%  
+	    New File  		    1409	135284.html  0%  100%  
+	    New File  		     478	135285.html  0%  100%  
+	    New File  		    1028	135286.html  0%  100%  
+	    New File  		    2018	135287.html  0%  100%  
+	    New File  		     386	135288.html  0%  100%  
+	    New File  		     994	135289.html  0%  100%  
+	    New File  		    1584	135290.html  0%  100%  
+	    New File  		     747	135291.html  0%  100%  
+	    New File  		    1022	135292.html  0%  100%  
+	    New File  		    4329	135293.html  0%  100%  
+	    New File  		     747	135294.png  0%  100%  
+	    New File  		     697	135295.png  0%  100%  
+	    New File  		    1940	135296.html  0%  100%  
+	    New File  		    5134	135297.html  0%  100%  
+	    New File  		    3834	135298.html  0%  100%  
+	    New File  		    4573	135299.html  0%  100%  
+	    New File  		     522	135300.png  0%  100%  
+	    New File  		    3167	135301.html  0%  100%  
+	    New File  		    1069	135302.html  0%  100%  
+	    New File  		    3373	135303.html  0%  100%  
+	    New File  		    2106	135304.html  0%  100%  
+	    New File  		    1290	135305.html  0%  100%  
+	    New File  		     682	135306.html  0%  100%  
+	    New File  		    1701	135307.html  0%  100%  
+	    New File  		    2563	135308.html  0%  100%  
+	    New File  		    2417	135309.html  0%  100%  
+	    New File  		    4251	135310.html  0%  100%  
+	    New File  		    1259	135311.html  0%  100%  
+	    New File  		    1639	135312.html  0%  100%  
+	    New File  		     166	135313.png  0%  100%  
+	    New File  		     768	135314.html  0%  100%  
+	    New File  		     855	135315.html  0%  100%  
+	    New File  		    4677	135316.html  0%  100%  
+	    New File  		     475	135317.png  0%  100%  
+	    New File  		    1683	135318.png  0%  100%  
+	    New File  		     334	135319.png  0%  100%  
+	    New File  		    1597	135320.html  0%  100%  
+	    New File  		    2809	135321.html  0%  100%  
+	    New File  		    1751	135322.html  0%  100%  
+	    New File  		     659	135323.png  0%  100%  
+	    New File  		    2602	135324.html  0%  100%  
+	    New File  		    1745	135325.html  0%  100%  
+	    New File  		    2075	135326.html  0%  100%  
+	    New File  		    1134	135327.html  0%  100%  
+	    New File  		    1808	135328.html  0%  100%  
+	    New File  		    1565	135329.html  0%  100%  
+	    New File  		    3231	135330.html  0%  100%  
+	    New File  		     634	135331.html  0%  100%  
+	    New File  		    1296	135332.html  0%  100%  
+	    New File  		     484	135333.html  0%  100%  
+	    New File  		     315	135335.html  0%  100%  
+	    New File  		     325	135338.html  0%  100%  
+	    New File  		    1881	135339.html  0%  100%  
+	    New File  		     923	135340.html  0%  100%  
+	    New File  		    1348	135341.html  0%  100%  
+	    New File  		   23885	135342.png  0%  100%  
+	    New File  		    2100	135343.html  0%  100%  
+	    New File  		    1453	135344.html  0%  100%  
+	    New File  		    1116	135345.html  0%  100%  
+	    New File  		    2657	135346.html  0%  100%  
+	    New File  		    2398	135347.html  0%  100%  
+	    New File  		     538	135348.html  0%  100%  
+	    New File  		    2546	135349.html  0%  100%  
+	    New File  		    1072	135350.html  0%  100%  
+	    New File  		    3688	135351.html  0%  100%  
+	    New File  		     583	135352.html  0%  100%  
+	    New File  		    3092	135353.html  0%  100%  
+	    New File  		    2939	135354.html  0%  100%  
+	    New File  		    2287	135355.html  0%  100%  
+	    New File  		   48092	135356.png  0%  100%  
+	    New File  		   20308	135357.png  0%  100%  
+	    New File  		    1023	135358.html  0%  100%  
+	    New File  		     824	135359.html  0%  100%  
+	    New File  		    5406	135360.html  0%  100%  
+	    New File  		    2158	135361.html  0%  100%  
+	    New File  		     297	135362.png  0%  100%  
+	    New File  		    2719	135363.html  0%  100%  
+	    New File  		    3686	135364.html  0%  100%  
+	    New File  		    3556	135365.html  0%  100%  
+	    New File  		     861	135366.html  0%  100%  
+	    New File  		    1905	135367.html  0%  100%  
+	    New File  		   13980	135368.html  0%  100%  
+	    New File  		    4183	135369.html  0%  100%  
+	    New File  		    1212	135370.html  0%  100%  
+	    New File  		    1399	135371.html  0%  100%  
+	    New File  		     844	135372.html  0%  100%  
+	    New File  		    3094	135373.html  0%  100%  
+	    New File  		    1429	135374.html  0%  100%  
+	    New File  		    4421	135375.html  0%  100%  
+	    New File  		     503	135376.html  0%  100%  
+	    New File  		     882	135377.html  0%  100%  
+	    New File  		    2137	135378.html  0%  100%  
+	    New File  		    2037	135379.html  0%  100%  
+	    New File  		    2044	135380.html  0%  100%  
+	    New File  		    1631	135382.html  0%  100%  
+	    New File  		    5622	135383.html  0%  100%  
+	    New File  		    8810	135384.jpg  0%  100%  
+	    New File  		     868	135385.jpg  0%  100%  
+	    New File  		    2592	135386.html  0%  100%  
+	    New File  		     689	135387.html  0%  100%  
+	    New File  		     774	135388.html  0%  100%  
+	    New File  		    1756	135389.html  0%  100%  
+	    New File  		     614	135390.html  0%  100%  
+	    New File  		     706	135391.html  0%  100%  
+	    New File  		    1130	135392.html  0%  100%  
+	    New File  		    3907	135393.html  0%  100%  
+	    New File  		    6763	135394.html  0%  100%  
+	    New File  		     690	135395.html  0%  100%  
+	    New File  		    5031	135396.html  0%  100%  
+	    New File  		    2064	135397.html  0%  100%  
+	    New File  		     557	135398.html  0%  100%  
+	    New File  		    1946	135399.html  0%  100%  
+	    New File  		     293	135400.html  0%  100%  
+	    New File  		    3898	135401.html  0%  100%  
+	    New File  		   27979	135402.png  0%  100%  
+	    New File  		    1296	135403.html  0%  100%  
+	    New File  		  100167	135404.png  0%  100%  
+	    New File  		     288	135405.html  0%  100%  
+	    New File  		    5852	135406.html  0%  100%  
+	    New File  		  101883	135407.png  0%  100%  
+	    New File  		    4032	135408.html  0%  100%  
+	    New File  		   99821	135409.png  0%  100%  
+	    New File  		  191979	135410.png  0%   68%  100%  
+	    New File  		    5445	135411.html  0%  100%  
+	    New File  		    1180	135412.html  0%  100%  
+	    New File  		    1214	135413.html  0%  100%  
+	    New File  		    2948	135414.html  0%  100%  
+	    New File  		    1854	135415.html  0%  100%  
+	    New File  		    4480	135416.html  0%  100%  
+	    New File  		   55849	135417.png  0%  100%  
+	    New File  		    3539	135418.html  0%  100%  
+	    New File  		    1489	135419.html  0%  100%  
+	    New File  		    3600	135420.html  0%  100%  
+	    New File  		    1513	135421.html  0%  100%  
+	    New File  		    1548	135422.html  0%  100%  
+	    New File  		    2824	135423.html  0%  100%  
+	    New File  		    1159	135424.html  0%  100%  
+	    New File  		    1052	135425.html  0%  100%  
+	    New File  		    2833	135426.html  0%  100%  
+	    New File  		    1647	135427.html  0%  100%  
+	    New File  		    2056	135428.html  0%  100%  
+	    New File  		     262	135429.png  0%  100%  
+	    New File  		   34252	135430.png  0%  100%  
+	    New File  		    1034	135431.html  0%  100%  
+	    New File  		   14820	135432.png  0%  100%  
+	    New File  		    1079	135434.html  0%  100%  
+	    New File  		    1505	135435.html  0%  100%  
+	    New File  		    4895	135436.html  0%  100%  
+	    New File  		     810	135437.html  0%  100%  
+	    New File  		    1054	135438.html  0%  100%  
+	    New File  		     312	135439.html  0%  100%  
+	    New File  		    1151	135440.png  0%  100%  
+	    New File  		     907	135441.png  0%  100%  
+	    New File  		  229998	135442.png  0%   56%  100%  
+	    New File  		  196923	135443.png  0%   66%  100%  
+	    New File  		    4533	135444.png  0%  100%  
+	    New File  		    4955	135446.png  0%  100%  
+	    New File  		    3301	135448.png  0%  100%  
+	    New File  		    4489	135450.png  0%  100%  
+	    New File  		    5012	135452.png  0%  100%  
+	    New File  		    8880	135454.png  0%  100%  
+	    New File  		    3143	135456.png  0%  100%  
+	    New File  		    4408	135458.png  0%  100%  
+	    New File  		    4558	135460.png  0%  100%  
+	    New File  		    3462	135462.png  0%  100%  
+	    New File  		    2174	135464.png  0%  100%  
+	    New File  		    7837	135466.png  0%  100%  
+	    New File  		   15213	135468.png  0%  100%  
+	    New File  		    8881	135470.png  0%  100%  
+	    New File  		    4799	135472.png  0%  100%  
+	    New File  		    7527	135474.png  0%  100%  
+	    New File  		    4620	135476.png  0%  100%  
+	    New File  		    4029	135478.png  0%  100%  
+	    New File  		    4691	135480.png  0%  100%  
+	    New File  		    1976	135482.png  0%  100%  
+	    New File  		   15281	135484.png  0%  100%  
+	    New File  		    9198	135486.png  0%  100%  
+	    New File  		   10827	135488.png  0%  100%  
+	    New File  		    8213	135491.png  0%  100%  
+	    New File  		    7765	135493.png  0%  100%  
+	    New File  		    4720	135495.png  0%  100%  
+	    New File  		    2482	135496.png  0%  100%  
+	    New File  		    5188	135498.png  0%  100%  
+	    New File  		    2272	135500.png  0%  100%  
+	    New File  		    9256	135501.png  0%  100%  
+	    New File  		     181	135502.png  0%  100%  
+	    New File  		     353	135503.png  0%  100%  
+	    New File  		     387	135504.png  0%  100%  
+	    New File  		   52609	135505.png  0%  100%  
+	    New File  		    4731	135506.png  0%  100%  
+	    New File  		    3345	135508.png  0%  100%  
+	    New File  		    3200	135510.png  0%  100%  
+	    New File  		    2522	135512.png  0%  100%  
+	    New File  		   17102	135818.png  0%  100%  
+	    New File  		    5471	135819.png  0%  100%  
 	    New File  		   10340	19936.gif  0%  100%  
+	    New File  		    5084	body_template_HomePage.htm  0%  100%  
 	    New File  		     216	footer.json  0%  100%  
 	    New File  		    2361	f_109.html  0%  100%  
 	    New File  		    6118	f_121286.html  0%  100%  
 	    New File  		     142	f_135111.html  0%  100%  
 	    New File  		     283	f_4756.html  0%  100%  
-	    New File  		      51	index.json  0%  100%  
+	    New File  		  740521	helpcenter_header.png  0%   35%   70%  100%  
 	    New File  		     547	landingpage.json  0%  100%  
 	    New File  		     140	l_135096.html  0%  100%  
 	    New File  		     147	l_135098.html  0%  100%  
-	    New File  		     284	l_135809.html  0%  100%  
-	    New File  		     284	l_135810.html  0%  100%  
-	    New File  		     284	l_135811.html  0%  100%  
+	    New File  		     299	l_135809.html  0%  100%  
+	    New File  		     313	l_135810.html  0%  100%  
+	    New File  		     313	l_135811.html  0%  100%  
 	    New File  		     465	l_135812.html  0%  100%  
 	    New File  		     209	l_135813.html  0%  100%  
 	    New File  		     209	l_135814.html  0%  100%  
 	    New File  		     209	l_135815.html  0%  100%  
 	    New File  		     209	l_135816.html  0%  100%  
-	    New File  		      92	metadata.json  0%  100%  
-	    New File  		       2	modifiedtopics.json  0%  100%  
 	    New File  		    1354	open_parent.js  0%  100%  
-	    New File  		       2	resources.json  0%  100%  
-	    New File  		     268	searchindex.json  0%  100%  
-	    New File  		     181	toc.json  0%  100%  
+	    New File  		    6284	stylesheet_vertex_home.css  0%  100%  
+	    New File  		   82066	toc.json  0%  100%  
+	    New File  		    1817	VertexLogo-white.png  0%  100%  
+	    New File  		    1984	welcome-AIT101.html  0%  100%  
+	    New File  		    1998	welcome-ait201.html  0%  100%  
+	    New File  		     960	welcome-ait301.html  0%  100%  
+	    New File  		    1315	welcome-kmsiteoverview.html  0%  100%  
+	    New File  		    2690	welcome-sharepoint.htm.html  0%  100%  
+	    New File  		    2366	welcome-teams.htm.html  0%  100%  
 
 ------------------------------------------------------------------------------
 
                Total    Copied   Skipped  Mismatch    FAILED    Extras
     Dirs :         2         1         1         0         0         0
-   Files :        36        32         4         0         0         0
-   Bytes :    67.0 k    63.4 k     3.5 k         0         0         0
-   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Files :       340       336         4         0         0         0
+   Bytes :    3.34 m    3.34 m     5.8 k         0         0         0
+   Times :   0:00:07   0:00:06                       0:00:00   0:00:00
 
 
-   Speed :              198189 Bytes/sec.
-   Speed :              11.340 MegaBytes/min.
-   Ended : Friday, August 28, 2020 9:21:34 AM
+   Speed :              501241 Bytes/sec.
+   Speed :              28.681 MegaBytes/min.
+   Ended : Friday, August 28, 2020 9:48:40 AM
 
 
-2020/08/28 09:21:34 ERROR 32 (0x00000020) Deleting Source Directory C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\
+2020/08/28 09:48:40 ERROR 32 (0x00000020) Deleting Source Directory C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\
 The process cannot access the file because it is being used by another process.
 
 -------------------------------------------------------------------------------
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Friday, August 28, 2020 9:21:34 AM
+  Started : Friday, August 28, 2020 9:48:40 AM
    Source : C:\Program Files\Author-it\Engines\Magellan\
      Dest : C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\
 
@@ -85,10 +389,10 @@ The process cannot access the file because it is being used by another process.
 
 	                  12	C:\Program Files\Author-it\Engines\Magellan\
 	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\content\
-	  *EXTRA File 		    1110	indexerLog.log
-	  *EXTRA File 		     944	magellan-script.log
-	  *EXTRA File 		    3400	robocopy.log
-	  *EXTRA File 		    1762	saxon.log
+	  *EXTRA File 		     506	indexerLog.log
+	  *EXTRA File 		    1093	magellan-script.log
+	  *EXTRA File 		   19596	robocopy.log
+	  *EXTRA File 		    4572	saxon.log
 	    New File  		   12491	3rdpartylicenses.txt
 	    New File  		    5430	favicon.ico
 	    New File  		    2699	index.html
@@ -208,20 +512,20 @@ The process cannot access the file because it is being used by another process.
                Total    Copied   Skipped  Mismatch    FAILED    Extras
     Dirs :        26        25         1         0         0         1
    Files :        88        88         0         0         0         4
-   Bytes :    4.71 m    4.71 m         0         0         0     7.0 k
-   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Bytes :    4.71 m    4.71 m         0         0         0    25.1 k
+   Times :   0:00:02   0:00:02                       0:00:00   0:00:00
 
 
-   Speed :             6366241 Bytes/sec.
-   Speed :             364.279 MegaBytes/min.
-   Ended : Friday, August 28, 2020 9:21:35 AM
+   Speed :             2448797 Bytes/sec.
+   Speed :             140.121 MegaBytes/min.
+   Ended : Friday, August 28, 2020 9:48:42 AM
 
 
 -------------------------------------------------------------------------------
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Friday, August 28, 2020 9:21:35 AM
+  Started : Friday, August 28, 2020 9:48:43 AM
    Source : \\corporate\shares\AuthorIT\NewData\Templates\Magellan\Blue\
      Dest : C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\
 
@@ -240,14 +544,14 @@ The process cannot access the file because it is being used by another process.
 	  *EXTRA File 		   12491	3rdpartylicenses.txt
 	  *EXTRA File 		    5430	favicon.ico
 	  *EXTRA File 		    2699	index.html
-	  *EXTRA File 		    1110	indexerLog.log
+	  *EXTRA File 		     506	indexerLog.log
 	  *EXTRA File 		     798	inline.31e1fb380eb7cf3d75b1.bundle.js
 	  *EXTRA File 		    5083	logo.png
-	  *EXTRA File 		    1151	magellan-script.log
+	  *EXTRA File 		    1300	magellan-script.log
 	  *EXTRA File 		  406857	main.bb1f61b7092385f4ba1e.bundle.js
 	  *EXTRA File 		  115285	polyfills.ef59c4914bd69e024385.bundle.js
-	  *EXTRA File 		   10991	robocopy.log
-	  *EXTRA File 		    1762	saxon.log
+	  *EXTRA File 		   27824	robocopy.log
+	  *EXTRA File 		    4572	saxon.log
 	  *EXTRA File 		  404323	scripts.6e22b6b7916fdc122797.bundle.js
 	  *EXTRA File 		    4179	siteconfig.json
 	  *EXTRA File 		       0	styles.ac89bfdd6de82636b768.bundle.css
@@ -270,20 +574,20 @@ The process cannot access the file because it is being used by another process.
                Total    Copied   Skipped  Mismatch    FAILED    Extras
     Dirs :         2         0         2         0         0         5
    Files :         1         1         0         0         0        25
-   Bytes :     2.5 k     2.5 k         0         0         0    2.03 m
+   Bytes :     2.5 k     2.5 k         0         0         0    2.04 m
    Times :   0:00:00   0:00:00                       0:00:00   0:00:00
 
 
-   Speed :                6258 Bytes/sec.
-   Speed :               0.358 MegaBytes/min.
-   Ended : Friday, August 28, 2020 9:21:36 AM
+   Speed :               27736 Bytes/sec.
+   Speed :               1.587 MegaBytes/min.
+   Ended : Friday, August 28, 2020 9:48:43 AM
 
 
 -------------------------------------------------------------------------------
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Friday, August 28, 2020 9:21:39 AM
+  Started : Friday, August 28, 2020 9:48:43 AM
    Source : C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\
      Dest : C:\inetpub\wwwroot\magellan\135817\
 
@@ -294,168 +598,390 @@ The process cannot access the file because it is being used by another process.
 ------------------------------------------------------------------------------
 
 	                  16	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\
-	    New File  		   12491	3rdpartylicenses.txt
-	    New File  		    5430	favicon.ico
-	    New File  		    2699	index.html
-	    New File  		    1110	indexerLog.log
-	    New File  		     798	inline.31e1fb380eb7cf3d75b1.bundle.js
-	    New File  		    5083	logo.png
-	    New File  		    1635	magellan-script.log
-	    New File  		  406857	main.bb1f61b7092385f4ba1e.bundle.js
-	    New File  		  115285	polyfills.ef59c4914bd69e024385.bundle.js
-	    New File  		   14163	robocopy.log
-	    New File  		    1762	saxon.log
-	    New File  		  404323	scripts.6e22b6b7916fdc122797.bundle.js
-	    New File  		    4179	siteconfig.json
-	    New File  		       0	styles.ac89bfdd6de82636b768.bundle.css
-	    New File  		  777878	vendor.e4d437197b465110d9e5.bundle.js
-	    New File  		       8	version
-	  New Dir          0	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\
-	  New Dir          0	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\
-	  New Dir          2	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\ar\
-	    New File  		    2908	ar-ar.json
-	    New File  		    2908	ar-qa.json
-	  New Dir          1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\da\
-	    New File  		    2596	da-da.json
-	  New Dir          1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\de\
-	    New File  		    3524	de-de.json
-	  New Dir          1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\en\
-	    New File  		    3419	en-us.json
-	  New Dir          1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\es\
-	    New File  		    2747	es-es.json
-	  New Dir          1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\fi\
-	    New File  		    2641	fi-fi.json
-	  New Dir          1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\fr\
-	    New File  		    2768	fr-fr.json
-	  New Dir          1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\hu\
-	    New File  		    2564	hu-hu.json
-	  New Dir          1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\it\
-	    New File  		    2643	it-it.json
-	  New Dir          1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\ja\
-	    New File  		    2811	ja-ja.json
-	  New Dir          1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\nl\
-	    New File  		    2660	nl-nl.json
-	  New Dir          1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\pl\
-	    New File  		    3405	pl-pl.json
-	  New Dir          1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\ro\
-	    New File  		    2680	ro-ro.json
-	  New Dir          1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\ru\
-	    New File  		    3314	ru-ru.json
-	  New Dir          1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\sv\
-	    New File  		    2628	sv-sv.json
-	  New Dir          1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\th\
-	    New File  		    3618	th-th.json
-	  New Dir          1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\tr\
-	    New File  		    2629	tr-tr.json
-	  New Dir          1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\vi\
-	    New File  		    2558	vi-vi.json
-	  New Dir          2	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\zh\
-	    New File  		    2535	zh-tw.json
-	    New File  		    2542	zh-zh.json
-	  New Dir          0	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\content\
-	  New Dir         32	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\content\en\
-	    New File  		     355	124.gif
-	    New File  		     353	125.gif
-	    New File  		     357	126.gif
-	    New File  		     804	126432.png
-	    New File  		   25246	130997.png
-	    New File  		    5508	135211.png
-	    New File  		    5471	135214.png
-	    New File  		    2515	135217.png
-	    New File  		   10340	19936.gif
-	    New File  		     216	footer.json
-	    New File  		    2361	f_109.html
-	    New File  		    6118	f_121286.html
-	    New File  		     142	f_135111.html
-	    New File  		     283	f_4756.html
-	    New File  		      51	index.json
-	    New File  		     547	landingpage.json
-	    New File  		     140	l_135096.html
-	    New File  		     147	l_135098.html
-	    New File  		     284	l_135809.html
-	    New File  		     284	l_135810.html
-	    New File  		     284	l_135811.html
-	    New File  		     465	l_135812.html
-	    New File  		     209	l_135813.html
-	    New File  		     209	l_135814.html
-	    New File  		     209	l_135815.html
-	    New File  		     209	l_135816.html
-	    New File  		      92	metadata.json
-	    New File  		       2	modifiedtopics.json
-	    New File  		    1354	open_parent.js
-	    New File  		       2	resources.json
-	    New File  		     268	searchindex.json
-	    New File  		     181	toc.json
-	  New Dir         10	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\css\
-	    New File  		    3121	32px.png
-	    New File  		    1880	40px.png
-	    New File  		  187820	allcss.min.css
-	    New File  		   50196	bootstrap-rtl.min.css
-	    New File  		   23186	contentstyles.css
-	    New File  		   29063	font-awesome.min.css
-	    New File  		     711	jquery.rateyo.min.css
-	    New File  		   81350	mainstyles.css
-	    New File  		    2635	themestyles.css
-	    New File  		    1720	throbber.gif
-	  New Dir         11	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\fonts\
-	    New File  		   76518	fontawesome-webfont.eot
-	    New File  		  391622	fontawesome-webfont.svg
-	    New File  		  152796	fontawesome-webfont.ttf
-	    New File  		   90412	fontawesome-webfont.woff
-	    New File  		   71896	fontawesome-webfont.woff2
-	    New File  		  124988	FontAwesome.otf
-	    New File  		   20127	glyphicons-halflings-regular.eot
-	    New File  		  108738	glyphicons-halflings-regular.svg
-	    New File  		   45404	glyphicons-halflings-regular.ttf
-	    New File  		   23424	glyphicons-halflings-regular.woff
-	    New File  		   18028	glyphicons-halflings-regular.woff2
-	  New Dir         30	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\images\
-	    New File  		     701	add_fav_icon.png
-	    New File  		    1147	arrow_right.png
-	    New File  		    1105	arrow_top.png
-	    New File  		     281	arrow_top_grey.png
-	    New File  		     281	cancel_icon.png
-	    New File  		    1032	disqus-social-icon-dark.png
-	    New File  		     723	dis_icon.png
-	    New File  		     723	dis_icon2.png
-	    New File  		    1008	down_arrow.png
-	    New File  		    1751	fb_icon.png
-	    New File  		    1109	file_icon.png
-	    New File  		     618	heart_icon.png
-	    New File  		  980125	landing_bg.jpg
-	    New File  		    1963	ln_icon.png
-	    New File  		   10379	ln_icon_bw.png
-	    New File  		    3148	logo.png
-	    New File  		    3772	logo2.png
-	    New File  		    2024	mail_icon.png
-	    New File  		     668	most_recent_icon.png
-	    New File  		     651	my_saved_icon.png
-	    New File  		    1326	pdf_icon.png
-	    New File  		     703	recent_icon.png
-	    New File  		     717	resources_icon.png
-	    New File  		     697	share_icon.png
-	    New File  		    1795	star_icon.png
-	    New File  		    2190	twitter_icon.png
-	    New File  		    1771	vertical_ellipsis.svg
-	    New File  		     700	what_icon.png
-	    New File  		    1323	word_icon.png
-	    New File  		    3925	xls.png
-	  New Dir          4	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\js\
-	    New File  		  470688	all.min.js
-	    New File  		   23595	ie11CustomProperties.js
-	    New File  		    9203	jquery.rateyo.min.js
-	    New File  		  113525	tree.jquery.js
+	    Newer     		     506	indexerLog.log
+	    Newer     		    1505	magellan-script.log
+	    Newer     		   30359	robocopy.log
+	    Newer     		    4572	saxon.log
+	                   0	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\
+	                   0	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\
+	                   2	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\ar\
+	                   1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\da\
+	                   1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\de\
+	                   1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\en\
+	                   1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\es\
+	                   1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\fi\
+	                   1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\fr\
+	                   1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\hu\
+	                   1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\it\
+	                   1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\ja\
+	                   1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\nl\
+	                   1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\pl\
+	                   1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\ro\
+	                   1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\ru\
+	                   1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\sv\
+	                   1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\th\
+	                   1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\tr\
+	                   1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\vi\
+	                   2	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\zh\
+	                   0	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\content\
+	                 336	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\content\en\
+	  *EXTRA File 		    5508	135211.png
+	  *EXTRA File 		      51	index.json
+	  *EXTRA File 		      92	metadata.json
+	  *EXTRA File 		       2	modifiedtopics.json
+	  *EXTRA File 		       2	resources.json
+	  *EXTRA File 		     268	searchindex.json
+	    Newer     		     355	124.gif
+	    Newer     		     353	125.gif
+	    Newer     		     357	126.gif
+	    Newer     		     804	126432.png
+	    Newer     		   25246	130997.png
+	    New File  		    1194	135133.html
+	    New File  		    1658	135134.html
+	    New File  		     838	135135.html
+	    New File  		    4704	135136.html
+	    New File  		    1569	135137.html
+	    New File  		    1168	135138.html
+	    New File  		    4700	135139.html
+	    New File  		    1803	135140.html
+	    New File  		   86202	135142.png
+	    New File  		    2052	135143.html
+	    New File  		    8873	135144.html
+	    New File  		   84630	135145.png
+	    New File  		    4558	135146.html
+	    New File  		    2564	135147.html
+	    New File  		    4847	135149.html
+	    New File  		    2682	135150.html
+	    New File  		   85784	135152.png
+	    New File  		   86017	135153.png
+	    New File  		    4086	135154.html
+	    New File  		    2521	135155.html
+	    New File  		   67657	135156.png
+	    New File  		    2665	135157.html
+	    New File  		  212171	135158.png
+	    New File  		     577	135159.html
+	    New File  		    1754	135160.html
+	    New File  		    2556	135161.html
+	    New File  		    1556	135162.html
+	    New File  		   10570	135163.html
+	    New File  		    3388	135164.html
+	    New File  		    1153	135165.html
+	    New File  		    6841	135166.html
+	    New File  		     577	135167.png
+	    New File  		     777	135168.html
+	    New File  		    7827	135169.html
+	    New File  		    2733	135170.html
+	    New File  		    1008	135171.html
+	    New File  		    6864	135172.html
+	    New File  		    8996	135173.html
+	    New File  		    1374	135174.html
+	    New File  		     422	135213.html
+	    Newer     		    5471	135214.png
+	    New File  		   10742	135216.html
+	    Newer     		    2515	135217.png
+	    New File  		    1107	135219.html
+	    New File  		     575	135229.html
+	    New File  		    2281	135230.html
+	    New File  		     368	135231.html
+	    New File  		    7062	135232.html
+	    New File  		    1786	135233.html
+	    New File  		    1788	135233_1.html
+	    New File  		    1827	135234.html
+	    New File  		     535	135235.html
+	    New File  		    1162	135236.html
+	    New File  		    1164	135236_1.html
+	    New File  		    1072	135237.html
+	    New File  		    1074	135237_1.html
+	    New File  		     522	135238.html
+	    New File  		    2344	135239.html
+	    New File  		    1402	135240.html
+	    New File  		     857	135241.html
+	    New File  		    1101	135242.html
+	    New File  		    4058	135243.html
+	    New File  		    1022	135244.html
+	    New File  		     296	135245.html
+	    New File  		    1424	135246.html
+	    New File  		    1158	135247.html
+	    New File  		     331	135248.html
+	    New File  		     965	135250.html
+	    New File  		    6001	135251.html
+	    New File  		    1880	135252.html
+	    New File  		    2866	135253.html
+	    New File  		    1030	135254.html
+	    New File  		     723	135255.html
+	    New File  		    2014	135256.html
+	    New File  		    1020	135257.png
+	    New File  		    5167	135258.html
+	    New File  		    7590	135259.html
+	    New File  		   11427	135260.html
+	    New File  		    5023	135261.html
+	    New File  		    2558	135262.html
+	    New File  		    2049	135263.html
+	    New File  		     942	135264.html
+	    New File  		     944	135264_1.html
+	    New File  		     818	135265.html
+	    New File  		     820	135265_1.html
+	    New File  		     804	135266.html
+	    New File  		     806	135266_1.html
+	    New File  		     952	135267.html
+	    New File  		     954	135267_1.html
+	    New File  		    1081	135268.html
+	    New File  		    1083	135268_1.html
+	    New File  		     790	135269.html
+	    New File  		     792	135269_1.html
+	    New File  		    2002	135270.html
+	    New File  		   13830	135271.html
+	    New File  		    1196	135272.html
+	    New File  		    1246	135273.html
+	    New File  		    1658	135274.html
+	    New File  		     905	135275.png
+	    New File  		    2939	135276.html
+	    New File  		     750	135277.html
+	    New File  		    3721	135278.html
+	    New File  		    3054	135279.html
+	    New File  		    1358	135280.html
+	    New File  		    4437	135281.html
+	    New File  		    1709	135282.html
+	    New File  		    1328	135283.html
+	    New File  		    1409	135284.html
+	    New File  		     478	135285.html
+	    New File  		    1028	135286.html
+	    New File  		    2018	135287.html
+	    New File  		     386	135288.html
+	    New File  		     994	135289.html
+	    New File  		    1584	135290.html
+	    New File  		     747	135291.html
+	    New File  		    1022	135292.html
+	    New File  		    4329	135293.html
+	    New File  		     747	135294.png
+	    New File  		     697	135295.png
+	    New File  		    1940	135296.html
+	    New File  		    5134	135297.html
+	    New File  		    3834	135298.html
+	    New File  		    4573	135299.html
+	    New File  		     522	135300.png
+	    New File  		    3167	135301.html
+	    New File  		    1069	135302.html
+	    New File  		    3373	135303.html
+	    New File  		    2106	135304.html
+	    New File  		    1290	135305.html
+	    New File  		     682	135306.html
+	    New File  		    1701	135307.html
+	    New File  		    2563	135308.html
+	    New File  		    2417	135309.html
+	    New File  		    4251	135310.html
+	    New File  		    1259	135311.html
+	    New File  		    1639	135312.html
+	    New File  		     166	135313.png
+	    New File  		     768	135314.html
+	    New File  		     855	135315.html
+	    New File  		    4677	135316.html
+	    New File  		     475	135317.png
+	    New File  		    1683	135318.png
+	    New File  		     334	135319.png
+	    New File  		    1597	135320.html
+	    New File  		    2809	135321.html
+	    New File  		    1751	135322.html
+	    New File  		     659	135323.png
+	    New File  		    2602	135324.html
+	    New File  		    1745	135325.html
+	    New File  		    2075	135326.html
+	    New File  		    1134	135327.html
+	    New File  		    1808	135328.html
+	    New File  		    1565	135329.html
+	    New File  		    3231	135330.html
+	    New File  		     634	135331.html
+	    New File  		    1296	135332.html
+	    New File  		     484	135333.html
+	    New File  		     315	135335.html
+	    New File  		     325	135338.html
+	    New File  		    1881	135339.html
+	    New File  		     923	135340.html
+	    New File  		    1348	135341.html
+	    New File  		   23885	135342.png
+	    New File  		    2100	135343.html
+	    New File  		    1453	135344.html
+	    New File  		    1116	135345.html
+	    New File  		    2657	135346.html
+	    New File  		    2398	135347.html
+	    New File  		     538	135348.html
+	    New File  		    2546	135349.html
+	    New File  		    1072	135350.html
+	    New File  		    3688	135351.html
+	    New File  		     583	135352.html
+	    New File  		    3092	135353.html
+	    New File  		    2939	135354.html
+	    New File  		    2287	135355.html
+	    New File  		   48092	135356.png
+	    New File  		   20308	135357.png
+	    New File  		    1023	135358.html
+	    New File  		     824	135359.html
+	    New File  		    5406	135360.html
+	    New File  		    2158	135361.html
+	    New File  		     297	135362.png
+	    New File  		    2719	135363.html
+	    New File  		    3686	135364.html
+	    New File  		    3556	135365.html
+	    New File  		     861	135366.html
+	    New File  		    1905	135367.html
+	    New File  		   13980	135368.html
+	    New File  		    4183	135369.html
+	    New File  		    1212	135370.html
+	    New File  		    1399	135371.html
+	    New File  		     844	135372.html
+	    New File  		    3094	135373.html
+	    New File  		    1429	135374.html
+	    New File  		    4421	135375.html
+	    New File  		     503	135376.html
+	    New File  		     882	135377.html
+	    New File  		    2137	135378.html
+	    New File  		    2037	135379.html
+	    New File  		    2044	135380.html
+	    New File  		    1631	135382.html
+	    New File  		    5622	135383.html
+	    New File  		    8810	135384.jpg
+	    New File  		     868	135385.jpg
+	    New File  		    2592	135386.html
+	    New File  		     689	135387.html
+	    New File  		     774	135388.html
+	    New File  		    1756	135389.html
+	    New File  		     614	135390.html
+	    New File  		     706	135391.html
+	    New File  		    1130	135392.html
+	    New File  		    3907	135393.html
+	    New File  		    6763	135394.html
+	    New File  		     690	135395.html
+	    New File  		    5031	135396.html
+	    New File  		    2064	135397.html
+	    New File  		     557	135398.html
+	    New File  		    1946	135399.html
+	    New File  		     293	135400.html
+	    New File  		    3898	135401.html
+	    New File  		   27979	135402.png
+	    New File  		    1296	135403.html
+	    New File  		  100167	135404.png
+	    New File  		     288	135405.html
+	    New File  		    5852	135406.html
+	    New File  		  101883	135407.png
+	    New File  		    4032	135408.html
+	    New File  		   99821	135409.png
+	    New File  		  191979	135410.png
+	    New File  		    5445	135411.html
+	    New File  		    1180	135412.html
+	    New File  		    1214	135413.html
+	    New File  		    2948	135414.html
+	    New File  		    1854	135415.html
+	    New File  		    4480	135416.html
+	    New File  		   55849	135417.png
+	    New File  		    3539	135418.html
+	    New File  		    1489	135419.html
+	    New File  		    3600	135420.html
+	    New File  		    1513	135421.html
+	    New File  		    1548	135422.html
+	    New File  		    2824	135423.html
+	    New File  		    1159	135424.html
+	    New File  		    1052	135425.html
+	    New File  		    2833	135426.html
+	    New File  		    1647	135427.html
+	    New File  		    2056	135428.html
+	    New File  		     262	135429.png
+	    New File  		   34252	135430.png
+	    New File  		    1034	135431.html
+	    New File  		   14820	135432.png
+	    New File  		    1079	135434.html
+	    New File  		    1505	135435.html
+	    New File  		    4895	135436.html
+	    New File  		     810	135437.html
+	    New File  		    1054	135438.html
+	    New File  		     312	135439.html
+	    New File  		    1151	135440.png
+	    New File  		     907	135441.png
+	    New File  		  229998	135442.png
+	    New File  		  196923	135443.png
+	    New File  		    4533	135444.png
+	    New File  		    4955	135446.png
+	    New File  		    3301	135448.png
+	    New File  		    4489	135450.png
+	    New File  		    5012	135452.png
+	    New File  		    8880	135454.png
+	    New File  		    3143	135456.png
+	    New File  		    4408	135458.png
+	    New File  		    4558	135460.png
+	    New File  		    3462	135462.png
+	    New File  		    2174	135464.png
+	    New File  		    7837	135466.png
+	    New File  		   15213	135468.png
+	    New File  		    8881	135470.png
+	    New File  		    4799	135472.png
+	    New File  		    7527	135474.png
+	    New File  		    4620	135476.png
+	    New File  		    4029	135478.png
+	    New File  		    4691	135480.png
+	    New File  		    1976	135482.png
+	    New File  		   15281	135484.png
+	    New File  		    9198	135486.png
+	    New File  		   10827	135488.png
+	    New File  		    8213	135491.png
+	    New File  		    7765	135493.png
+	    New File  		    4720	135495.png
+	    New File  		    2482	135496.png
+	    New File  		    5188	135498.png
+	    New File  		    2272	135500.png
+	    New File  		    9256	135501.png
+	    New File  		     181	135502.png
+	    New File  		     353	135503.png
+	    New File  		     387	135504.png
+	    New File  		   52609	135505.png
+	    New File  		    4731	135506.png
+	    New File  		    3345	135508.png
+	    New File  		    3200	135510.png
+	    New File  		    2522	135512.png
+	    New File  		   17102	135818.png
+	    New File  		    5471	135819.png
+	    Newer     		   10340	19936.gif
+	    New File  		    5084	body_template_HomePage.htm
+	    Newer     		     216	footer.json
+	    Newer     		    2361	f_109.html
+	    Newer     		    6118	f_121286.html
+	    Newer     		     142	f_135111.html
+	    Newer     		     283	f_4756.html
+	    New File  		  740521	helpcenter_header.png
+	    Newer     		     547	landingpage.json
+	    Newer     		     140	l_135096.html
+	    Newer     		     147	l_135098.html
+	    Newer     		     299	l_135809.html
+	    Newer     		     313	l_135810.html
+	    Newer     		     313	l_135811.html
+	    Newer     		     465	l_135812.html
+	    Newer     		     209	l_135813.html
+	    Newer     		     209	l_135814.html
+	    Newer     		     209	l_135815.html
+	    Newer     		     209	l_135816.html
+	    Newer     		    1354	open_parent.js
+	    New File  		    6284	stylesheet_vertex_home.css
+	    Newer     		   82066	toc.json
+	    New File  		    1817	VertexLogo-white.png
+	    New File  		    1984	welcome-AIT101.html
+	    New File  		    1998	welcome-ait201.html
+	    New File  		     960	welcome-ait301.html
+	    New File  		    1315	welcome-kmsiteoverview.html
+	    New File  		    2690	welcome-sharepoint.htm.html
+	    New File  		    2366	welcome-teams.htm.html
+	                  10	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\css\
+	                  11	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\fonts\
+	                  30	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\images\
+	                   4	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\js\
 
 ------------------------------------------------------------------------------
 
                Total    Copied   Skipped  Mismatch    FAILED    Extras
-    Dirs :        28        27         1         0         0         0
-   Files :       124       124         0         0         0         0
-   Bytes :    4.79 m    4.79 m         0         0         0         0
-   Times :   0:00:01   0:00:00                       0:00:00   0:00:00
+    Dirs :        28         0        28         0         0         0
+   Files :       428       340        88         0         0         6
+   Bytes :    8.09 m    3.37 m    4.71 m         0         0     5.7 k
+   Times :   0:00:04   0:00:04                       0:00:00   0:00:00
 
 
-   Speed :             5305703 Bytes/sec.
-   Speed :             303.594 MegaBytes/min.
-   Ended : Friday, August 28, 2020 9:21:40 AM
+   Speed :              841721 Bytes/sec.
+   Speed :              48.163 MegaBytes/min.
+   Ended : Friday, August 28, 2020 9:48:48 AM
 

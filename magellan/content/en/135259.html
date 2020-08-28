@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<div id="135259" data-aitid="135259" data-modifieddate="2020-08-26" data-aitvariantparent="0" class="procedure_orderedlisttemplate">
+   <script type="text/javascript">$('[data-toggle="popover"]').popover(); </script>
+   
+   <h4>Creating an FAQ list grouped by the Question column</h4>
+   <p class="note">Note: This format creates a list grouped by the Question column. You can expand the Question
+      and see the Answer. With this view, you cannot sort by the Sticky or Featured columns
+      as all items in the list will first be organized by Question. Sticky and Featured
+      sorting occurs within each group and does not sort the groups themselves.</p>
+   <p class="bodytext">Complete the following to create an FAQ list:</p>
+   <ol class="numberlist">
+      <li class="numberlist">
+         <p class="numberlist">Add a list and include FAQ in the name. For more information about adding a list,
+            refer to <span class="jumptemplate_referto"><a href="#showid/135258">Working with lists</a></span>.</p>
+      </li>
+      <li class="numberlist">
+         <p class="numberlist">Add a column named <span class="procedureinterfaceelement">Question </span>with the following settings (for more information about columns, refer to <span class="jumptemplate_referto"><a href="#showid/135272">Creating a metadata column in SharePoint</a></span>):</p>
+         <ol class="numberlist2">
+            <li class="numberlist2">
+               <p class="numberlist2">Column name - Question</p>
+            </li>
+            <li class="numberlist2">
+               <p class="numberlist2">Type of information - Single line of text</p>
+            </li>
+            <li class="numberlist2">
+               <p class="numberlist2">Description - The FAQ question.</p>
+            </li>
+            <li class="numberlist2">
+               <p class="numberlist2">Require that this column contains information - Yes</p>
+            </li>
+            <li class="numberlist2">
+               <p class="numberlist2">Enforce unique values - No</p>
+            </li>
+            <li class="numberlist2">
+               <p class="numberlist2">Maximum number of characters - 255</p>
+            </li>
+            <li class="numberlist2">
+               <p class="numberlist2">Default value - Text (no default value entered)</p>
+            </li>
+            <li class="numberlist2">
+               <p class="numberlist2">Column Formatting - leave blank</p>
+            </li>
+         </ol>
+      </li>
+      <li class="numberlist">
+         <p class="numberlist">Add a column named <span class="procedureinterfaceelement">Answer </span>with the following settings:</p>
+         <ol class="numberlist2">
+            <li class="numberlist2">
+               <p class="numberlist2">Column name - Answer</p>
+            </li>
+            <li class="numberlist2">
+               <p class="numberlist2">Type of information - Multiple lines of text</p>
+            </li>
+            <li class="numberlist2">
+               <p class="numberlist2">Description - The answer to the FAQ.</p>
+            </li>
+            <li class="numberlist2">
+               <p class="numberlist2">Require that this column contains information - Yes.</p>
+            </li>
+            <li class="numberlist2">
+               <p class="numberlist2">Number of lines for editing - 3</p>
+            </li>
+            <li class="numberlist2">
+               <p class="numberlist2">Specify the type of text to allow - Plain text</p>
+            </li>
+            <li class="numberlist2">
+               <p class="numberlist2">Append Changes to Existing Text - No</p>
+            </li>
+            <li class="numberlist2">
+               <p class="numberlist2">Column Formatting - Add the following JSON formatting:</p>
+               <p class="numbertext2"><span class="procedurecodeinsentence">{</span></p>
+               <p class="numbertext2"><span class="procedurecodeinsentence">  "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",</span></p>
+               <p class="numbertext2"><span class="procedurecodeinsentence">  "elmType": "div",</span></p>
+               <p class="numbertext2"><span class="procedurecodeinsentence">  "txtContent": "@currentField",</span></p>
+               <p class="numbertext2"><span class="procedurecodeinsentence">  "style": {</span></p>
+               <p class="numbertext2"><span class="procedurecodeinsentence">    "white-space": "normal",</span></p>
+               <p class="numbertext2"><span class="procedurecodeinsentence">    "padding": "11px 0"</span></p>
+               <p class="numbertext2"><span class="procedurecodeinsentence">  },</span></p>
+               <p class="numbertext2"><span class="procedurecodeinsentence">  "attributes": {</span></p>
+               <p class="numbertext2"><span class="procedurecodeinsentence">    "class": "#000000"</span></p>
+               <p class="numbertext2"><span class="procedurecodeinsentence">  }</span></p>
+               <p class="numbertext2"><span class="procedurecodeinsentence">}</span></p>
+            </li>
+         </ol>
+      </li>
+      <li class="numberlist">
+         <p class="numberlist">Add a column named <span class="procedureinterfaceelement">Category </span>with the following settings:</p>
+         <ol class="numberlist2">
+            <li class="numberlist2">
+               <p class="numberlist2">Column name - Category</p>
+            </li>
+            <li class="numberlist2">
+               <p class="numberlist2">Type of information - Single line of text</p>
+            </li>
+            <li class="numberlist2">
+               <p class="numberlist2">Description - Categorize the FAQ item to help with searching.</p>
+            </li>
+            <li class="numberlist2">
+               <p class="numberlist2">Require that this column contains information - No</p>
+            </li>
+            <li class="numberlist2">
+               <p class="numberlist2">Enforce unique values - No</p>
+            </li>
+            <li class="numberlist2">
+               <p class="numberlist2">Maximum number of characters - 255</p>
+            </li>
+            <li class="numberlist2">
+               <p class="numberlist2">Default value - Text (no default value entered)</p>
+            </li>
+            <li class="numberlist2">
+               <p class="numberlist2">Column Formatting - leave blank</p>
+            </li>
+         </ol>
+      </li>
+      <li class="numberlist">
+         <p class="numberlist">Modify the <span class="procedureinterfaceelement">All Items</span> view with the following settings (for more information about views, refer to <span class="jumptemplate_referto"><a href="#showid/135297">Working with views as an administrator</a></span>):</p>
+         <ol class="numberlist2">
+            <li class="numberlist2">
+               <p class="numberlist2">Display the <span class="procedureinterfaceelement">Answer </span>column in position one.</p>
+            </li>
+            <li class="numberlist2">
+               <p class="numberlist2">Remove all other columns from the display</p>
+            </li>
+            <li class="numberlist2">
+               <p class="numberlist2">In the Filter group, select <span class="procedureinterfaceelement">Show all items in this view</span>.</p>
+            </li>
+            <li class="numberlist2">
+               <p class="numberlist2">Group by the <span class="procedureinterfaceelement">Question </span>column in ascending order.</p>
+            </li>
+         </ol>
+      </li>
+   </ol>
+</div>

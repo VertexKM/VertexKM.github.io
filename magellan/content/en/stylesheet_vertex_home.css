@@ -1,0 +1,317 @@
+/* stylesheet_vertex_home.css */
+
+/*************************** TOPIC STYLE OVERRIDES ******************************/
+#home-header-container {
+	display: flex;
+	flex-direction: row;
+	height: 200px;
+	flex-wrap: wrap;
+	align-items: center;
+	border-bottom: 1px solid #cccccc;
+	position: relative;
+	background-image: url('helpcenter_header.png');
+	background-size: cover;
+
+	background-color: #003e7a;
+	/*opacity: 0.3;*/
+	width: 100%;
+}
+
+#home-header-left {
+	display: flex;
+	flex-basis: 40%;
+	text-transform: uppercase;
+	color: white; /* matches what VE uses for this brand styling */
+	font-size: 18px;
+	align-items: center;
+	flex-shrink: 0;
+	position:absolute; top: 20px; left: 0px;
+}
+
+#home-header-left a {
+	color: #003e7a;
+	text-decoration: none;
+}
+
+#home-header-left a:visited {
+	color: #003e7a;
+}
+
+.logo-text {
+	flex-shrink: 0;
+	border-left: 1px solid #e1e1e1;
+	padding-left: 15px;
+	margin-left: 15px;
+}
+
+#home-header-right {
+	/*display: flex;
+	flex-basis: 60%;
+	/*flex-shrink: 0;*/
+	/*align-content: flex-end;
+	justify-content: flex-end;
+	align-items: flex-end;
+	position:absolute; top: 150px; left: 300px; z-index: 3; vertical-align: middle;*/
+	
+	position:relative; 
+	/*bottom: 15%;*/
+	left: 0;
+	height: auto;
+	max-height: 340px;
+	overflow-y: auto;
+	vertical-align: center;
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	width: 100%;
+}
+
+#home-header-title {
+	position:relative; 
+	top: 1%;
+	left: 0;
+	height: auto;
+	max-height: 340px;
+	overflow-y: auto;
+	vertical-align: center;
+	text-align: center;
+	/*font-size: 40px;*/
+	/*font-size: calc(35px + .15vh);*/
+	font-size: 4vmin;
+	color: white;
+	width: 100%;
+}
+
+#search-input {
+  /*margin-left: 260px; /* TODO - temporary hack; convert this to appropriate flex-box properties before finalizing */
+  border: 3px solid #cfcfcf;
+  border-radius: 30px;
+  height: 20px;
+  width: 35vw;
+  padding: 15px 45px;
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 15px;
+  background-repeat: no-repeat;
+}
+
+#search-input:focus {
+    border: 2px solid #c3d941; /* vertex grn #C1D82F */
+    background-color: white;
+    outline: none; /* necessary for Chrome or else border color looks off */
+}
+
+#search-submit-btn { /* Search Submit button */
+	width: 150px;
+	margin-left: 15px;
+	margin-right: 25px;
+	height: 50px;
+	border-color: #c3d941; /* vertex grn #C1D82F */
+	background-color: #c3d941;
+	color: #131313;
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+#home-search-submit-btn:hover {
+	border-color: #a3b536; /* darker green, same as vertexinc.com */
+	background-color: #a3b536;
+}
+
+.home-content-container {
+	display: flex;
+	background-color: #F8F8F8;
+	position: relative;
+}
+
+#home-topic-container {
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	flex-basis: 70%;
+	padding-left: 20px;
+	padding-right: 15px;
+	flex-grow: 1;
+}
+
+.content-container {
+	background-color: #f7f7f7;
+}
+
+.header-container {
+	position: relative;
+	text-align: center;
+}
+
+.header-image {
+	opacity: 0.1;
+	z-index: 1;
+}
+
+.paragraphheading {
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #003e7a;
+	text-transform: uppercase;
+}
+
+.paragraphheading a {
+	color: #222277;
+}
+
+.paragraphheading a:hover {
+	color: #222277;
+}
+
+.paragraphheading a:visited {
+	color: #003e7a;
+}
+
+.homepage-figure {
+	position: relative;
+	text-align: center;
+}
+
+.homepage-figure a:hover {
+	/*opacity: 0.5;
+	border-bottom: 3px solid #f89728;*/
+	position: relative;
+	top: -5px;
+    background: linear-gradient(90deg,#0064d6 0,#003a7a 50%,#a3b536 100%);
+}
+
+.relatedtopics {
+	display: none;
+}
+
+#feedback-survey {
+	display: none;
+}
+
+.heading1 {
+	display: none;
+}
+
+.heading2 {
+	display: none;
+}
+
+.heading3 {
+	display: none;
+}
+
+#topic-container {
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	flex-basis: 70%;
+	padding-left: 0px;
+	padding-right: 0px;
+	flex-grow: 1;
+}
+
+.homepage-tabs {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.65;
+    color: #414141;
+	background: #FFF;
+    border-bottom: 1px solid #D8D8D8;
+}
+	
+.homepage-tabs-link {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.65;
+    color: #414141;
+	background: #FFF;
+    border: 1px solid #D8D8D8;
+	padding: 10px;
+}
+	
+.homepage-tabs-link a:hover {
+    background-color: #F7F7F7;
+	box-shadow: 0 0 0px 10px #F7F7F7;
+}
+
+.homepage-tabs-active {
+	font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.65;
+	background-color: #0090CD;
+    border: 1px solid #0090CD;
+    color: #FFF;
+	padding: 10px;
+}
+	
+a {
+    color: #0090CD;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all .35s ease-out;
+}
+
+.homepage-tabs {
+    display: none;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.homepage-tabs {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+}
+
+.homepage-tabs {
+    display: flex;
+    -webkit-flex: 1 0 100%;
+    -ms-flex: 1 0 100%;
+    flex: 1 0 100%;
+    max-width: 100%;
+}
+
+.homepage-tabs a {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+}
+
+
+
+/******END TOPIC STYLE OVERRIDES ************************************************/
+
+/* Responsive breakpoints */
+/* To accommodate tablet viewports such as iPad in portrait width 768px */
+@media only screen and (max-width: 850px) {
+	#home-header-title {
+        padding-top: 25px;
+        padding-left: 0px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	
+}

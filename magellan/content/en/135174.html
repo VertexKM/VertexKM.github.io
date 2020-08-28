@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<div id="135174" data-aitid="135174" data-modifieddate="2020-08-26" data-aitvariantparent="0" class="knowledgearticle_troubleshooting">
+   <script type="text/javascript">$('[data-toggle="popover"]').popover(); </script>
+   
+   <h4>Internal example: Reporting Purge: RDBVatReturnsExportStatus table</h4>
+   <p class="heading2">Problem</p>
+   <p class="bodytext">If a customer runs a Reporting Purge in O Series 7.0 or 8.0, and the <span class="procedurecodeinsentence">RDBVatReturnsExportStatus</span> table is not purged during the process, the customer may experience an issue when
+      the Transaction Data Upgrade Utility is run for O Series 7.0 to 8.0 and O Series 8.0
+      to 9.0.</p>
+   <p class="heading2">Solution</p>
+   <p class="bodytext">To diagnose this issue, check the <span class="procedurecodeinsentence">RDBVatReturnsExportStatus</span> table and ensure that all <span class="procedurecodeinsentence">lineItems</span> that are used in the <span class="procedurecodeinsentence">lineItemId</span> column exist in the <span class="procedurecodeinsentence">RBDLineItemRef</span> table. Also, remove any items in the <span class="procedurecodeinsentence">RDBVatReturnsExportStatus</span> table that do not have corresponding items in the <span class="procedurecodeinsentence">RBDLineItemRef</span> table. </p>
+   <p class="bodytext"></p>
+</div>
