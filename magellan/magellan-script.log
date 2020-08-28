@@ -1,35 +1,35 @@
 web.xslt found in C:\Program Files\Author-it\Transformations\
  
-[28-Aug-2020 09:48:16:AM] Generate Magellan output started
+[28-Aug-2020 10:06:58:AM] Generate Magellan output started
 ----------------------------------------------
  
-[28-Aug-2020 09:48:16:AM] Saxon Transform started
-[28-Aug-2020 09:48:31:AM] Saxon Transform completed
+[28-Aug-2020 10:06:58:AM] Saxon Transform started
+[28-Aug-2020 10:07:13:AM] Saxon Transform completed
 ----------------------------------------------
  
-[28-Aug-2020 09:48:31:AM] Building Search Index started
-[28-Aug-2020 09:48:33:AM] Building Search Index completed
+[28-Aug-2020 10:07:13:AM] Building Search Index started
+[28-Aug-2020 10:07:14:AM] Building Search Index completed
 ----------------------------------------------
  
-[28-Aug-2020 09:48:33:AM] Delete unwanted files started
-[28-Aug-2020 09:48:33:AM] Skipped deleting metadataindex.json file not found
-[28-Aug-2020 09:48:33:AM] Skipped deleting sitemap.xml file not found
-[28-Aug-2020 09:48:33:AM] Delete unwanted files completed
+[28-Aug-2020 10:07:14:AM] Delete unwanted files started
+[28-Aug-2020 10:07:14:AM] Skipped deleting metadataindex.json file not found
+[28-Aug-2020 10:07:14:AM] Skipped deleting sitemap.xml file not found
+[28-Aug-2020 10:07:14:AM] Delete unwanted files completed
 ----------------------------------------------
  
-[28-Aug-2020 09:48:33:AM] Move Published Content into Sub folder started
-[28-Aug-2020 09:48:40:AM] Move Published Content into Sub folder completed
+[28-Aug-2020 10:07:14:AM] Move Published Content into Sub folder started
+[28-Aug-2020 10:07:21:AM] Move Published Content into Sub folder completed
 ----------------------------------------------
  
-[28-Aug-2020 09:48:40:AM] Copy Magellan Engine to Publishing Folder started
-[28-Aug-2020 09:48:42:AM] Copy Magellan Engine to Publishing Folder completed
+[28-Aug-2020 10:07:21:AM] Copy Magellan Engine to Publishing Folder started
+[28-Aug-2020 10:07:23:AM] Copy Magellan Engine to Publishing Folder completed
 ----------------------------------------------
  
-[28-Aug-2020 09:48:42:AM] Copy Magellan Themes to Publishing Folder started
-[28-Aug-2020 09:48:43:AM] Copy Magellan Theme to Publishing Folder completed
+[28-Aug-2020 10:07:23:AM] Copy Magellan Themes to Publishing Folder started
+[28-Aug-2020 10:07:25:AM] Copy Magellan Theme to Publishing Folder completed
 ----------------------------------------------
  
-[28-Aug-2020 09:48:43:AM] Copy the output to the web server folder started
-[28-Aug-2020 09:48:48:AM] Copy the output to the web server folder completed
+[28-Aug-2020 10:07:25:AM] Copy the output to the web server folder started
+[28-Aug-2020 10:07:29:AM] Copy the output to the web server folder completed
 ----------------------------------------------
  
