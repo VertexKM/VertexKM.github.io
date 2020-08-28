@@ -2,34 +2,26 @@
  *   Theme:         Author-it Magellan Theme Override Stylesheet
  *   Author:        Author-it Software Corp (http://www.author-it.com)
  *   Copyright:     Author-it Software Corp, All Rights Reserved
- *   Last Updated:  12-Apr-2020
- *   Version:       2020.R2
- *
- *   IMPORTANT:     This file is where all your customisations and overides should appear.
- *                  DO NOT modify the mainstyles.css file but instead create a copy of the 
- *					themestyles.css file into the Data\Templates\Magellan Themes\YourThemeName\ 
- *					then make changes is the variable values below, or for advanced changes 
- *                  find and copy the CSS rules you want to change from mainstyles.css 
- *					into this file, then make your changes.
- *
+ *   Last Updated:  1-Apr-2020
+ *   Version:       2020.R1
  *******************************************************************************/
 
 
 html {
-/* base colors */
-    --primary-color: #FE8C00;
-    --primary-light-color: #FFBA6E;
-    --secondary-color: #3688BF;
-    --secondary-light-color: #C7E2F2;
+    /* base colors */
+    --primary-color: #3688BF;
+    --primary-light-color: #C7E2F2;
+    --secondary-color: #FE8C00;
+    --secondary-light-color: #FFBA6E;
     --dark-gray-color: #404040;
     --gray-color: #6C6C6C;
     --medium-gray-color: #AAAAAA;
     --light-gray-color: #CECECE;
-/* functional colors */
+    /* functional colors */
     --background-color: white;
     --landing-bg-color: white;
     --heading-bg-color: var(--light-gray-color);
-    --panel-head-bg-color: var(--light-gray-color);
+    --panel-head-bg-color: var(--primary-color);
     --widget-head-bg-color: var(--light-gray-color);
     --footer-bg-color: var(--light-gray-color);
     --content-bg-color: white;
@@ -40,21 +32,18 @@ html {
     --form-bg-color: white;
     --widget-bg-color: white;
     --text-color: var(--dark-gray-color);
-    --title-color:white;
-    --title-outline-color:black;
     --footer-text-color: var(--dark-gray-color);
     --heading-text-color: var(--dark-gray-color);
-    --panel-head-text-color: var(--dark-gray-color);
+    --panel-head-text-color: white;
     --widget-head-text-color: var(--dark-gray-color);
     --button-text-color: var(--dark-gray-color);
     --active-btn-text-color: var(--dark-gray-color);
     --submit-btn-text-color: white;
     --shadow-color: var(--light-gray-color);
-/* functional elements */
+    /* functional elements */
     --border-radius-small: 2px;
     --border-radius-large: 4px;
-    --transition-speed: 0.4s;
-/* default icons - FontAwesome */
+    /* default icons - FontAwesome */
     --toc-open: '\f0d7';
     --toc-closed: '\f0da';
     --left-pane-open: '\f104';
@@ -73,4 +62,14 @@ html {
     --expand-inline-closed: '\f105';
     --expand-block-open: '\f106';
     --expand-block-closed: '\f107';
+}
+
+/* add top border to nav bar */
+nav.navbar.navbar-default > div.container {
+    border-top:2px solid orange;
+
+}
+
+.right_block {
+    margin:0;
 }
