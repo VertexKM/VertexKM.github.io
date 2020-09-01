@@ -1,5 +1,5 @@
-[32m2020-08-28T10:26:42-0400 <info> search_index_builder.js:136 (Object.<anonymous>) outPutPath=>C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\searchindex.json[39m
-[32m2020-08-28T10:26:42-0400 <info> search_index_builder.js:137 (Object.<anonymous>) language=>en-us[39m
-[32m2020-08-28T10:26:42-0400 <info> search_index_builder.js:266 (Object.<anonymous>) en-us : language not Supported [39m
-[32m2020-08-28T10:26:42-0400 <info> search_index_builder.js:135 (Object.<anonymous>) inputPath=>C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\metadataindex.json[39m
-[32m2020-08-28T10:26:42-0400 <info> search_index_builder.js:134 (Object.<anonymous>) inputFolder=>C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center[39m
+[32m2020-09-01T10:20:35-0400 <info> search_index_builder.js:134 (Object.<anonymous>) inputFolder=>C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center[39m
+[32m2020-09-01T10:20:35-0400 <info> search_index_builder.js:135 (Object.<anonymous>) inputPath=>C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\metadataindex.json[39m
+[32m2020-09-01T10:20:35-0400 <info> search_index_builder.js:266 (Object.<anonymous>) en-us : language not Supported [39m
+[32m2020-09-01T10:20:35-0400 <info> search_index_builder.js:136 (Object.<anonymous>) outPutPath=>C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\searchindex.json[39m
+[32m2020-09-01T10:20:35-0400 <info> search_index_builder.js:137 (Object.<anonymous>) language=>en-us[39m

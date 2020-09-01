@@ -3,7 +3,7 @@
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Friday, August 28, 2020 10:26:43 AM
+  Started : Tuesday, September 01, 2020 10:20:36 AM
    Source : C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\
      Dest : C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\content\en\
 
@@ -65,7 +65,6 @@ Exc Files : KM Knowledge Center.xml
 	    New File  		    1374	135174.html  0%  100%  
 	    New File  		     422	135213.html  0%  100%  
 	    New File  		   10742	135216.html  0%  100%  
-	    New File  		    2515	135217.png  0%  100%  
 	    New File  		    1107	135219.html  0%  100%  
 	    New File  		     538	135229.html  0%  100%  
 	    New File  		    2281	135230.html  0%  100%  
@@ -288,25 +287,26 @@ Exc Files : KM Knowledge Center.xml
 	    New File  		     353	135503.png  0%  100%  
 	    New File  		     387	135504.png  0%  100%  
 	    New File  		   52609	135505.png  0%  100%  
-	    New File  		   17102	135818.png  0%  100%  
-	    New File  		    5471	135819.png  0%  100%  
+	    New File  		    8233	135818.png  0%  100%  
+	    New File  		    7814	135822.png  0%  100%  
+	    New File  		    3089	135823.png  0%  100%  
 	    New File  		   10340	19936.gif  0%  100%  
 	    New File  		     216	footer.json  0%  100%  
 	    New File  		    2361	f_109.html  0%  100%  
 	    New File  		    6118	f_121286.html  0%  100%  
 	    New File  		     142	f_135111.html  0%  100%  
 	    New File  		     283	f_4756.html  0%  100%  
-	    New File  		     945	landingpage.json  0%  100%  
+	    New File  		     986	landingpage.json  0%  100%  
 	    New File  		     140	l_135096.html  0%  100%  
 	    New File  		     147	l_135098.html  0%  100%  
-	    New File  		     337	l_135809.html  0%  100%  
-	    New File  		     350	l_135810.html  0%  100%  
-	    New File  		     355	l_135811.html  0%  100%  
-	    New File  		     465	l_135812.html  0%  100%  
-	    New File  		     367	l_135813.html  0%  100%  
-	    New File  		     273	l_135814.html  0%  100%  
-	    New File  		     209	l_135815.html  0%  100%  
-	    New File  		     209	l_135816.html  0%  100%  
+	    New File  		     384	l_135809.html  0%  100%  
+	    New File  		     321	l_135810.html  0%  100%  
+	    New File  		     330	l_135811.html  0%  100%  
+	    New File  		     247	l_135812.html  0%  100%  
+	    New File  		     339	l_135813.html  0%  100%  
+	    New File  		     244	l_135814.html  0%  100%  
+	    New File  		     416	l_135815.html  0%  100%  
+	    New File  		     410	l_135816.html  0%  100%  
 	    New File  		    1354	open_parent.js  0%  100%  
 	    New File  		   79866	toc.json  0%  100%  
 
@@ -315,23 +315,23 @@ Exc Files : KM Knowledge Center.xml
                Total    Copied   Skipped  Mismatch    FAILED    Extras
     Dirs :         2         1         1         0         0         0
    Files :       294       290         4         0         0         0
-   Bytes :    2.42 m    2.41 m     6.1 k         0         0         0
-   Times :   0:00:07   0:00:07                       0:00:00   0:00:00
+   Bytes :    2.41 m    2.41 m     6.1 k         0         0         0
+   Times :   0:00:04   0:00:04                       0:00:00   0:00:00
 
 
-   Speed :              350626 Bytes/sec.
-   Speed :              20.063 MegaBytes/min.
-   Ended : Friday, August 28, 2020 10:26:50 AM
+   Speed :              603220 Bytes/sec.
+   Speed :              34.516 MegaBytes/min.
+   Ended : Tuesday, September 01, 2020 10:20:40 AM
 
 
-2020/08/28 10:26:50 ERROR 32 (0x00000020) Deleting Source Directory C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\
+2020/09/01 10:20:40 ERROR 32 (0x00000020) Deleting Source Directory C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\
 The process cannot access the file because it is being used by another process.
 
 -------------------------------------------------------------------------------
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Friday, August 28, 2020 10:26:50 AM
+  Started : Tuesday, September 01, 2020 10:20:40 AM
    Source : C:\Program Files\Author-it\Engines\Magellan\
      Dest : C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\
 
@@ -345,8 +345,8 @@ The process cannot access the file because it is being used by another process.
 	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\content\
 	  *EXTRA File 		     812	indexerLog.log
 	  *EXTRA File 		    1093	magellan-script.log
-	  *EXTRA File 		   17065	robocopy.log
-	  *EXTRA File 		    4572	saxon.log
+	  *EXTRA File 		   17073	robocopy.log
+	  *EXTRA File 		    4568	saxon.log
 	    New File  		   12491	3rdpartylicenses.txt
 	    New File  		    5430	favicon.ico
 	    New File  		    2699	index.html
@@ -470,78 +470,16 @@ The process cannot access the file because it is being used by another process.
    Times :   0:00:01   0:00:00                       0:00:00   0:00:00
 
 
-   Speed :             5147315 Bytes/sec.
-   Speed :             294.531 MegaBytes/min.
-   Ended : Friday, August 28, 2020 10:26:51 AM
+   Speed :             5318892 Bytes/sec.
+   Speed :             304.349 MegaBytes/min.
+   Ended : Tuesday, September 01, 2020 10:20:41 AM
 
 
 -------------------------------------------------------------------------------
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Friday, August 28, 2020 10:26:52 AM
-   Source : \\corporate\shares\AuthorIT\NewData\Templates\Magellan\Red\
-     Dest : C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\
-
-    Files : *.*
-	    
-  Options : *.* /S /E /DCOPY:DA /COPY:DAT /NP /R:1000000 /W:30 
-
-------------------------------------------------------------------------------
-
-	                   0	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Red\
-	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\
-	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\content\
-	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\fonts\
-	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\images\
-	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\js\
-	  *EXTRA File 		   12491	3rdpartylicenses.txt
-	  *EXTRA File 		    5430	favicon.ico
-	  *EXTRA File 		    2699	index.html
-	  *EXTRA File 		     812	indexerLog.log
-	  *EXTRA File 		     798	inline.31e1fb380eb7cf3d75b1.bundle.js
-	  *EXTRA File 		    5083	logo.png
-	  *EXTRA File 		    1300	magellan-script.log
-	  *EXTRA File 		  406857	main.bb1f61b7092385f4ba1e.bundle.js
-	  *EXTRA File 		  115285	polyfills.ef59c4914bd69e024385.bundle.js
-	  *EXTRA File 		   24954	robocopy.log
-	  *EXTRA File 		    4572	saxon.log
-	  *EXTRA File 		  404323	scripts.6e22b6b7916fdc122797.bundle.js
-	  *EXTRA File 		    4179	siteconfig.json
-	  *EXTRA File 		       0	styles.ac89bfdd6de82636b768.bundle.css
-	  *EXTRA File 		  777878	vendor.e4d437197b465110d9e5.bundle.js
-	  *EXTRA File 		       8	version
-	                   1	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Red\css\
-	  *EXTRA File 		    3121	32px.png
-	  *EXTRA File 		    1880	40px.png
-	  *EXTRA File 		  187820	allcss.min.css
-	  *EXTRA File 		   50196	bootstrap-rtl.min.css
-	  *EXTRA File 		   23186	contentstyles.css
-	  *EXTRA File 		   29063	font-awesome.min.css
-	  *EXTRA File 		     711	jquery.rateyo.min.css
-	  *EXTRA File 		   81350	mainstyles.css
-	  *EXTRA File 		    1720	throbber.gif
-	    Older     		    3092	themestyles.css
-
-------------------------------------------------------------------------------
-
-               Total    Copied   Skipped  Mismatch    FAILED    Extras
-    Dirs :         2         0         2         0         0         5
-   Files :         1         1         0         0         0        25
-   Bytes :     3.0 k     3.0 k         0         0         0    2.04 m
-   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
-
-
-   Speed :               22244 Bytes/sec.
-   Speed :               1.272 MegaBytes/min.
-   Ended : Friday, August 28, 2020 10:26:52 AM
-
-
--------------------------------------------------------------------------------
-   ROBOCOPY     ::     Robust File Copy for Windows                              
--------------------------------------------------------------------------------
-
-  Started : Friday, August 28, 2020 10:26:53 AM
+  Started : Tuesday, September 01, 2020 10:20:41 AM
    Source : C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\
      Dest : C:\inetpub\wwwroot\magellan\135817\
 
@@ -553,9 +491,9 @@ The process cannot access the file because it is being used by another process.
 
 	                  16	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\
 	    Newer     		     812	indexerLog.log
-	    Newer     		    1505	magellan-script.log
-	    Newer     		   27829	robocopy.log
-	    Newer     		    4572	saxon.log
+	    Newer     		    1439	magellan-script.log
+	    Newer     		   24674	robocopy.log
+	    Newer     		    4568	saxon.log
 	                   0	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\
 	                   0	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\
 	                   2	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\assets\resources\ar\
@@ -581,6 +519,7 @@ The process cannot access the file because it is being used by another process.
 	                 290	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\content\en\
 	  *EXTRA File 		    5508	135211.png
 	  *EXTRA File 		    5471	135214.png
+	  *EXTRA File 		    2515	135217.png
 	  *EXTRA File 		    1424	135246.html
 	  *EXTRA File 		    4533	135444.png
 	  *EXTRA File 		    4955	135446.png
@@ -616,6 +555,7 @@ The process cannot access the file because it is being used by another process.
 	  *EXTRA File 		    3345	135508.png
 	  *EXTRA File 		    3200	135510.png
 	  *EXTRA File 		    2522	135512.png
+	  *EXTRA File 		    5471	135819.png
 	  *EXTRA File 		    5084	body_template_HomePage.htm
 	  *EXTRA File 		  740521	helpcenter_header.png
 	  *EXTRA File 		      51	index.json
@@ -677,7 +617,6 @@ The process cannot access the file because it is being used by another process.
 	    Newer     		    1374	135174.html
 	    Newer     		     422	135213.html
 	    Newer     		   10742	135216.html
-	    Newer     		    2515	135217.png
 	    Newer     		    1107	135219.html
 	    Newer     		     538	135229.html
 	    Newer     		    2281	135230.html
@@ -900,44 +839,44 @@ The process cannot access the file because it is being used by another process.
 	    Newer     		     353	135503.png
 	    Newer     		     387	135504.png
 	    Newer     		   52609	135505.png
-	    Newer     		   17102	135818.png
-	    Newer     		    5471	135819.png
+	    Newer     		    8233	135818.png
+	    New File  		    7814	135822.png
+	    New File  		    3089	135823.png
 	    Newer     		   10340	19936.gif
 	    Newer     		     216	footer.json
 	    Newer     		    2361	f_109.html
 	    Newer     		    6118	f_121286.html
 	    Newer     		     142	f_135111.html
 	    Newer     		     283	f_4756.html
-	    Newer     		     945	landingpage.json
+	    Newer     		     986	landingpage.json
 	    Newer     		     140	l_135096.html
 	    Newer     		     147	l_135098.html
-	    Newer     		     337	l_135809.html
-	    Newer     		     350	l_135810.html
-	    Newer     		     355	l_135811.html
-	    Newer     		     465	l_135812.html
-	    Newer     		     367	l_135813.html
-	    Newer     		     273	l_135814.html
-	    Newer     		     209	l_135815.html
-	    Newer     		     209	l_135816.html
+	    Newer     		     384	l_135809.html
+	    Newer     		     321	l_135810.html
+	    Newer     		     330	l_135811.html
+	    Newer     		     247	l_135812.html
+	    Newer     		     339	l_135813.html
+	    Newer     		     244	l_135814.html
+	    Newer     		     416	l_135815.html
+	    Newer     		     410	l_135816.html
 	    Newer     		    1354	open_parent.js
 	    Newer     		   79866	toc.json
 	                  10	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\css\
-	    Changed   		    3092	themestyles.css
+	    Newer     		    3074	themestyles.css
 	                  11	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\fonts\
 	                  30	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\images\
-	    Newer     		  980125	landing_bg.jpg
 	                   4	C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center\js\
 
 ------------------------------------------------------------------------------
 
                Total    Copied   Skipped  Mismatch    FAILED    Extras
     Dirs :        28         0        28         0         0         0
-   Files :       382       296        86         0         0        52
-   Bytes :    7.16 m    3.38 m    3.77 m         0         0   952.4 k
-   Times :   0:00:03   0:00:03                       0:00:00   0:00:00
+   Files :       382       295        87         0         0        54
+   Bytes :    7.15 m    2.44 m    4.71 m         0         0   960.2 k
+   Times :   0:00:04   0:00:04                       0:00:00   0:00:00
 
 
-   Speed :              928179 Bytes/sec.
-   Speed :              53.110 MegaBytes/min.
-   Ended : Friday, August 28, 2020 10:26:56 AM
+   Speed :              584145 Bytes/sec.
+   Speed :              33.425 MegaBytes/min.
+   Ended : Tuesday, September 01, 2020 10:20:46 AM
 
