@@ -1,4 +1,4 @@
-Publishing KM Knowledge Center (135817) to Resolved XML started at 10:18:09 AM
+Publishing KM Knowledge Center (135817) to Resolved XML started at 9:03:39 AM
 Finding book relationships
 667 objects found in 0 minutes 1 seconds
 Object not exported - no read permissions (30)
@@ -11,16 +11,16 @@ Exporting Objects
 Object not exported - no read permissions (30)
 Object not exported - no read permissions (31)
 Copying additional files
-Action - Publishing to Xml (2 Minute(s) 10 Second(s))
+Action - Publishing to Xml (1 Minute(s) 54 Second(s))
 Executing After Publish Actions
    Command Line: Compile Magallan Site
    Filename: "c:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"
-   Arguments: -WindowStyle Hidden -ExecutionPolicy bypass -File "C:\Program Files\Author-it\Compilers\Magellan\magellan.ps1" -PublishFolder "C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center" -SaxonFolder "C:\Program Files\Saxonica\SaxonPE9.9N" -ResolvedXML "KM Knowledge Center.xml" -LocaleCode "en-us" -MagellanFolder "C:\Program Files\Author-it\Engines\Magellan" -IndexerFolder "C:\Program Files\Author-it\Compilers\Magellan" -LibraryPath "\\corporate\shares\AuthorIT\NewData\Libraries" -ThemeFolder "\\corporate\shares\AuthorIT\NewData\Templates\Magellan\(default)" -ContentFolder "en" -WebserverFolder "C:\inetpub\wwwroot\magellan\135817"
-   Process-id: 11892
-   Start time: 9/1/2020 10:20:22 AM
-   End time: 9/1/2020 10:20:46 AM
+   Arguments: -WindowStyle Hidden -ExecutionPolicy bypass -File "C:\Program Files\Author-it\Compilers\Magellan\magellan.ps1" -PublishFolder "C:\Program Files\Author-it\Publishing\KM Knowledge Center\Magellan Help Center" -SaxonFolder "C:\Program Files\Saxonica\SaxonPE9.9N" -ResolvedXML "KM Knowledge Center.xml" -LocaleCode "en-us" -MagellanFolder "C:\Program Files\Author-it\Engines\Magellan" -IndexerFolder "C:\Program Files\Author-it\Compilers\Magellan" -LibraryPath "\\corporate\shares\AuthorIT\NewData\Libraries" -ThemeFolder "\\corporate\shares\AuthorIT\NewData\Templates\Magellan\VertexKM" -ContentFolder "en" -WebserverFolder "C:\inetpub\wwwroot\magellan\135817"
+   Process-id: 33576
+   Start time: 9/2/2020 9:05:35 AM
+   End time: 9/2/2020 9:06:24 AM
    Exit code: 0
-Command Line - Compile Magallan Site (24 Second(s))
+Command Line - Compile Magallan Site (48 Second(s))
 Configure Output Location: Open Magellan Output
 Checking Hyperlinks
 Object Hypertext-Link 'About sending emails with Flow' (135523) does not have any targets in this book
@@ -28,4 +28,4 @@ Object Hypertext-Link 'Help welcome page - 201' (135612) does not have any targe
 Object Hypertext-Link 'About Author-it book templates' (135671) does not have any targets in this book
 Object Hypertext-Link 'Knowledge Management Training Home Page' (135689) does not have any targets in this book
 Object Hypertext-Link 'Overview' (135806) does not have any targets in this book
-Publishing KM Knowledge Center (135817) to Resolved XML finished at 10:20:48 AM
+Publishing KM Knowledge Center (135817) to Resolved XML finished at 9:06:26 AM
