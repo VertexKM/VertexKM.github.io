@@ -92,7 +92,7 @@ html {
 
 /* Site title - comes from the Book Web Title property of the Book */
 .mainpage_block.jumbotron > h1 {
-    margin: 20px 0 0 0;
+    margin: 15px 0 0 0;
     color: var(--title-color);
     font-weight: 600;
     font-size: 28px;
@@ -101,7 +101,7 @@ html {
 
 /* Site sub-title - comes from the Book Web Super Title property of the Book */
 .mainpage_block.jumbotron > p {
-    margin: 40px 0 0 0; 
+    margin: 20px 0 0 0; 
     color: var(--title-color);
     font-size: 24px;
     font-weight:500;
