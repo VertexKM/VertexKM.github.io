@@ -74,3 +74,10 @@ html {
     --expand-block-open: '\f106';
     --expand-block-closed: '\f107';
 }
+.landing_bg {
+    background-image: url(../images/landing_bg.jpg);
+    *background-position:right -100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
