@@ -3,9 +3,9 @@
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Thursday, September 03, 2020 9:31:21 AM
-   Source : C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\
-     Dest : C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\content\en\
+  Started : Thursday, September 03, 2020 3:38:44 PM
+   Source : C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\
+     Dest : C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\content\en\
 
     Files : *.*
 	    
@@ -18,7 +18,7 @@ Exc Files : Knowledge Management Knowledge Center.xml
 
 ------------------------------------------------------------------------------
 
-	  New Dir        293	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\
+	  New Dir        297	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\
 	    New File  		     355	124.gif  0%  100%  
 	    New File  		     353	125.gif  0%  100%  
 	    New File  		     357	126.gif  0%  100%  
@@ -290,11 +290,11 @@ Exc Files : Knowledge Management Knowledge Center.xml
 	    New File  		    5476	135822.png  0%  100%  
 	    New File  		    7730	135823.png  0%  100%  
 	    New File  		   10340	19936.gif  0%  100%  
-	    New File  		     216	footer.json  0%  100%  
+	    New File  		     167	footer.json  0%  100%  
 	    New File  		    2361	f_109.html  0%  100%  
 	    New File  		    6118	f_121286.html  0%  100%  
 	    New File  		     142	f_135111.html  0%  100%  
-	    New File  		     283	f_4756.html  0%  100%  
+	    New File  		   14843	index.json  0%  100%  
 	    New File  		    1002	landingpage.json  0%  100%  
 	    New File  		     140	l_135096.html  0%  100%  
 	    New File  		     147	l_135098.html  0%  100%  
@@ -306,33 +306,37 @@ Exc Files : Knowledge Management Knowledge Center.xml
 	    New File  		     258	l_135815.html  0%  100%  
 	    New File  		     410	l_135816.html  0%  100%  
 	    New File  		     294	l_135834.html  0%  100%  
+	    New File  		      96	metadata.json  0%  100%  
+	    New File  		    5106	modifiedtopics.json  0%  100%  
 	    New File  		    1354	open_parent.js  0%  100%  
+	    New File  		       2	resources.json  0%  100%  
+	    New File  		  751231	searchindex.json  0%   34%   69%  100%  
 	    New File  		   79427	toc.json  0%  100%  
 
 ------------------------------------------------------------------------------
 
                Total    Copied   Skipped  Mismatch    FAILED    Extras
     Dirs :         2         1         1         0         0         0
-   Files :       293       289         4         0         0         0
-   Bytes :    2.41 m    2.40 m     5.9 k         0         0         0
-   Times :   0:00:13   0:00:13                       0:00:00   0:00:00
+   Files :       297       293         4         0         0         0
+   Bytes :    3.14 m    3.14 m     3.6 k         0         0         0
+   Times :   0:00:05   0:00:05                       0:00:00   0:00:00
 
 
-   Speed :              191997 Bytes/sec.
-   Speed :              10.986 MegaBytes/min.
-   Ended : Thursday, September 03, 2020 9:31:34 AM
+   Speed :              609698 Bytes/sec.
+   Speed :              34.887 MegaBytes/min.
+   Ended : Thursday, September 03, 2020 3:38:50 PM
 
 
-2020/09/03 09:31:34 ERROR 32 (0x00000020) Deleting Source Directory C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\
+2020/09/03 15:38:50 ERROR 32 (0x00000020) Deleting Source Directory C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\
 The process cannot access the file because it is being used by another process.
 
 -------------------------------------------------------------------------------
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Thursday, September 03, 2020 9:31:35 AM
+  Started : Thursday, September 03, 2020 3:38:50 PM
    Source : C:\Program Files\Author-it\Engines\Magellan\
-     Dest : C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\
+     Dest : C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\
 
     Files : *.*
 	    
@@ -341,11 +345,11 @@ The process cannot access the file because it is being used by another process.
 ------------------------------------------------------------------------------
 
 	                  12	C:\Program Files\Author-it\Engines\Magellan\
-	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\content\
-	  *EXTRA File 		     665	indexerLog.log
-	  *EXTRA File 		    1093	magellan-script.log
-	  *EXTRA File 		   17110	robocopy.log
-	  *EXTRA File 		    4572	saxon.log
+	*EXTRA Dir        -1	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\content\
+	  *EXTRA File 		    1210	indexerLog.log
+	  *EXTRA File 		     944	magellan-script.log
+	  *EXTRA File 		   17381	robocopy.log
+	  *EXTRA File 		    1762	saxon.log
 	    New File  		   12491	3rdpartylicenses.txt
 	    New File  		    5430	favicon.ico
 	    New File  		    2699	index.html
@@ -465,22 +469,22 @@ The process cannot access the file because it is being used by another process.
                Total    Copied   Skipped  Mismatch    FAILED    Extras
     Dirs :        26        25         1         0         0         1
    Files :        88        88         0         0         0         4
-   Bytes :    4.71 m    4.71 m         0         0         0    22.8 k
-   Times :   0:00:03   0:00:03                       0:00:00   0:00:00
+   Bytes :    4.71 m    4.71 m         0         0         0    20.7 k
+   Times :   0:00:01   0:00:01                       0:00:00   0:00:00
 
 
-   Speed :             1566361 Bytes/sec.
-   Speed :              89.627 MegaBytes/min.
-   Ended : Thursday, September 03, 2020 9:31:39 AM
+   Speed :             3805053 Bytes/sec.
+   Speed :             217.726 MegaBytes/min.
+   Ended : Thursday, September 03, 2020 3:38:52 PM
 
 
 -------------------------------------------------------------------------------
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Thursday, September 03, 2020 9:31:39 AM
+  Started : Thursday, September 03, 2020 3:38:52 PM
    Source : \\corporate\shares\AuthorIT\NewData\Templates\Magellan\VertexKM\
-     Dest : C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\
+     Dest : C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\
 
     Files : *.*
 	    
@@ -489,20 +493,20 @@ The process cannot access the file because it is being used by another process.
 ------------------------------------------------------------------------------
 
 	                   1	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\VertexKM\
-	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\
-	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\content\
-	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\fonts\
-	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\js\
+	*EXTRA Dir        -1	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\
+	*EXTRA Dir        -1	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\content\
+	*EXTRA Dir        -1	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\fonts\
+	*EXTRA Dir        -1	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\js\
 	  *EXTRA File 		   12491	3rdpartylicenses.txt
 	  *EXTRA File 		    5430	favicon.ico
 	  *EXTRA File 		    2699	index.html
-	  *EXTRA File 		     665	indexerLog.log
+	  *EXTRA File 		    1210	indexerLog.log
 	  *EXTRA File 		     798	inline.31e1fb380eb7cf3d75b1.bundle.js
-	  *EXTRA File 		    1300	magellan-script.log
+	  *EXTRA File 		    1151	magellan-script.log
 	  *EXTRA File 		  406857	main.bb1f61b7092385f4ba1e.bundle.js
 	  *EXTRA File 		  115285	polyfills.ef59c4914bd69e024385.bundle.js
-	  *EXTRA File 		   24747	robocopy.log
-	  *EXTRA File 		    4572	saxon.log
+	  *EXTRA File 		   25032	robocopy.log
+	  *EXTRA File 		    1762	saxon.log
 	  *EXTRA File 		  404323	scripts.6e22b6b7916fdc122797.bundle.js
 	  *EXTRA File 		    4179	siteconfig.json
 	  *EXTRA File 		       0	styles.ac89bfdd6de82636b768.bundle.css
@@ -521,7 +525,7 @@ The process cannot access the file because it is being used by another process.
 	  *EXTRA File 		    1720	throbber.gif
 	    New File  		    3073	themestyles - Copy.css
 	    Newer     		    4190	themestyles.css
-	                   6	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\VertexKM\images\
+	                   5	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\VertexKM\images\
 	  *EXTRA File 		     701	add_fav_icon.png
 	  *EXTRA File 		    1147	arrow_right.png
 	  *EXTRA File 		    1105	arrow_top.png
@@ -550,8 +554,7 @@ The process cannot access the file because it is being used by another process.
 	  *EXTRA File 		    1323	word_icon.png
 	  *EXTRA File 		    3925	xls.png
 	    New File  		  633756	landing_bg-default.jpg
-	    Newer     		   16482	landing_bg.jpg
-	    New File  		  740521	landing_bg.png
+	    Newer     		  212149	landing_bg.jpg
 	    Newer     		    4544	logo.png
 	    Newer     		    4544	logo2.png
 	    New File  		   12288	Thumbs.db
@@ -560,22 +563,22 @@ The process cannot access the file because it is being used by another process.
 
                Total    Copied   Skipped  Mismatch    FAILED    Extras
     Dirs :         3         0         3         0         0         4
-   Files :         9         9         0         0         0        51
-   Bytes :    1.35 m    1.35 m         0         0         0    2.08 m
+   Files :         8         8         0         0         0        51
+   Bytes :   856.5 k   856.5 k         0         0         0    2.07 m
    Times :   0:00:01   0:00:01                       0:00:00   0:00:00
 
 
-   Speed :             1074831 Bytes/sec.
-   Speed :              61.502 MegaBytes/min.
-   Ended : Thursday, September 03, 2020 9:31:41 AM
+   Speed :              743345 Bytes/sec.
+   Speed :              42.534 MegaBytes/min.
+   Ended : Thursday, September 03, 2020 3:38:54 PM
 
 
 -------------------------------------------------------------------------------
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Thursday, September 03, 2020 9:31:41 AM
-   Source : C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\
+  Started : Thursday, September 03, 2020 3:38:54 PM
+   Source : C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\
      Dest : C:\inetpub\wwwroot\magellan\135817\
 
     Files : *.*
@@ -584,35 +587,35 @@ The process cannot access the file because it is being used by another process.
 
 ------------------------------------------------------------------------------
 
-	                  16	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\
+	                  16	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\
 	  *EXTRA File 		   6.0 m	Knowledge Management Knowledge Center.xml
-	    Newer     		     665	indexerLog.log
-	    Newer     		    1505	magellan-script.log
-	    Newer     		   29464	robocopy.log
-	    Newer     		    4572	saxon.log
-	                   0	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\
-	                   0	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\
-	                   2	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\ar\
-	                   1	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\da\
-	                   1	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\de\
-	                   1	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\en\
-	                   1	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\es\
-	                   1	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\fi\
-	                   1	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\fr\
-	                   1	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\hu\
-	                   1	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\it\
-	                   1	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\ja\
-	                   1	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\nl\
-	                   1	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\pl\
-	                   1	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\ro\
-	                   1	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\ru\
-	                   1	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\sv\
-	                   1	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\th\
-	                   1	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\tr\
-	                   1	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\vi\
-	                   2	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\zh\
-	                   0	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\content\
-	                 289	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\content\en\
+	    Newer     		    1210	indexerLog.log
+	    Newer     		    1356	magellan-script.log
+	    Newer     		   29742	robocopy.log
+	    Newer     		    1762	saxon.log
+	                   0	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\
+	                   0	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\
+	                   2	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\ar\
+	                   1	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\da\
+	                   1	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\de\
+	                   1	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\en\
+	                   1	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\es\
+	                   1	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\fi\
+	                   1	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\fr\
+	                   1	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\hu\
+	                   1	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\it\
+	                   1	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\ja\
+	                   1	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\nl\
+	                   1	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\pl\
+	                   1	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\ro\
+	                   1	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\ru\
+	                   1	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\sv\
+	                   1	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\th\
+	                   1	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\tr\
+	                   1	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\vi\
+	                   2	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\assets\resources\zh\
+	                   0	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\content\
+	                 293	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\content\en\
 	  *EXTRA File 		    5508	135211.png
 	  *EXTRA File 		    5471	135214.png
 	  *EXTRA File 		    2515	135217.png
@@ -655,14 +658,10 @@ The process cannot access the file because it is being used by another process.
 	  *EXTRA File 		    5471	135819.png
 	  *EXTRA File 		   15274	AuthorIT.xslt
 	  *EXTRA File 		    5084	body_template_HomePage.htm
+	  *EXTRA File 		     283	f_4756.html
 	  *EXTRA File 		  740521	helpcenter_header.png
-	  *EXTRA File 		      51	index.json
 	  *EXTRA File 		     339	l_135813.html
-	  *EXTRA File 		      92	metadata.json
-	  *EXTRA File 		       2	modifiedtopics.json
 	  *EXTRA File 		   85671	ResolvedXml.xsd
-	  *EXTRA File 		       2	resources.json
-	  *EXTRA File 		     268	searchindex.json
 	  *EXTRA File 		    6284	stylesheet_vertex_home.css
 	  *EXTRA File 		    1817	VertexLogo-white.png
 	  *EXTRA File 		    1984	welcome-AIT101.html
@@ -942,11 +941,11 @@ The process cannot access the file because it is being used by another process.
 	    Newer     		    5476	135822.png
 	    Newer     		    7730	135823.png
 	    Newer     		   10340	19936.gif
-	    Newer     		     216	footer.json
+	    Newer     		     167	footer.json
 	    Newer     		    2361	f_109.html
 	    Newer     		    6118	f_121286.html
 	    Newer     		     142	f_135111.html
-	    Newer     		     283	f_4756.html
+	    Newer     		   14843	index.json
 	    Newer     		    1002	landingpage.json
 	    Newer     		     140	l_135096.html
 	    Newer     		     147	l_135098.html
@@ -957,29 +956,30 @@ The process cannot access the file because it is being used by another process.
 	    Newer     		     244	l_135814.html
 	    Newer     		     258	l_135815.html
 	    Newer     		     410	l_135816.html
-	    New File  		     294	l_135834.html
+	    Newer     		     294	l_135834.html
+	    Newer     		      96	metadata.json
+	    Newer     		    5106	modifiedtopics.json
 	    Newer     		    1354	open_parent.js
+	    Newer     		       2	resources.json
+	    Newer     		  751231	searchindex.json
 	    Newer     		   79427	toc.json
-	                  11	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\css\
-	    New File  		    3073	themestyles - Copy.css
-	    Newer     		    4190	themestyles.css
-	                  11	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\fonts\
-	                  33	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\images\
-	    Newer     		   16482	landing_bg.jpg
-	    New File  		  740521	landing_bg.png
-	    New File  		   12288	Thumbs.db
-	                   4	C:\Program Files\Author-it\Publishing\Knowledge Management Knowledge Center\Magellan Help Center\js\
+	                  11	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\css\
+	                  11	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\fonts\
+	                  32	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\images\
+	  *EXTRA File 		  740521	landing_bg.png
+	    Newer     		  212149	landing_bg.jpg
+	                   4	C:\Users\jim.osborn\Documents\AIT Publishing\Knowledge Management Knowledge Center\Magellan Help Center\js\
 
 ------------------------------------------------------------------------------
 
                Total    Copied   Skipped  Mismatch    FAILED    Extras
     Dirs :        28         0        28         0         0         0
-   Files :       385       298        87         0         0        59
-   Bytes :    7.56 m    3.18 m    4.38 m         0         0    7.11 m
+   Files :       388       298        90         0         0        56
+   Bytes :    7.78 m    3.37 m    4.40 m         0         0    7.81 m
    Times :   0:00:04   0:00:04                       0:00:00   0:00:00
 
 
-   Speed :              814206 Bytes/sec.
-   Speed :              46.589 MegaBytes/min.
-   Ended : Thursday, September 03, 2020 9:31:45 AM
+   Speed :              819677 Bytes/sec.
+   Speed :              46.902 MegaBytes/min.
+   Ended : Thursday, September 03, 2020 3:38:59 PM
 
