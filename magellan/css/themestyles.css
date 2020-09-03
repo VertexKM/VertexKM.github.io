@@ -35,7 +35,7 @@ html {
     --content-bg-color: white;
     --control-bg-color: white;
     --button-bg-color: var(--light-gray-color);
-    --active-btn-bg-color: var(--primary-light-color);
+    --active-btn-bg-color: var(--secondary-light-color);
     --submit-btn-bg-color: var(--primary-color);
     --form-bg-color: white;
     --widget-bg-color: white;
