@@ -81,6 +81,7 @@ html {
     background-color: transparent !important;
     padding:0 15% 0 17%;
     margin: 20px 0 20px 0;
+	align-items: center;
 	height: 200px;
 }
 
