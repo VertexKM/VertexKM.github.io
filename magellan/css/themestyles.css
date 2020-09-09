@@ -136,6 +136,15 @@ ul.jqtree-tree li.jqtree-selected > .jqtree-element > .jqtree-title {
     font-weight:600;
 }
 
+/* search results pane */
+#shortened_search_result > div:nth-child(2)  {
+    padding:0 10px !important;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    height: calc(100% - 55px);
+	background-color: var(--light-gray-color);
+} 
+
 /* body text of search results */
 #shortened_search_result > div td {
     font-size: 14px;
