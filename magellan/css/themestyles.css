@@ -50,7 +50,7 @@ html {
     --active-btn-text-color: var(--dark-gray-color);
     --submit-btn-text-color: white;
     --shadow-color: var(--light-gray-color);
-	--banner-color: var(--dark-gray-color);
+	--banner-color: var(--light-gray-color);
 /* functional elements */
     --border-radius-small: 2px;
     --border-radius-large: 4px;
