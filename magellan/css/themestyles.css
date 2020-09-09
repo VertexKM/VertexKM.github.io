@@ -125,6 +125,17 @@ ul.jqtree-tree li.jqtree-selected > .jqtree-element > .jqtree-title {
 
 /* SEARCH RESULTS */
 
+/* title for search results */
+#shortened_search_result > div >h2 {
+    padding:10px 15px;
+    margin:0;
+    background-color: var(--secondary-light-color);
+    color: var(--heading-text-color);
+    border-bottom: 1px solid var(--light-gray-color);
+    font-size:16px;
+    font-weight:600;
+}
+
 /* body text of search results */
 #shortened_search_result > div td {
     font-size: 14px;
