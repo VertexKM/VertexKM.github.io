@@ -71,6 +71,12 @@ table.table th {
     text-decoration-style:dotted;
 }
 
+.jumptemplate_websiteinnewwindow a {
+	text-decoration:underline;
+    text-decoration-style:dotted;
+}
+
+
 /*#endregion LINKS */
 
 /*#region CONTENT  */
@@ -625,7 +631,7 @@ li.listnumber, li.s561
         font-variant: normal;
         font-weight: 600;
         font-size: 16px;
-        color: var(--dark-gray-color);
+        color: var(--primary-color);
         background-color: inherit;
         word-spacing: normal;
         letter-spacing: normal;
@@ -667,7 +673,7 @@ li.listnumber, li.s561
         font-variant: normal;
         font-weight: 600;
         font-size: 22px;
-        color: var(--dark-gray-color);
+        color: var(--primary-color);
         background-color: inherit;
         word-spacing: normal;
         letter-spacing: normal;
@@ -697,7 +703,7 @@ li.listnumber, li.s561
         font-variant: normal;
         font-weight: 600;
         font-size: 20px;
-        color: var(--dark-gray-color);
+        color: var(--primary-color);
         background-color: inherit;
         word-spacing: normal;
         letter-spacing: normal;
@@ -727,7 +733,7 @@ li.listnumber, li.s561
         font-variant: normal;
         font-weight: 600;
         font-size: 18px;
-        color: var(--dark-gray-color);
+        color: var(--primary-color);
         background-color: inherit;
         word-spacing: normal;
         letter-spacing: normal;
@@ -757,7 +763,7 @@ li.listnumber, li.s561
         font-variant: normal;
         font-weight: 600;
         font-size: 14px;
-        color: var(--dark-gray-color);
+        color: var(--primary-color);
         background-color: inherit;
         word-spacing: normal;
         letter-spacing: normal;
@@ -787,7 +793,7 @@ li.listnumber, li.s561
         font-variant: normal;
         font-weight: 600;
         font-size: 14px;
-        color: var(--dark-gray-color);
+        color: var(--primary-color);
         background-color: inherit;
         word-spacing: normal;
         letter-spacing: normal;
