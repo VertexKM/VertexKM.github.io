@@ -123,6 +123,26 @@ ul.jqtree-tree li.jqtree-selected > .jqtree-element > .jqtree-title {
     font-size:15px;
 }
 
+/* SEARCH RESULTS */
+
+/* body text of search results */
+#shortened_search_result > div td {
+    font-size: 14px;
+    padding: 10px 5px 0 5px;
+}
+
+#shortened_search_result > div td b {
+    color:var(--secondary-color);
+}
+
+/* progressbar  bar*/
+.progress .progress-bar {
+    background-color: green;
+}
+
+
+
+
 
 
 /* Title and Search bar section */
