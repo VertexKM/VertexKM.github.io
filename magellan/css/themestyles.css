@@ -107,6 +107,22 @@ ul.top_icons > li:nth-child(5), ul.m_top_icons > li.m_top_lang {
     display: none !important;
 }
 
+/* SELECTED ITEM IN CONTENTS */
+
+/* container for selected items - item in context */
+ul.jqtree-tree li.jqtree-selected > .jqtree-element {
+    border-radius: 2px;
+    border: 1px solid var(--light-gray-color);
+    box-shadow: 1px 1px 3px 1px var(--light-gray-color);
+}
+
+/* text for selected item */
+ul.jqtree-tree li.jqtree-selected > .jqtree-element > .jqtree-title {
+    color: var(--secondary-color) !important;
+    font-weight: 600;
+    font-size:15px;
+}
+
 
 
 /* Title and Search bar section */
