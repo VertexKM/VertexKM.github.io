@@ -112,8 +112,8 @@ ul.top_icons > li:nth-child(5), ul.m_top_icons > li.m_top_lang {
 /* container for selected items - item in context */
 ul.jqtree-tree li.jqtree-selected > .jqtree-element {
     border-radius: 2px;
-    border: 1px solid var(--dark-gray-color);
-    box-shadow: 1px 1px 3px 1px var(--dark-gray-color);
+    border: 1px solid var(--light-gray-color);
+    box-shadow: 1px 1px 3px 1px var(--medium-gray-color);
 }
 
 /* text for selected item */
