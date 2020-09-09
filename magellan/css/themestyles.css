@@ -25,6 +25,7 @@ html {
     --gray-color: #6C6C6C;
     --medium-gray-color: #A3A7AA;
     --light-gray-color: #F5F5F5;
+	
 /* functional colors */
     --background-color: white;
     --landing-bg-color: white;
@@ -51,10 +52,12 @@ html {
     --submit-btn-text-color: white;
     --shadow-color: var(--light-gray-color);
 	--banner-color: var(--medium-gray-color);
+	
 /* functional elements */
     --border-radius-small: 2px;
     --border-radius-large: 4px;
     --transition-speed: 0.4s;
+	
 /* default icons - FontAwesome */
     --toc-open: '\f0d7';
     --toc-closed: '\f0da';
@@ -83,6 +86,28 @@ html {
 body {
 	font-family: 'Montserrat', sans-serif;
 }
+
+/* HIDE NAV ICONS */
+/* Hamburger Icon
+ul.top_icons > li:nth-child(1), ul.m_top_icons > li.m_top_menu {
+    display: none !important;
+}*/
+
+/* Settings Icon */
+ul.top_icons > li:nth-child(3), ul.m_top_icons > li.m_top_config {
+    /*display: none !important;*/
+}
+/* Help Icon*/
+ul.top_icons > li:nth-child(4), ul.m_top_icons > li.m_top_help {
+    /*display: none !important;*/
+}
+
+/* Language Dropdown
+ul.top_icons > li:nth-child(5), ul.m_top_icons > li.m_top_lang {
+    /*display: none !important;*/
+}*/
+
+
 
 /* Title and Search bar section */
 .mainpage_block.jumbotron {
