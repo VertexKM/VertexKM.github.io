@@ -95,17 +95,17 @@ ul.top_icons > li:nth-child(1), ul.m_top_icons > li.m_top_menu {
 
 /* Settings Icon */
 ul.top_icons > li:nth-child(3), ul.m_top_icons > li.m_top_config {
-    /*display: none !important;*/
+    display: none !important;
 }
 /* Help Icon*/
 ul.top_icons > li:nth-child(4), ul.m_top_icons > li.m_top_help {
     /*display: none !important;*/
 }
 
-/* Language Dropdown
+/* Language Dropdown*/
 ul.top_icons > li:nth-child(5), ul.m_top_icons > li.m_top_lang {
-    /*display: none !important;*/
-}*/
+    display: none !important;
+}
 
 
 
