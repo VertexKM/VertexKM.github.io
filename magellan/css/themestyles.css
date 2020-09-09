@@ -78,6 +78,12 @@ html {
 
 /* Additional customizations from the main CSS */
 
+/* APPLICATION FONT */
+
+body {
+	font-family: "Arial", verdana, arial, helvetica, sans-serif;
+}
+
 /* Title and Search bar section */
 .mainpage_block.jumbotron {
     background-color: transparent !important;
