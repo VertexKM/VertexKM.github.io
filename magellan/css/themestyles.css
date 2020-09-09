@@ -161,8 +161,43 @@ ul.jqtree-tree li.jqtree-selected > .jqtree-element > .jqtree-title {
 }
 
 
+/* SOCIAL ICONS */
 
+/* hide share menu option */
+.topic_right_icons > li:nth-child(2) {
+    display: none;
+}
 
+/* center icons becuase when you turn some off it looks odd*/
+ul.share_social {
+    text-align:center;
+}
+
+/* Facebook Icon*/
+ul.share_social > li:nth-child(1)  {
+    display: none !important;
+}
+
+/* LinkedIn Icon*/
+ul.share_social > li:nth-child(2)  {
+    display: none !important;
+}
+
+/* Twitter Icon*/
+ul.share_social > li:nth-child(3)  {
+    display: none !important;
+}
+
+/* Email Icon*/
+ul.share_social > li:nth-child(4)  {
+    /*display: none !important;*/
+}
+
+/* FOOTER Topics container */
+
+div#content_container_static {
+    padding: 20px;
+}
 
 
 /* Title and Search bar section */
