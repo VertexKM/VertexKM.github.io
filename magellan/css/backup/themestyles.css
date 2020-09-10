@@ -25,7 +25,6 @@ html {
     --gray-color: #6C6C6C;
     --medium-gray-color: #A3A7AA;
     --light-gray-color: #F5F5F5;
-	
 /* functional colors */
     --background-color: white;
     --landing-bg-color: white;
@@ -51,13 +50,10 @@ html {
     --active-btn-text-color: var(--dark-gray-color);
     --submit-btn-text-color: white;
     --shadow-color: var(--light-gray-color);
-	--banner-color: var(--medium-gray-color);
-	
 /* functional elements */
     --border-radius-small: 2px;
     --border-radius-large: 4px;
     --transition-speed: 0.4s;
-	
 /* default icons - FontAwesome */
     --toc-open: '\f0d7';
     --toc-closed: '\f0da';
@@ -81,153 +77,34 @@ html {
 
 /* Additional customizations from the main CSS */
 
-/* APPLICATION FONT */
-
-body {
-	font-family: 'Montserrat', sans-serif;
-}
-
-/* HIDE NAV ICONS */
-/* Hamburger Icon
-ul.top_icons > li:nth-child(1), ul.m_top_icons > li.m_top_menu {
-    display: none !important;
-}*/
-
-/* Settings Icon */
-/* ul.top_icons > li:nth-child(3), ul.m_top_icons > li.m_top_config {
-    display: none !important;
-} */
-/* Help Icon*/
-ul.top_icons > li:nth-child(4), ul.m_top_icons > li.m_top_help {
-    /*display: none !important;*/
-}
-
-/* Language Dropdown*/
-ul.top_icons > li:nth-child(5), ul.m_top_icons > li.m_top_lang {
-    display: none !important;
-}
-
-/* SELECTED ITEM IN CONTENTS */
-
-/* container for selected items - item in context */
-ul.jqtree-tree li.jqtree-selected > .jqtree-element {
-    border-radius: 2px;
-    border: 1px solid var(--light-gray-color);
-    box-shadow: 1px 1px 3px 1px var(--medium-gray-color);
-}
-
-/* text for selected item */
-ul.jqtree-tree li.jqtree-selected > .jqtree-element > .jqtree-title {
-    color: var(--secondary-color) !important;
-    font-weight: 600;
-    font-size:15px;
-}
-
-/* SEARCH RESULTS */
-
-/* title for search results */
-#shortened_search_result > div >h2 {
-    padding:10px 15px;
-    margin:0;
-    background-color: var(--secondary-light-color);
-    color: var(--dark-gray-color);
-    border-bottom: 1px solid var(--light-gray-color);
-    font-size:16px;
-    font-weight:600;
-}
-
-/* search results pane */
-#shortened_search_result {
-    padding:0 10px !important;
-    overflow-y:scroll;
-    overflow-x:hidden;
-    height: calc(100% - 55px);
-	background-color: var(--light-gray-color);
-} 
-
-/* body text of search results */
-#shortened_search_result > div td {
-    font-size: 14px;
-    padding: 10px 5px 0 5px;
-}
-
-#shortened_search_result > div td b {
-    color:var(--secondary-color);
-}
-
-/* progressbar  bar*/
-.progress .progress-bar {
-    background-color: green;
-}
-
-
-/* SOCIAL ICONS */
-
-/* hide share menu option */
-.topic_right_icons > li:nth-child(2) {
-    display: none;
-}
-
-/* center icons becuase when you turn some off it looks odd*/
-ul.share_social {
-    text-align:center;
-}
-
-/* Facebook Icon*/
-ul.share_social > li:nth-child(1)  {
-    display: none !important;
-}
-
-/* LinkedIn Icon*/
-ul.share_social > li:nth-child(2)  {
-    display: none !important;
-}
-
-/* Twitter Icon*/
-ul.share_social > li:nth-child(3)  {
-    display: none !important;
-}
-
-/* Email Icon*/
-ul.share_social > li:nth-child(4)  {
-    /*display: none !important;*/
-}
-
-/* FOOTER Topics container */
-
-div#content_container_static {
-    padding: 20px;
-}
-
-
 /* Title and Search bar section */
-/* .mainpage_block.jumbotron {
+.mainpage_block.jumbotron {
     background-color: transparent !important;
     padding:0 15% 0 17%;
     margin: 20px 0 20px 0;
 	height: 200px;
-} */
+}
 
 /* Site title - comes from the Book Web Title property of the Book */
-/* .mainpage_block.jumbotron > h1 {
+.mainpage_block.jumbotron > h1 {
     margin: 15px 0 0 0;
     color: var(--title-color);
     font-weight: 600;
     font-size: 28px;
     text-shadow: -1px -1px 0 var(--title-outline-color), 1px -1px 0 var(--title-outline-color), -1px 1px 0 var(--title-outline-color), 1px 1px 0 var(--title-outline-color);
-} */
+}
 
 /* Site sub-title - comes from the Book Web Super Title property of the Book */
-/* .mainpage_block.jumbotron > p {
+.mainpage_block.jumbotron > p {
     margin: 20px 0 0 0; 
     color: var(--title-color);
     font-size: 24px;
     font-weight:500;
     text-shadow: -1px -1px 0 var(--title-outline-color), 1px -1px 0 var(--title-outline-color), -1px 1px 0 var(--title-outline-color), 1px 1px 0 var(--title-outline-color);
 
-} */
+}
 
 /* search control container */
-/* .mainpage_block > .search_block {
+.mainpage_block > .search_block {
     margin: 20px 0;
-} */
+}

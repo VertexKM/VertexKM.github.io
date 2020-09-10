@@ -94,9 +94,9 @@ ul.top_icons > li:nth-child(1), ul.m_top_icons > li.m_top_menu {
 }*/
 
 /* Settings Icon */
-/* ul.top_icons > li:nth-child(3), ul.m_top_icons > li.m_top_config {
+ul.top_icons > li:nth-child(3), ul.m_top_icons > li.m_top_config {
     display: none !important;
-} */
+}
 /* Help Icon*/
 ul.top_icons > li:nth-child(4), ul.m_top_icons > li.m_top_help {
     /*display: none !important;*/
@@ -201,33 +201,33 @@ div#content_container_static {
 
 
 /* Title and Search bar section */
-/* .mainpage_block.jumbotron {
+.mainpage_block.jumbotron {
     background-color: transparent !important;
     padding:0 15% 0 17%;
     margin: 20px 0 20px 0;
 	height: 200px;
-} */
+}
 
 /* Site title - comes from the Book Web Title property of the Book */
-/* .mainpage_block.jumbotron > h1 {
+.mainpage_block.jumbotron > h1 {
     margin: 15px 0 0 0;
     color: var(--title-color);
     font-weight: 600;
     font-size: 28px;
     text-shadow: -1px -1px 0 var(--title-outline-color), 1px -1px 0 var(--title-outline-color), -1px 1px 0 var(--title-outline-color), 1px 1px 0 var(--title-outline-color);
-} */
+}
 
 /* Site sub-title - comes from the Book Web Super Title property of the Book */
-/* .mainpage_block.jumbotron > p {
+.mainpage_block.jumbotron > p {
     margin: 20px 0 0 0; 
     color: var(--title-color);
     font-size: 24px;
     font-weight:500;
     text-shadow: -1px -1px 0 var(--title-outline-color), 1px -1px 0 var(--title-outline-color), -1px 1px 0 var(--title-outline-color), 1px 1px 0 var(--title-outline-color);
 
-} */
+}
 
 /* search control container */
-/* .mainpage_block > .search_block {
+.mainpage_block > .search_block {
     margin: 20px 0;
-} */
+}
