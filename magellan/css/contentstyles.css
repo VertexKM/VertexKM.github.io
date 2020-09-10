@@ -283,7 +283,7 @@ li.listbullet, p.listbullet, li.listbullet2, p.listbullet2, li.listbullet3, p.li
         padding-left: 0pt;
         padding-right: 0pt;
        }
-ul.tablelistbullet {
+/* ul.tablelistbullet {
     list-style-type: Square;
     list-style-image: none;
     list-style-position: outside;
@@ -292,6 +292,44 @@ ul.tablelistbullet {
     padding-left: 12pt;
 }
 li.tablelistbullet, .tablelistbullet, li.s796 {
+    font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: var(--dark-gray-color);
+    background-color: inherit;
+    word-spacing: normal;
+    letter-spacing: normal;
+    vertical-align: baseline;
+    text-decoration: none;
+    text-transform: none;
+    line-height: 1.5;
+    margin-top: 4pt;
+    margin-bottom: 0pt;
+    margin-left: 0cm;
+    margin-right: 0cm;
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    padding-left: 0pt;
+    padding-right: 0pt;
+    float: none;
+    clear: none;
+    text-align: left;
+    text-indent: 0cm;
+    width: auto;
+    height: auto;
+    white-space: normal;
+} */
+ul.tablebullet {
+    list-style-type: Square;
+    list-style-image: none;
+    list-style-position: outside;
+    margin-top: 4pt;
+    margin-bottom: 0pt;
+    padding-left: 12pt;
+}
+li.tablebullet, .tablebullet, li.s796 {
     font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
     font-style: normal;
     font-variant: normal;
