@@ -45,12 +45,6 @@ table.table td, table.table th {
     padding: 5px !important;
 }
 
-
-/* specialize tables based on topic template */
-.reference .table {
-    
-}
-
 /*#endregion TABLES */
 
 /*#region LINKS  */
@@ -229,7 +223,8 @@ li.listbullet, p.listbullet, li.listbullet2, p.listbullet2, li.listbullet3, p.li
         color: var(--dark-gray-color);
     }
     p.warning::before {
-    content: '\f071';
+    /* content: '\f071'; */
+	content: \f06a;
     padding-right: 5px;
     font-family: FontAwesome;
     /*color: var(--dark-gray-color);*/
