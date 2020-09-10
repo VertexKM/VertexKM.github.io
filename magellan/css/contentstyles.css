@@ -330,7 +330,7 @@ ul.tablebullet {
     padding-left: 12pt;
 }
 li.tablebullet, .tablebullet, li.s796 {
-    font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
@@ -366,7 +366,7 @@ ol.listalpha2
         margin-bottom: 0pt;
         }
 li.listalpha2, li.s793 
-{font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
+{font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-variant: normal;
         font-weight: normal;
@@ -426,7 +426,7 @@ li.listalpha2, li.s793
         white-space: normal;
        }
 .tabletext 
-{font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
+{font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-variant: normal;
         font-weight: normal;
