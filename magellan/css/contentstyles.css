@@ -26,17 +26,17 @@ div.table-responsive {
     margin:10px 10px 10px 0;
 }
 
-table.table {
+/* table.table {
     border-collapse: separate;
-/*    border-spacing: 1px; */
-/*    border-radius: 4px; */
+    border-spacing: 1px; 
+    border-radius: 4px; 
     border: 2px solid var(--light-gray-color);
-/*    background-color: var(--light-gray-color); */
+    background-color: var(--light-gray-color); 
     table-layout: fixed;
     width: inherit;
     box-sizing: border-box;
     box-shadow: 1px 1px 3px var(--light-gray-color);
-}
+} */
 
 table.table td, table.table th {
 /*    border: none !important; */
