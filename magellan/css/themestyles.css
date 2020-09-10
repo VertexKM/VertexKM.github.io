@@ -94,9 +94,9 @@ ul.top_icons > li:nth-child(1), ul.m_top_icons > li.m_top_menu {
 }*/
 
 /* Settings Icon */
-ul.top_icons > li:nth-child(3), ul.m_top_icons > li.m_top_config {
+/* ul.top_icons > li:nth-child(3), ul.m_top_icons > li.m_top_config {
     display: none !important;
-}
+} */
 /* Help Icon*/
 ul.top_icons > li:nth-child(4), ul.m_top_icons > li.m_top_help {
     /*display: none !important;*/
