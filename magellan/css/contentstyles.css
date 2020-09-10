@@ -40,7 +40,7 @@ table.table {
 
 table.table td, table.table th {
 /*    border: none !important; */
-    background-color: var(--light-gray-color);
+    background-color: white;
     border-spacing: 0px;
     padding: 5px !important;
 }
