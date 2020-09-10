@@ -110,7 +110,7 @@ table.table td, table.table th {
     white-space: normal;
 }
 .bodytextright 
-{font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
+{font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-variant: normal;
         font-weight: normal;
@@ -160,7 +160,7 @@ ul.listbullet, ul.listbullet2, ul.listbullet3 {
     padding-left: 12pt;
 }
 li.listbullet, p.listbullet, li.listbullet2, p.listbullet2, li.listbullet3, p.listbullet3 {
-    font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
@@ -232,7 +232,7 @@ li.listbullet, p.listbullet, li.listbullet2, p.listbullet2, li.listbullet3, p.li
 }
 
 .marginnote {
-    font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
@@ -283,44 +283,6 @@ li.listbullet, p.listbullet, li.listbullet2, p.listbullet2, li.listbullet3, p.li
         padding-left: 0pt;
         padding-right: 0pt;
        }
-/* ul.tablelistbullet {
-    list-style-type: Square;
-    list-style-image: none;
-    list-style-position: outside;
-    margin-top: 4pt;
-    margin-bottom: 0pt;
-    padding-left: 12pt;
-}
-li.tablelistbullet, .tablelistbullet, li.s796 {
-    font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    font-size: 14px;
-    color: var(--dark-gray-color);
-    background-color: inherit;
-    word-spacing: normal;
-    letter-spacing: normal;
-    vertical-align: baseline;
-    text-decoration: none;
-    text-transform: none;
-    line-height: 1.5;
-    margin-top: 4pt;
-    margin-bottom: 0pt;
-    margin-left: 0cm;
-    margin-right: 0cm;
-    padding-top: 0pt;
-    padding-bottom: 0pt;
-    padding-left: 0pt;
-    padding-right: 0pt;
-    float: none;
-    clear: none;
-    text-align: left;
-    text-indent: 0cm;
-    width: auto;
-    height: auto;
-    white-space: normal;
-} */
 ul.tablebullet {
     list-style-type: Round;
     list-style-image: none;
@@ -557,7 +519,7 @@ ol.listnumber
 		
         }
 li.listnumber, li.s561 
-{font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
+{font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-variant: normal;
         font-weight: normal;
@@ -587,7 +549,7 @@ li.listnumber, li.s561
         white-space: normal;
        }
 .note, listnote 
-{font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
+{font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-variant: normal;
         font-weight: normal;
@@ -636,7 +598,7 @@ p.note::before {
        }
 .listcontinue, .listcontinue2, .listcontinue3 {
     display: block;
-    font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
