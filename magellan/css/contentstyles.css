@@ -6,13 +6,6 @@
  *   Version:       2020.R2
  *******************************************************************************/
 
-/* DEFAULT FONT */
-
-body {
-	font-family: 'Montserrat', sans-serif;
-}
-
-
 /*#region TABLES  */
 /*******************************************************************************
     This section contains styles to format tables in the Author-it generated 
@@ -337,7 +330,7 @@ ul.tablebullet {
     padding-left: 12pt;
 }
 li.tablebullet, .tablebullet, li.s796 {
-    /* font-family: "Open Sans", verdana, arial, helvetica, sans-serif; */
+    font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
@@ -433,7 +426,7 @@ li.listalpha2, li.s793
         white-space: normal;
        }
 .tabletext 
-/* {font-family: "Open Sans", verdana, arial, helvetica, sans-serif; */
+{font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
         font-style: normal;
         font-variant: normal;
         font-weight: normal;
