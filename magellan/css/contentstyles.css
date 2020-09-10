@@ -322,7 +322,7 @@ li.tablelistbullet, .tablelistbullet, li.s796 {
     white-space: normal;
 } */
 ul.tablebullet {
-    list-style-type: Square;
+    list-style-type: Round;
     list-style-image: none;
     list-style-position: outside;
     margin-top: 4pt;
