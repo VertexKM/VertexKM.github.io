@@ -4,12 +4,12 @@ Found registry key at HKEY_LOCAL_MACHINE\Software\Wow6432Node\Saxonica\SaxonPE-N
 Software installation path: c:\Program Files\Saxonica\SaxonPE9.9N
 No license file found - running with licensable features disabled
 URIResolver.resolve href="file:/C:/Program%20Files/Author-it/Transformations/web.xslt" base="null"
-Stylesheet compilation time: 1.5985554s (1598.5554ms)
+Stylesheet compilation time: 1.6067472s (1606.7472ms)
 Processing file:/C:/Program%20Files/Author-it/Publishing/Magellan%20Help%20Center/magellanTEST/magellanTEST.xml
 Using parser org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser
 Building tree for file:///C:/Program%20Files/Author-it/Publishing/Magellan%20Help%20Center/magellanTEST/magellanTEST.xml using class net.sf.saxon.tree.tiny.TinyBuilder
-Tree built in 35.318304ms
-Tree size: 27761 nodes, 200774 characters, 6941 attributes
+Tree built in 35.943896ms
+Tree size: 27761 nodes, 200764 characters, 6941 attributes
  Reading book contents
  Generating book contents metadata
  Generating aitstyles.css
@@ -54,5 +54,5 @@ Writing to file:////resources.json
 Writing to file:////metadata.json
  Generating metadataindex.json
 Writing to file:////metadataindex.json
-Execution time: 871.399592ms
-Memory used: 25,623,104
+Execution time: 780.654504ms
+Memory used: 25,671,320

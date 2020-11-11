@@ -1,4 +1,4 @@
-Publishing magellanTEST (135805) to Resolved XML started at 9:10:45 AM
+Publishing magellanTEST (135805) to Resolved XML started at 9:19:41 AM
 Finding book relationships
 150 objects found in 0 minutes 0 seconds
 Creating output folder
@@ -11,12 +11,12 @@ Action - Publishing to Xml (2 Second(s))
 Executing After Publish Actions
    Command Line: Compile Magallan Site
    Filename: "c:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"
-   Arguments: -WindowStyle Hidden -ExecutionPolicy bypass -File "C:\Program Files\Author-it\Compilers\Magellan\magellan.ps1" -PublishFolder "C:\Program Files\Author-it\Publishing\Magellan Help Center\magellanTEST" -SaxonFolder "C:\Program Files\Saxonica\SaxonPE9.9N" -ResolvedXML "magellanTEST.xml" -LocaleCode "en-us" -MagellanFolder "C:\Program Files\Author-it\Engines\Magellan" -IndexerFolder "C:\Program Files\Author-it\Compilers\Magellan" -LibraryPath "\\corporate\shares\AuthorIT\NewData\Libraries" -ThemeFolder "\\corporate\shares\AuthorIT\NewData\Templates\Magellan\VertexKM" -ContentFolder "en" -WebserverFolder "C:\inetpub\wwwroot\magellan\135805"
-   Process-ID: 14644
-   Start time: 11/11/2020 9:10:48 AM
-   End time: 11/11/2020 9:10:57 AM
+   Arguments: -WindowStyle Hidden -ExecutionPolicy bypass -File "C:\Program Files\Author-it\Compilers\Magellan\magellan.ps1" -PublishFolder "C:\Program Files\Author-it\Publishing\Magellan Help Center\magellanTEST" -SaxonFolder "C:\Program Files\Saxonica\SaxonPE9.9N" -ResolvedXML "magellanTEST.xml" -LocaleCode "en-us" -MagellanFolder "C:\Program Files\Author-it\Engines\Magellan" -IndexerFolder "C:\Program Files\Author-it\Compilers\Magellan" -LibraryPath "\\corporate\shares\AuthorIT\NewData\Libraries" -ThemeFolder "\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Red" -ContentFolder "en" -WebserverFolder "C:\inetpub\wwwroot\magellan\135805"
+   Process-ID: 13888
+   Start time: 11/11/2020 9:19:43 AM
+   End time: 11/11/2020 9:19:51 AM
    Exit code: 0
-Command Line - Compile Magallan Site (9 Second(s))
+Command Line - Compile Magallan Site (8 Second(s))
 Configure Output Location: Open Magellan Output
 Checking Hyperlinks
 Object Hypertext-Link 'What'sNew-KMTraining' (135212) does not have any targets in this book
@@ -24,4 +24,4 @@ Object Hypertext-Link 'Knowledge Management knowledge base' (135218) does not ha
 Object Hypertext-Link 'Overview of writing knowledge articles' (135741) does not have any targets in this book
 Object Hypertext-Link 'Knowledge Management Site Overview' (135820) does not have any targets in this book
 Object Hypertext-Link 'Author-it Training' (135824) does not have any targets in this book
-Publishing magellanTEST (135805) to Resolved XML finished at 9:10:57 AM
+Publishing magellanTEST (135805) to Resolved XML finished at 9:19:51 AM
