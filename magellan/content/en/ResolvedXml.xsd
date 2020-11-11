@@ -303,10 +303,13 @@
         <xs:element name="WebSourceType" type="integerinherited" minOccurs="0" />
         <xs:element name="WebSpaceVertical" type="string255inherited" minOccurs="0" />
         <xs:element name="WebVerticalSpace" type="string255inherited" minOccurs="0" />
-        <xs:element name="WebVideoRepeat" type="smallintegerinherited" minOccurs="0" />
-        <xs:element name="WebVideoRepeatTimes" type="smallintegerinherited" minOccurs="0" />
         <xs:element name="WebVideoShowControls" type="booleaninherited" minOccurs="0" />
-        <xs:element name="WebVideoStart" type="integerinherited" minOccurs="0" />
+        <!-- <xs:element name="WebVideoStart" type="integerinherited" minOccurs="0" /> -->
+        <xs:element name="WebVideoStart" type="booleaninherited" minOccurs="0" />
+        <!-- <xs:element name="WebVideoRepeat" type="smallintegerinherited" minOccurs="0" /> -->
+        <xs:element name="WebVideoRepeat" type="booleaninherited" minOccurs="0" />
+        <!-- <xs:element name="WebVideoRepeatTimes" type="smallintegerinherited" minOccurs="0" /> -->
+        <xs:element name="WebVideoMuted" type="booleaninherited" minOccurs="0" />        
       </xs:sequence>
       <xs:attribute name="wordcount" type="xs:nonNegativeInteger" use="optional" />
       <xs:attribute name="translate" type="xs:boolean" use="optional"/>

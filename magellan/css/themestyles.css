@@ -200,13 +200,6 @@ div#content_container_static {
 }
 
 
-/* LANDING PAGE */
-
-/* Rotater Headings */
-.testimonials_header {
-	backgound-color: var(--primary-light--color);
-}
-
 /* Title and Search bar section */
 /* .mainpage_block.jumbotron {
     background-color: transparent !important;
