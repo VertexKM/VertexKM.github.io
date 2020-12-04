@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<div id="135144" data-aitid="135144" data-modifieddate="2020-08-26" data-aitvariantparent="0" class="knowledgearticle_faq">
+   <script type="text/javascript">$('[data-toggle="popover"]').popover(); </script>
+   
+   <h4>External example: What information is in my error log?</h4>
+   <p class="heading2">Question</p>
+   <p class="bodytext">How do I view the errors and warnings I received from the import process?</p>
+   <p class="heading2">Answer</p>
+   <p class="bodytext">You can view error and warning information in the Import Error Log. In the row containing
+      the import, click the three dots in the <span class="procedureinterfaceelement">Actions</span> column, and select <span class="procedureinterfaceelement">View Import Error Log</span>.</p>
+   <p class="figure"><img src="135145.png" class="embeddedpngfile_100_template"></p>
+   <p class="bodytext">This table explains the fields, columns, and buttons in the Import Log:</p>
+   <div class="table-responsive noheader borders shading bodytext tableheading">
+      <table class="table" data-width="618px">
+         <tbody>
+            <tr>
+               <td style="border-style: solid; border-left-width:0.40pt;border-right-width:0.40pt;border-top-width:0.00pt;border-bottom-width:0.40pt;border-color:#010101;background-color:#00609C;" data-width="115.2px">
+                  <p class="tableheading">Field or Column Name</p>
+               </td>
+               <td style="border-style: solid; border-left-width:0.40pt;border-right-width:0.40pt;border-top-width:0.00pt;border-bottom-width:0.40pt;border-color:#010101;background-color:#00609C;" data-width="502.8px">
+                  <p class="tableheading">Description</p>
+                  <p class="tableheading"></p>
+               </td>
+            </tr>
+            <tr>
+               <td style="border-style: solid; border-width:0.4pt;border-color:#010101;" data-width="115.2px">
+                  <p class="tabletext">Import File Name</p>
+               </td>
+               <td style="border-style: solid; border-width:0.4pt;border-color:#010101;" data-width="502.8px">
+                  <p class="tabletext">The name of the imported data file.</p>
+               </td>
+            </tr>
+            <tr>
+               <td style="border-style: solid; border-width:0.4pt;border-color:#010101;" data-width="115.2px">
+                  <p class="tabletext">Import Setup Name</p>
+               </td>
+               <td style="border-style: solid; border-width:0.4pt;border-color:#010101;" data-width="502.8px">
+                  <p class="tabletext">The import setup that was selected when the file was imported. If you select an incorrect
+                     import setup for your file, the import fails.</p>
+               </td>
+            </tr>
+            <tr>
+               <td style="border-style: solid; border-width:0.4pt;border-color:#010101;" data-width="115.2px">
+                  <p class="tabletext">User</p>
+               </td>
+               <td style="border-style: solid; border-width:0.4pt;border-color:#010101;" data-width="502.8px">
+                  <p class="tabletext">The login name of the user who imported the file.</p>
+               </td>
+            </tr>
+            <tr>
+               <td style="border-style: solid; border-width:0.4pt;border-color:#010101;" data-width="115.2px">
+                  <p class="tabletext">Warnings</p>
+               </td>
+               <td style="border-style: solid; border-width:0.4pt;border-color:#010101;" data-width="502.8px">
+                  <p class="tabletext">The number of records accepted with either data modified by Global Compliance or flagged
+                     because a potential problem exists.</p>
+               </td>
+            </tr>
+            <tr>
+               <td style="border-style: solid; border-width:0.4pt;border-color:#010101;" data-width="115.2px">
+                  <p class="tabletext">Imported Data</p>
+               </td>
+               <td style="border-style: solid; border-width:0.4pt;border-color:#010101;" data-width="502.8px">
+                  <p class="tabletext">The number of records imported. This number includes records that imported successfully
+                     as-is and records that imported but were flagged with warning messages.</p>
+               </td>
+            </tr>
+            <tr>
+               <td style="border-style: solid; border-width:0.4pt;border-color:#010101;" data-width="115.2px">
+                  <p class="tabletext">Rejected Data</p>
+               </td>
+               <td style="border-style: solid; border-width:0.4pt;border-color:#010101;" data-width="502.8px">
+                  <p class="tabletext">The number of records that failed an import test and were not accepted.</p>
+               </td>
+            </tr>
+            <tr>
+               <td style="border-style: solid; border-width:0.4pt;border-color:#010101;" data-width="115.2px">
+                  <p class="tabletext">Deleted Data</p>
+               </td>
+               <td style="border-style: solid; border-width:0.4pt;border-color:#010101;" data-width="502.8px">
+                  <p class="tabletext">If you deleted any tax data after you imported a file, the number of records now missing
+                     from that import file. </p>
+               </td>
+            </tr>
+            <tr>
+               <td style="border-style: solid; border-width:0.4pt;border-color:#010101;" data-width="115.2px">
+                  <p class="tabletext">Message Code</p>
+               </td>
+               <td style="border-style: solid; border-width:0.4pt;border-color:#010101;" data-width="502.8px">
+                  <p class="tabletext">The number that displays in the Error # column in the Import Errors database. </p>
+               </td>
+            </tr>
+            <tr>
+               <td style="border-style: solid; border-width:0.4pt;border-color:#010101;" data-width="115.2px">
+                  <p class="tabletext">Message Type</p>
+               </td>
+               <td style="border-style: solid; border-width:0.4pt;border-color:#010101;" data-width="502.8px">
+                  <p class="tabletext">Types of messages are the following:</p>
+                  <ul class="tablebullet">
+                     <li class="tablebullet">
+                        <p class="tablebullet">Message - an informational message, such as Import Completed.</p>
+                     </li>
+                     <li class="tablebullet">
+                        <p class="tablebullet">Rejected - the record failed an import test and was not accepted.</p>
+                     </li>
+                     <li class="tablebullet">
+                        <p class="tablebullet">Warning - the record is accepted, but its data was modified or a potential problem
+                           exists.</p>
+                     </li>
+                  </ul>
+               </td>
+            </tr>
+            <tr>
+               <td style="border-style: solid; border-width:0.4pt;border-color:#010101;" data-width="115.2px">
+                  <p class="tabletext">Record Number</p>
+               </td>
+               <td style="border-style: solid; border-width:0.4pt;border-color:#010101;" data-width="502.8px">
+                  <p class="tabletext">The number of the record from the import file.</p>
+               </td>
+            </tr>
+            <tr>
+               <td style="border-style: solid; border-width:0.4pt;border-color:#010101;" data-width="115.2px">
+                  <p class="tabletext">Message</p>
+               </td>
+               <td style="border-style: solid; border-width:0.4pt;border-color:#010101;" data-width="502.8px">
+                  <p class="tabletext">Informational messages, errors, and warnings. This column provides you with more information
+                     about what occurred during your file import, including the success of the import and
+                     details about any issues in your import file.</p>
+               </td>
+            </tr>
+            <tr>
+               <td style="border-style: solid; border-width:0.4pt;border-color:#010101;" data-width="115.2px">
+                  <p class="tabletext">.CSV</p>
+               </td>
+               <td style="border-style: solid; border-width:0.4pt;border-color:#010101;" data-width="502.8px">
+                  <p class="tabletext">You can print and save the grid as a CSV file by clicking the .CSV button.</p>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+   <p class="tabletext"></p>
+   <p class="paragraphheading">Related topics:</p>
+   <ul class="bullet">
+      <li class="bullet">
+         <p class="bullet"><span class="jumptemplate_textstring"><a href="#showid/135140">How does the Global Compliance import process work?</a></span></p>
+      </li>
+   </ul>
+</div>

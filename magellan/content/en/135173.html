@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<div id="135173" data-aitid="135173" data-modifieddate="2020-08-26" data-aitvariantparent="0" class="knowledgearticle_troubleshooting">
+   <script type="text/javascript">$('[data-toggle="popover"]').popover(); </script>
+   
+   <h5>Internal example: Common Data Upgrade Utility issues</h5>
+   <p class="bodytext">Customers can experience issues with the Transaction Data Upgrade Utility during the
+      upgrade process. The section describes some common issues and how to troubleshoot
+      them.</p>
+   <p class="bodytext">-----------------------------------------------------------------------------------</p>
+   <p class="heading2">Out of memory exception error</p>
+   <p class="bodytext"><span class="procedureinterfaceelement">Problem</span></p>
+   <p class="bodytext">The customer receives an out of memory exception error during the upgrade.</p>
+   <p class="bodytext"><span class="procedureinterfaceelement">Solution</span></p>
+   <p class="bodytext">Have the customer add <span class="procedurecodeinsentence">-Xmx2048M</span> after the Java command when the utility is run. For example:</p>
+   <p class="bodytextindent"><span class="procedurecodeinsentence">java -Xmx2048M -jar</span></p>
+   <p class="bodytext">-----------------------------------------------------------------------------------</p>
+   <p class="heading2">Unable to view task log</p>
+   <p class="bodytext"><span class="procedureinterfaceelement">Problem</span></p>
+   <p class="bodytext">The customer cannot view the task log in O Series, including any page that displays
+      a filter, filter list, or Tax Journal Export.</p>
+   <p class="bodytext"><span class="procedureinterfaceelement">Solution</span></p>
+   <p class="bodytext">This issue is resolved in the current version of the utility. If a customer uses an
+      older version of the utility, it is necessary to have the customer run the following
+      queries as a workaround:</p>
+   <p class="bodytextindent">Query:</p>
+   <p class="bodytextindent"><span class="procedurecodeinsentence">DELETE FROM DMActivityLogNum WHERE activityLogId IN (select activityLogId from DMActivityLog
+         where activityTypeId = 9999)</span><br><span class="procedurecodeinsentence">DELETE FROM DMActivityLogInd WHERE activityLogId IN (select activityLogId from DMActivityLog
+         where activityTypeId = 9999)</span><br><span class="procedurecodeinsentence">DELETE FROM DMActivityLog WHERE activityLogId = 9999</span></p>
+   <p class="bodytextindent">Query:</p>
+   <p class="bodytextindent"><span class="procedurecodeinsentence">DELETE FROM DMFilterInd where filterId IN (select filterId from DMFilter where activityTypeId
+         = 9999)</span><br><span class="procedurecodeinsentence">DELETE FROM DMFilterNum where filterId IN (select filterId from DMFilter where activityTypeId
+         = 9999)</span><br><span class="procedurecodeinsentence">DELETE FROM DMFilter where activityTypeId = 9999</span></p>
+   <p class="bodytext">-----------------------------------------------------------------------------------</p>
+   <p class="heading2">Slow performance observed with upgrade from 8.0 to 9.0</p>
+   <p class="bodytext"><span class="procedureinterfaceelement">Problem</span></p>
+   <p class="bodytext">The Transaction Data Upgrade Utility runs slowly when the customer upgrades from O
+      Series 8.0 to 9.0.</p>
+   <p class="bodytext"><span class="procedureinterfaceelement">Solution</span></p>
+   <p class="bodytext">Ensure that the customer is using the latest version of the Transaction Data Upgrade
+      Utility.</p>
+   <p class="bodytext">-----------------------------------------------------------------------------------</p>
+   <p class="heading2">Error with the storeMinMaxValues() method in the CopyJournalWorkStep class</p>
+   <p class="bodytext"><span class="procedureinterfaceelement">Problem</span></p>
+   <p class="bodytext">An error occurs when the <span class="procedurecodeinsentence">storeMinMaxValues()</span>method in the <span class="procedurecodeinsentence">CopyJournalWorkStep</span> class is executed. The error can occur in the preparing statement, the closing statement,
+      or during the callback execution. You can refer to the underlying exception for more
+      information about the issue. This information may include an error when the <span class="procedurecodeinsentence">java.sql.SQLException</span> query is executed, where incorrect syntax exists near an invalid character such as
+      <span class="procedurecodeinsentence">-</span>.</p>
+   <p class="bodytext"><span class="procedureinterfaceelement">Solution</span></p>
+   <p class="bodytext">Verify that the customer database names and linked server names use valid characters.</p>
+   <p class="bodytext">-----------------------------------------------------------------------------------</p>
+   <p class="heading2">Unable to record a status for the upgrade task or table</p>
+   <p class="bodytext"><span class="procedureinterfaceelement">Problem</span></p>
+   <p class="bodytext">The customer is not able to record a status for the Transaction Data Upgrade task
+      or for any error that is related to the <span class="procedurecodeinsentence">tRptTransDataUpgradeStatus</span> table.</p>
+   <p class="bodytext"><span class="procedureinterfaceelement">Solution</span></p>
+   <p class="bodytext">Have the customer run the query <span class="procedurecodeinsentence">DELETE FROM tRptTransDataUpgradeStatus </span>and then run the Transaction Data Upgrade Utility again.</p>
+   <p class="bodytext">-----------------------------------------------------------------------------------</p>
+   <p class="heading2">Issue with getSchemaName() method</p>
+   <p class="bodytext"><span class="procedureinterfaceelement">Problem</span></p>
+   <p class="bodytext">The customer experiences an issue with the <span class="procedurecodeinsentence">getSchemaName()</span> method or the application hangs near the beginning of the upgrade when the process
+      checks for schema.</p>
+   <p class="bodytext"><span class="procedureinterfaceelement">Solution</span></p>
+   <p class="bodytext">This issue may be related to a failed database connection. Have the customer verify
+      the connection strings for the 8.0 and 9.0 databases. The strings are located in the
+      <span class="procedurecodeinsentence">vertex.cfg</span> file.</p>
+   <p class="bodytext">-----------------------------------------------------------------------------------</p>
+   <p class="heading2">Error related to the OUTPUTNOTICEID column</p>
+   <p class="bodytext"><span class="procedureinterfaceelement">Problem</span></p>
+   <p class="bodytext">The customer receives an error that is related to the <span class="procedurecodeinsentence">OUTPUTNOTICEID</span> column. For example, in an Oracle database:</p>
+   <p class="bodytextindent"><span class="procedurecodeinsentence">Error while executing the execute() method in CopyWorkStep class: Error preparing
+         statement, closing statement or during callback execution. See underlying exception
+         for details. Error executing query: java.sql.SQLSyntaxErrorException: ORA-00904: "OUTPUTNOTICEID":
+         invalid identifier.</span></p>
+   <p class="bodytext">Other databases may produce a similar error.</p>
+   <p class="bodytext"><span class="procedureinterfaceelement">Solution</span></p>
+   <p class="bodytext">This issue may be related to linked names not being used or a mixup with source and
+      target databases, such as the customer has the target database configured as the source
+      and the source database configured as the target. Have the customer check both configurations.</p>
+   <p class="bodytext">-----------------------------------------------------------------------------------</p>
+   <p class="heading2">Issue with Transaction Data Upgrade Utility after batch completion</p>
+   <p class="bodytext"><span class="procedureinterfaceelement">Problem</span></p>
+   <p class="bodytext">The customer experiences an issue when foreign keys are re-added to a database after
+      a batch seems to have completed successfully. The console output displays the following
+      message:</p>
+   <p class="bodytextindent">-------------------Finished batch--------------</p>
+   <p class="bodytext">The message indicates that the data has been moved to the target database and the
+      utility is performing additional steps, such as re-adding foreign keys.</p>
+   <p class="bodytext"><span class="procedureinterfaceelement">Solution</span></p>
+   <p class="bodytext">This issue is difficult to resolve. Create an Axosoft ticket and provide all possible
+      customer information. Then reach out to other support analysts for assistance.</p>
+   <p class="paragraphheading">Related topics:</p>
+   <ul class="bullet">
+      <li class="bullet">
+         <p class="bullet"><span class="jumptemplate_textstring"><a href="#showid/135172">Troubleshooting Data Upgrade Utility Issues</a></span></p>
+      </li>
+   </ul>
+</div>
