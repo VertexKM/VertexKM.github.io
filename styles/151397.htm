@@ -1,0 +1,308 @@
+﻿<!-- Based on AIT Template: HTML No Frames\body_template.htm -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<meta charset="utf-8">-->
+<meta content="text/html; charset=utf-8">
+<title> Table Styles </title>
+<link href="favicon.ico" rel="icon" type="image/x-icon" />
+<meta name="Generator" content="Author-it">
+<meta name="Keywords" content="">
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- fallback to local jquery if CDN load fails or restricted via no cross-origin -->
+<!-- <script>window.jQuery || document.write('<script src="jquery-3.3.1.min.js"><\/script>');</script> -->
+<script>window.jQuery || document.write('<script src="jquery-3.4.1.min.js"><\/script>');</script>
+<script src="dhtml_toc.js"></script>
+<script src="dhtml_search.js"></script>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link rel="stylesheet" type="text/css" href="stylesheet_vertex.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+<link rel="stylesheet" href="print.css" type="text/css" media="print">
+<style>
+* { font-family: "Montserrat", sans-serif !important; }
+</style>
+<script type="text/javascript" src="vertex.js"></script>
+
+<script type="text/javascript">
+	var topicID = '151397'; // to be passed to survey form via query string
+	var activeTopic = 'none'; // stores the currently loaded topic
+
+	function readyFn( jQuery ) { // executes when window, including all content, is loaded and ready. Functions in vertex.js.
+
+	    $('#toc-container').load('toc.htm', init); // load the toc, then call tocLoaded
+	    init();
+		setActiveLinkStyle(activeTopic);
+
+		// sidebar toggle button handlers
+		$(".sidebar-left-toggle").click(function(){
+    		$(".sidebar-left").toggleClass("sidebar-collapsed");
+		});
+
+		/* SEARCH FORM */
+		$("#search-form").submit(function(){
+
+			//Get the value of the input field
+			var searchtext = $('#search-input').val();
+
+			// Call AIT search() with the param submitted by user
+			console.log('calling search(' + searchtext + ')...');
+			var results = search(searchtext);
+			console.log('loading results in topic-container...');
+			// Write the results to sidebar-right-content
+			//$('#sidebar-right-content').html("<p>" + searchtext + "<p>"); //obviously handle the html via css for production
+			$('#topic-container').html('<br /><a href="javascript:location.reload();">Cancel Search</a><h2>Search Results</h1>' + results);
+			console.log('Search submitted value: ' + searchtext);
+	        event.preventDefault();
+	    });
+
+	};
+
+	$( window ).on( "load", readyFn ); 	// executes once DOM is ready to be manipulated, but before images loaded, etc.
+
+</script>
+<script>function myFunction() { window.print(); }</script>
+</head>
+<body  onload="if (isTOCLoaded()) {highlight('151397')}">
+<div id="header-container">
+<a href="index.htm">
+	<div id="header-left">
+		<img src="logo-vertex-inc-header.svg" alt="Vertex Inc. Online Help" style="padding-left: 30px;"/><span class="logo-text">Online Help</span>
+	</div></a>
+	<div id="header-right">
+		<span class="search-input">
+	        <form id="search-form" action="#">
+	          <input type="text" id="search-input" placeholder="Search topics..." onfocus="this.value=''">
+	          <input type="submit" class="button" id="search-submit-btn" value="Search">
+	        </form> 
+      	</span>
+	</div>
+</div>
+<div class="content-container">
+	<div class="sidebar sidebar-left">
+		<div class="sidebar-title">
+          <span style="padding-left: 30px;">Table of Contents</span>
+        </div>
+        <div id="toc-container">
+        	loading...
+        </div>
+	</div>
+	<div class="left-sidebar-toggle-col">
+		<button class="sidebar-left-toggle"><img src="TOCCollapse.gif">
+		<!--<i class="fas fa-angle-double-left"></i> --></button>
+	</div>
+	<div id="topic-container" class="print">
+		<div class="topic-header-row">
+	      <span class="breadcrumb">
+	      	<p class="breadcrumbs"><span class="breadcrumbactive">Table Styles</span></p>
+	      </span>
+  		<button id="printbutton" onclick="myFunction()">Print this topic</button>
+		<button id="feedbackbutton" onclick="window.location.href = '#feedback-container';">Feedback</button>
+	    </div>
+	   <!-- <div class="topic-title">
+	      Table Styles
+	    </div> -->
+	    <div class="topic-container">
+	    	<!-- need to replace with AIT topic content shortcode -->
+		<table class="relatedtopics aboveheading" cellpadding="0" cellspacing="0" border="0">
+<tr valign="top">
+<td width= "18">
+<p class="bodytext"><a href="151394.htm" target="_self"><img id="f125" src="125.gif" class="zzzembeddediconfiletemplate" alt="Previous Topic" vspace="0" hspace="0" align="bottom" border="0"></a></p></td>
+<td width= "18">
+<p class="bodytext"><a href="151388.htm" target="_self"><img id="f124" src="124.gif" class="zzzembeddediconfiletemplate" alt="Next Topic" vspace="0" hspace="0" align="bottom" border="0"></a></p></td>
+</tr>
+</table>
+<h1 id="t151397" class="heading1">Table Styles</h1>
+<p class="bodytext">Here is a 3-column table from our Table Snippets folder; it is preceded by a Margin Reset Body paragraph:</p>
+<p class="marginresetbodytablesonly"></p>
+<table class="tableintopic" width="624" cellpadding="2" cellspacing="0" border="1" style="border-collapse:collapse; border:1px solid #010101">
+<tr align="left" valign="top">
+<th bgcolor="#00609C" valign="middle" style="border:1px solid #010101;" width="180"><p class="testtableheading">Table Heading Style</p>
+</th>
+<th bgcolor="#00609C" valign="middle" style="border:1px solid #010101;" width="192"><p class="testtableheading">Table Heading Style</p>
+</th>
+<th bgcolor="#00609C" valign="middle" style="border:1px solid #010101;" width="252"><p class="testtableheading">Table Heading Style</p>
+</th>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="180"><p class="tabletext">Table Text. Best practice: Design table cells with content - no empty table cells!</p>
+<ul class="tablebullet"><li class="tablebullet">Table Bullet. Best practice: Design table cells with content - no empty table cells!</li><li class="tablebullet">Table Bullet. Best practice: Design table cells with content - no empty table cells!</li></ul></td>
+<td style="border:1px solid #010101;" width="192"><p class="bodytext">Body Text. Lorem ipsum dolor sit amet consectetur adipiscing elit libero sem, risus at mus ante cursus torquent enim arcu malesuada, ornare nullam quam accumsan non dictumst proin cum. </p>
+</td>
+<td style="border:1px solid #010101;" width="252"><p class="tabletext">Hac fames praesent lobortis mi potenti ornare leo velit dignissim quisque, bibendum purus euismod varius in nam malesuada nec sem, nullam natoque augue tellus pulvinar ligula scelerisque odio habitant. </p>
+<p class="tabletextcenter">Table Text Center. Hac fames praesent lobortis mi potenti ornare leo velit dignissim quisque, bibendum purus euismod varius in nam malesuada nec sem, nullam natoque augue tellus pulvinar ligula scelerisque odio habitant. </p>
+<p class="tabletext">Hac fames praesent lobortis mi potenti ornare leo velit dignissim quisque, bibendum purus euismod varius in nam malesuada nec sem, nullam natoque augue tellus pulvinar ligula scelerisque odio habitant. </p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="180"><p class="tabletext">Augue feugiat in felis senectus est porttitor lectus nulla semper, netus non tortor risus turpis eros velit cras nam, quis eleifend nunc nostra tellus lobortis ante porta.</p>
+<p class="tabletextindent">Table Text Indent. Augue feugiat in felis senectus est porttitor lectus nulla semper, netus non tortor risus turpis eros velit cras nam, quis eleifend nunc nostra tellus lobortis ante porta.</p>
+</td>
+<td style="border:1px solid #010101;" width="192"><p class="tabletext">Nibh penatibus gravida curae himenaeos mus facilisi dui hac tristique dignissim vivamus, nostra parturient eget non rhoncus sem quisque fermentum aliquam diam, netus nam inceptos ac integer tempor per congue dictumst turpis.</p>
+<p class="tablecaution"><span class="zzznotecautionwarninglabel-onlineonly">Caution: </span>Do not write technical documentation in Latin unless you are writing for an audience of ancient Romans. Most modern people cannot understand Latin.</p>
+</td>
+<td style="border:1px solid #010101;" width="252"><p class="tabletext">Enim feugiat urna non hendrerit magna pharetra nisl dictum, magnis aliquam bibendum phasellus nibh risus dapibus, convallis gravida litora at primis sed consequat. </p>
+<p class="tablenote"><span class="zzznotecautionwarninglabel-onlineonly">Note: </span>If you write technical documentation in Latin, most modern people will not understand what you have written. Latin is appropriate only when you are writing for an audience of ancient Romans.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="180"><p class="tabletext">Quam dapibus vitae fusce placerat nisl class, nulla mus varius senectus malesuada, ultricies ornare lacinia duis primis himenaeos, dis porttitor sociis hac:</p>
+<ol class="tablelistnumber"><li class="tablelistnumber">Table List Number</li><li class="tablelistnumber">Quam dapibus</li><li class="tablelistnumber">vitae fusce</li><li class="tablelistnumber">placerat nisl class</li></ol></td>
+<td style="border:1px solid #010101;" width="192"><p class="tabletext">&nbsp;</p>
+</td>
+<td style="border:1px solid #010101;" width="252"><p class="bodytext">&nbsp;</p>
+</td>
+</tr>
+
+</table>
+<p class="spacer"></p>
+<p class="bodytext">Here is a 2-column table with subheadings (from Table Snippets); it is preceded by a Margin Reset Body paragraph:</p>
+<p class="marginresetbodytablesonly"></p>
+<table class="tableintopic" width="480" cellpadding="2" cellspacing="0" border="0" style="border-collapse:collapse">
+<tr align="left" valign="top">
+<th bgcolor="#00609C" valign="middle" style="border:1px solid #010101;" width="118"><p class="testtableheading">Table Heading Style</p>
+</th>
+<th bgcolor="#00609C" valign="middle" style="border-right:1px solid #010101;border-top:1px solid #010101;border-bottom:1px solid #010101;" width="362"><p class="testtableheading">Table Heading Style</p>
+</th>
+</tr>
+<tr align="left" valign="top">
+<th bgcolor="#F3F3F3" style="border-left:1px solid #010101;border-right:1px solid #010101;border-bottom:1px solid #010101;" colspan="2" width="480"><p class="tableheading2">Subheading aka Table Heading 2</p>
+</th>
+</tr>
+<tr align="left" valign="top">
+<td style="border-left:1px solid #010101;border-right:1px solid #010101;border-bottom:1px solid #010101;" width="118"><p class="tabletext">Text</p>
+</td>
+<td style="border-right:1px solid #010101;border-bottom:1px solid #010101;" width="362"><p class="tabletext">Text</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border-left:1px solid #010101;border-right:1px solid #010101;border-bottom:1px solid #010101;" width="118"><p class="tabletext">Text</p>
+</td>
+<td style="border-right:1px solid #010101;border-bottom:1px solid #010101;" width="362"><p class="tabletext">Text</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border-left:1px solid #010101;border-right:1px solid #010101;border-bottom:1px solid #010101;" width="118"><p class="tabletext">Text</p>
+</td>
+<td style="border-right:1px solid #010101;border-bottom:1px solid #010101;" width="362"><p class="tabletext">Text</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border-left:1px solid #010101;border-right:1px solid #010101;border-bottom:1px solid #010101;" width="118"><p class="tabletext">Text</p>
+</td>
+<td style="border-right:1px solid #010101;border-bottom:1px solid #010101;" width="362"><p class="tabletext">Text</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border-left:1px solid #010101;border-right:1px solid #010101;border-bottom:1px solid #010101;" width="118"><p class="tabletext">Text</p>
+</td>
+<td style="border-right:1px solid #010101;border-bottom:1px solid #010101;" width="362"><p class="tabletext">Text</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td bgcolor="#F3F3F3" style="border-left:1px solid #010101;border-right:1px solid #010101;border-bottom:1px solid #010101;" colspan="2" width="480"><p class="tableheading2">Subheading aka Table Heading 2</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border-left:1px solid #010101;border-right:1px solid #010101;border-bottom:1px solid #010101;" width="118"><p class="tabletext">Text</p>
+</td>
+<td style="border-right:1px solid #010101;border-bottom:1px solid #010101;" width="362"><p class="tabletext">Text</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border-left:1px solid #010101;border-right:1px solid #010101;border-bottom:1px solid #010101;" width="118"><p class="tabletext">Text</p>
+</td>
+<td style="border-right:1px solid #010101;border-bottom:1px solid #010101;" width="362"><p class="tabletext">Text</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border-left:1px solid #010101;border-right:1px solid #010101;border-bottom:1px solid #010101;" width="118"><p class="tabletext">Text</p>
+</td>
+<td style="border-right:1px solid #010101;border-bottom:1px solid #010101;" width="362"><p class="tabletext">Text</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border-left:1px solid #010101;border-right:1px solid #010101;border-bottom:1px solid #010101;" width="118"><p class="tabletext">Text</p>
+</td>
+<td style="border-right:1px solid #010101;border-bottom:1px solid #010101;" width="362"><p class="tabletext">Text</p>
+</td>
+</tr>
+
+</table>
+<p class="spacer"></p>
+<p class="bodytext">Do we still need the Margin Reset Left style? Now that body text is flush left (i.e., no indent), won't Margin Reset Left and Margin Reset Body do the same thing? Below is a table preceded by a Margin Reset Left paragraph:</p>
+<p class="marginresetlefttablesonly"></p>
+<table class="tableintopic" width="480" cellpadding="2" cellspacing="0" border="0" style="border-collapse:collapse">
+<tr align="left" valign="top">
+<th bgcolor="#00609C" valign="middle" style="border:1px solid #010101;" width="135"><p class="testtableheading">Heading</p>
+</th>
+<th bgcolor="#00609C" valign="middle" style="border-right:1px solid #010101;border-top:1px solid #010101;border-bottom:1px solid #010101;" width="345"><p class="testtableheading">Heading</p>
+</th>
+</tr>
+<tr align="left" valign="top">
+<td style="border-left:1px solid #010101;border-right:1px solid #010101;border-bottom:1px solid #010101;" width="135"><p class="tabletext">Best practice: Design table cells with content - no empty table cells!</p>
+</td>
+<td style="border-right:1px solid #010101;border-bottom:1px solid #010101;" width="345"><p class="tabletext">&nbsp;</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border-left:1px solid #010101;border-right:1px solid #010101;border-bottom:1px solid #010101;" width="135"><p class="tabletext">&nbsp;</p>
+</td>
+<td style="border-right:1px solid #010101;border-bottom:1px solid #010101;" width="345"><p class="tabletext">&nbsp;</p>
+</td>
+</tr>
+
+</table>
+<p class="spacer"></p>
+<p class="bodytext">And lastly, let's try a table with the following characteristics:</p>
+<ul class="bullet"><li class="bullet">Two columns (big deal...)</li><li class="bullet">Followed by a Spacer (big deal...)</li><li class="bullet">Following a list and preceded by a Margin Reset List paragraph (now that is a big deal!):<p class="marginresetlisttablesonly"></p>
+<table class="tableintopic" width="480" cellpadding="2" cellspacing="0" border="0" style="border-collapse:collapse">
+<tr align="left" valign="top">
+<th bgcolor="#00609C" valign="middle" style="border:1px solid #010101;" width="135"><p class="testtableheading">Heading</p>
+</th>
+<th bgcolor="#00609C" valign="middle" style="border-right:1px solid #010101;border-top:1px solid #010101;border-bottom:1px solid #010101;" width="345"><p class="testtableheading">Heading</p>
+</th>
+</tr>
+<tr align="left" valign="top">
+<td style="border-left:1px solid #010101;border-right:1px solid #010101;border-bottom:1px solid #010101;" width="135"><p class="tabletext">Best practice: Design table cells with content - no empty table cells!</p>
+</td>
+<td style="border-right:1px solid #010101;border-bottom:1px solid #010101;" width="345"><p class="tabletext">&nbsp;</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border-left:1px solid #010101;border-right:1px solid #010101;border-bottom:1px solid #010101;" width="135"><p class="tabletext">&nbsp;</p>
+</td>
+<td style="border-right:1px solid #010101;border-bottom:1px solid #010101;" width="345"><p class="tabletext">&nbsp;</p>
+</td>
+</tr>
+
+</table>
+<p class="spacer"></p>
+</li></ul>
+
+
+	    <!--	<authorit:SYS_TOPIC_BODY> -->
+	      <!-- <script>$('.topic-container').load('example-content/example-topic.htm');</script> -->
+	    </div>
+	    <!-- This is the destination for the Feedback button.-->
+		<div id="feedback-container" style="margin-top: 20px; padding-bottom: 30px;">
+			<div id="feedback-survey">
+				<!-- see init() - the src url is rewritten to append the AIT OBJECT ID for inclusion in email notifications -->
+	      		<iframe id="surveyform" src="https://vertexinc.co1.qualtrics.com/jfe/form/SV_3JJ80LWsExAasPH" scrolling="no" style="border: 0; padding-top: 25px;" width="100%" height="400px"></iframe>
+	    	</div>
+		</div>
+    </div>
+</div>
+
+<div id="footer-container">
+	<div id="footer-left">
+		<!--<span id="footer-policy-links"><a href="#">Terms and Conditions  |  Privacy Policy  |  Cookie Policy</a></span>-->
+	</div>
+	<div id="footer-right" class="print">
+		<span id="footer-copyright">Copyright &copy 2020 Vertex, Inc. All rights reserved</span>
+	</div>
+</div>
+</body>
+</html>
