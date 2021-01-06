@@ -1,11 +1,11 @@
-Publishing 'Test for 2018 Design Refresh (151385)' to HTML Pages - No Frames (78881) (Started 8:28:03 AM)
-Loading variables (8:28:03 AM)
-Checking Release States (8:28:03 AM)
+Publishing 'Test for 2018 Design Refresh (151385)' to HTML Pages - No Frames (78881) (Started 8:38:02 AM)
+Loading variables (8:38:02 AM)
+Checking Release States (8:38:02 AM)
 Creating output folder
-Load book contents (8:28:03 AM)
-Load related groups (8:28:03 AM)
+Load book contents (8:38:03 AM)
+Load related groups (8:38:03 AM)
 Loading Book (< 1 Second)
-Start publishing content (8:28:08 AM)
+Start publishing content (8:38:07 AM)
 Determining HTML Pages - No Frames filenames (< 1 Second)
 Creating Table of Contents (1 Second(s))
 Topic 'Copyright notice - full  (for PDF)' - 109
@@ -32,11 +32,28 @@ Topic 'Numbered list' - 151406
 Topic 'Note Caution Warning' - 151394
 Topic 'Table Styles' - 151397
 Topic 'Columns' - 151388
-Creating HTML Pages - No Frames Pages (9 Second(s))
+Creating HTML Pages - No Frames Pages (11 Second(s))
+Hyperlink 'Body Styles' (171065)
+Hyperlink 'Character Styles' (171066)
+Hyperlink 'Graphics Styles' (171067)
+Hyperlink 'screenshot test' (171068)
+Hyperlink 'Heading Styles' (171069)
+Hyperlink 'Heading level 2' (171070)
+Hyperlink 'Heading level 3' (171071)
+Hyperlink 'Heading level 4' (171072)
+Hyperlink 'Heading level 5' (171073)
+Hyperlink 'Heading level 6' (171074)
+Hyperlink 'Legal - Copyright Styles' (171075)
+Hyperlink 'List Styles' (171076)
+Hyperlink 'Bulleted list' (171077)
+Hyperlink 'Numbered list' (171078)
+Hyperlink 'Note Caution Warning' (171079)
+Hyperlink 'Table Styles' (171080)
+Hyperlink 'Columns' (171081)
 File '100% figure' - 125033
 File 'Copy of Reconcile book and taxable income' - 98114
 File 'Panel-Secondary(NewUI)' - 158972
 Adding Hyperlinks and Graphics (< 1 Second)
 Converting Files (< 1 Second)
 Creating Stylesheet (1 Second(s))
-Publishing finish (Finished 8:28:28 AM)
+Publishing finish (Finished 8:38:28 AM)
