@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<div id="136978" data-aitid="136978" data-modifieddate="2021-01-12" data-aitvariantparent="0" class="concept_moredetailtemplate">
+   <script type="text/javascript">$('[data-toggle="popover"]').popover(); </script>
+   
+   <h4>Add custom commodity codes</h4>
+   <p class="bodytext">You may have tax situations for which Vertex-supplied commodity codes do not provide
+      the appropriate taxation. These situations might be:</p>
+   <ul class="bullet">
+      <li class="bullet">
+         <p class="bullet">Vertex does not support the commodity code that applies to your products or services,
+            but there is a taxability category that does provides the appropriate taxation. In
+            this case, you can add the commodity code and map it to the taxability category.</p>
+      </li>
+      <li class="bullet">
+         <p class="bullet">Vertex does support the commodity code, but your tax situation requires different
+            taxation than the Vertex-supplied data. In this case, you can override the tax treatment
+            for the commodity code.</p>
+      </li>
+   </ul>
+   <p class="paragraphheading">An example for adding a commodity code</p>
+   <p class="bodytext">Vertex currently does not provide data for UNSPSC code 42271802, Nebulizer. You want
+      to add this UNSPSC code to Your Vertex product and map it to the taxability category that applies to medical devices that are for
+      in-home use. Here is the setup for this user-defined commodity code:<br></p>
+   <p class="figure"><img src="136367.png" class="embeddedpngfile_70_template"></p>
+   <p class="spacer"></p>
+   <p class="paragraphheading">Before you get started</p>
+   <p class="bodytext">When adding a custom commodity code, consider the earliest historical date for any
+      transactions that use the commodity code. After you determine the appropriate historical
+      date, set the As of Date in the global settings area to this date <span class="emphasis">before</span> you set up the commodity code. For details, refer to <span class="jumptemplate_textstring">Always consider the As of Date</span>.</p>
+   <p class="paragraphheading">Adding and mapping a user-defined commodity code</p>
+   <p class="bodytext">You create a commodity code and map it to a taxability category in one simple procedure:</p>
+   <ol class="numberlist">
+      <li class="numberlist">
+         <p class="numberlist">Navigate to <span class="procedureinterfaceelement">My Enterprise &gt; Taxability Driver Management &gt; Commodity Codes</span>.</p>
+      </li>
+      <li class="numberlist">
+         <p class="numberlist">Click <span class="procedureinterfaceelement">ADD</span>.</p>
+      </li>
+      <li class="numberlist">
+         <p class="numberlist">From the <span class="procedureinterfaceelement">Type</span> drop-down list, select the type of commodity code you are creating.</p>
+      </li>
+      <li class="numberlist">
+         <p class="numberlist">In the <span class="procedureinterfaceelement">Code</span> field, enter the full commodity code value as it will be passed from your host system.</p>
+      </li>
+      <li class="numberlist">
+         <p class="numberlist">In the <span class="procedureinterfaceelement">Name</span> field, enter a descriptive name for the commodity code.</p>
+      </li>
+      <li class="numberlist">
+         <p class="numberlist">Click <img src="135167.png" class="embeddedpngfile_70_template"> in the <span class="procedureinterfaceelement">Taxability Category</span> field and select the category to which you want to map the commodity code.</p>
+      </li>
+      <li class="numberlist">
+         <p class="numberlist">In the <span class="procedureinterfaceelement">Start Date</span> field, select the date on which the commodity code becomes effective in O Series.</p>
+      </li>
+      <li class="numberlist">
+         <p class="numberlist">In the <span class="procedureinterfaceelement">End Date</span> field, select the date after which the commodity code should no longer be effective
+            in O Series. Leave this field blank if you do not know when the commodity code expires.</p>
+      </li>
+      <li class="numberlist">
+         <p class="numberlist">In the <span class="procedureinterfaceelement">Note</span> field, enter any information that is pertinent to the purpose or usage of the commodity
+            code you are creating.</p>
+      </li>
+      <li class="numberlist">
+         <p class="numberlist">To use the commodity code for both Supplies and Procurement events, select the <span class="procedureinterfaceelement">Share with other business events</span> check box.</p>
+      </li>
+      <li class="numberlist">
+         <p class="numberlist">Click <span class="procedureinterfaceelement">SAVE</span>.</p>
+      </li>
+   </ol>
+   <p class="paragraphheading">Overriding the taxability of a commodity code</p>
+   <p class="bodytext">You can override the tax treatment for a commodity code in the following ways:</p>
+   <ul class="bullet">
+      <li class="bullet">
+         <p class="bullet">By creating a user-defined commodity code that specifies the same code as a Vertex-supplied
+            commodity code and mpas it to a different taxability category.</p>
+      </li>
+      <li class="bullet">
+         <p class="bullet">By creating a Tax Assist rule using the <span class="procedureinterfaceelement">commodityCode</span> and <span class="procedureinterfaceelement">commodityCodeType</span> elements.</p>
+      </li>
+   </ul>
+   <p class="bodytext">When processing a transaction, the Calculation Engine gives user-defined commodity
+      code mappings a higher precedence than Vertex-defined commodity code mappings.</p>
+   <p class="paragraphheading">Field descriptions</p>
+   <p class="bodytext">The table below explains the fields on the <span class="procedureinterfaceelement">Add Commodity Code</span> tab in more detail:</p>
+   <p class="marginresetbody_tablesonly_"></p>
+   <div class="table-responsive noheader borders shading marginresetbody_tablesonly_ tableheading">
+      <table class="table" data-width="624px">
+         <tbody>
+            <tr>
+               <td style="border-style: solid; border-width:0.5pt;border-color:#010101;background-color:#00609C;" data-width="144px">
+                  <p class="tableheading">Field</p>
+               </td>
+               <td style="border-style: solid; border-width:0.5pt;border-color:#010101;background-color:#00609C;" data-width="480px">
+                  <p class="tableheading">Description</p>
+               </td>
+            </tr>
+            <tr>
+               <td style="border-style: solid; border-width:0.5pt;border-color:#010101;" data-width="144px">
+                  <p class="tabletext">Type</p>
+               </td>
+               <td style="border-style: solid; border-width:0.5pt;border-color:#010101;" data-width="480px">
+                  <p class="tabletext">Select the type of commodity code that you want to create. For information about each
+                     type, refer to <span class="jumptemplate_textstring">Commodity codes in O Series</span>.</p>
+               </td>
+            </tr>
+            <tr>
+               <td style="border-style: solid; border-width:0.5pt;border-color:#010101;" data-width="144px">
+                  <p class="tabletext">Code</p>
+               </td>
+               <td style="border-style: solid; border-width:0.5pt;border-color:#010101;" data-width="480px">
+                  <p class="tabletext">Enter the commodity code number exactly as it will be passed to O Series from your
+                     host system. O Series does not restrict the format for each type of commodity code.</p>
+               </td>
+            </tr>
+            <tr>
+               <td style="border-style: solid; border-width:0.5pt;border-color:#010101;" data-width="144px">
+                  <p class="tabletext">Name</p>
+               </td>
+               <td style="border-style: solid; border-width:0.5pt;border-color:#010101;" data-width="480px">
+                  <p class="tabletext">Enter a descriptive name for the commodity code.</p>
+               </td>
+            </tr>
+            <tr>
+               <td style="border-style: solid; border-width:0.5pt;border-color:#010101;" data-width="144px">
+                  <p class="tabletext">Taxability Category</p>
+               </td>
+               <td style="border-style: solid; border-width:0.5pt;border-color:#010101;" data-width="480px">
+                  <p class="tabletext">Select the taxability category to which you want to map the commodity code. Click
+                     <img src="67352.png" class="embeddedpngfile_70_template"> next to this field to display the <span class="procedureinterfaceelementintable">Taxability Categories</span> selector, where you can search for and select the taxability category.</p>
+               </td>
+            </tr>
+            <tr>
+               <td style="border-style: solid; border-width:0.5pt;border-color:#010101;" data-width="144px">
+                  <p class="tabletext">Start Date</p>
+               </td>
+               <td style="border-style: solid; border-width:0.5pt;border-color:#010101;" data-width="480px">
+                  <p class="tabletext">Select the date on which the user-defined commodity code becomes effective in O Series.</p>
+               </td>
+            </tr>
+            <tr>
+               <td style="border-style: solid; border-width:0.5pt;border-color:#010101;" data-width="144px">
+                  <p class="tabletext">End Date</p>
+               </td>
+               <td style="border-style: solid; border-width:0.5pt;border-color:#010101;" data-width="480px">
+                  <p class="tabletext">Select the date after which the user-defined commodity code is no longer inactive
+                     in O Series.</p>
+               </td>
+            </tr>
+            <tr>
+               <td style="border-style: solid; border-width:0.5pt;border-color:#010101;" data-width="144px">
+                  <p class="tabletext">Share with other business events</p>
+               </td>
+               <td style="border-style: solid; border-width:0.5pt;border-color:#010101;" data-width="480px">
+                  <p class="tabletext">To use the commodity code in both Supplies and Procurement business events, select
+                     this check box.</p>
+               </td>
+            </tr>
+            <tr>
+               <td style="border-style: solid; border-width:0.5pt;border-color:#010101;" data-width="144px">
+                  <p class="tabletext">Note</p>
+               </td>
+               <td style="border-style: solid; border-width:0.5pt;border-color:#010101;" data-width="480px">
+                  <p class="tabletext">Enter any information that is pertinent to the purpose or usage of the commodity code
+                     you are creating.</p>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+   <p class="spacer"></p>
+   <p class="paragraphheading">Related articles</p>
+   <p class="bodytext"><span class="jumptemplate_textstring">Commodity codes in O Series</span></p>
+   <p class="bodytext"><span class="jumptemplate_textstring">UNSPSC commodity codes</span></p>
+   <p class="bodytext"><span class="jumptemplate_textstring">NCM commodity codes for Brazilian taxation</span></p>
+   <p class="bodytext"><span class="jumptemplate_textstring">Service commodity codes for Brazilian taxation</span></p>
+   <p class="bodytext"><span class="jumptemplate_textstring">HSN commodity codes for India taxation</span></p>
+   <p class="bodytext"><span class="jumptemplate_textstring">Review the taxability of a commodity code</span></p>
+   <p class="bodytext"><span class="jumptemplate_textstring">Identify the commodity code used in a calculation</span></p>
+</div>

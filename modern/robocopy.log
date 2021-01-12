@@ -1,0 +1,543 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Tuesday, January 12, 2021 9:25:56 AM
+   Source : C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\
+     Dest : C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\content\en\
+
+    Files : *.*
+	    
+Exc Files : Knowledge Modernization Guidelines.xml
+	    *.log
+	    
+ Exc Dirs : content
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /MOVE /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  New Dir         51	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\
+	    New File  		     355	124.gif100%  
+	    New File  		     353	125.gif100%  
+	    New File  		     357	126.gif100%  
+	    New File  		     804	126432.png100%  
+	    New File  		   25246	130997.png100%  
+	    New File  		     577	135167.png100%  
+	    New File  		    5686	135818.png100%  
+	    New File  		    5476	135822.png100%  
+	    New File  		    7730	135823.png100%  
+	    New File  		   35190	136367.png100%  
+	    New File  		   57769	136369.png100%  
+	    New File  		   53965	136375.png100%  
+	    New File  		     286	136970.html100%  
+	    New File  		     457	136971.html100%  
+	    New File  		     485	136972.html100%  
+	    New File  		  376601	136973.png 34%   69%  100%  
+	    New File  		     279	136974.html100%  
+	    New File  		     266	136975.html100%  
+	    New File  		     420	136976.html100%  
+	    New File  		    3940	136977.html100%  
+	    New File  		   11842	136978.html100%  
+	    New File  		    2721	136979.html100%  
+	    New File  		   10340	19936.gif100%  
+	    New File  		     577	67352.png100%  
+	    New File  		     216	footer.json100%  
+	    New File  		    2361	f_109.html100%  
+	    New File  		    6118	f_121286.html100%  
+	    New File  		     142	f_135111.html100%  
+	    New File  		     283	f_4756.html100%  
+	    New File  		     751	index.json100%  
+	    New File  		     622	landingpage.json100%  
+	    New File  		     140	l_135096.html100%  
+	    New File  		     147	l_135098.html100%  
+	    New File  		     196	l_136949.html100%  
+	    New File  		     180	l_136950.html100%  
+	    New File  		     180	l_136951.html100%  
+	    New File  		     465	l_136952.html100%  
+	    New File  		     209	l_136953.html100%  
+	    New File  		     209	l_136954.html100%  
+	    New File  		     209	l_136955.html100%  
+	    New File  		     209	l_136956.html100%  
+	    New File  		     273	metadata.json100%  
+	    New File  		     806	modifiedtopics.json100%  
+	    New File  		    1354	open_parent.js100%  
+	    New File  		       2	resources.json100%  
+	    New File  		   70880	searchindex.json100%  
+	    New File  		    2930	toc.json100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         1         1         0         0         0
+   Files :        51        47         4         0         0         0
+   Bytes :   677.9 k   674.4 k     3.5 k         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :             2317463 Bytes/sec.
+   Speed :             132.606 MegaBytes/min.
+   Ended : Tuesday, January 12, 2021 9:25:56 AM
+
+
+2021/01/12 09:25:56 ERROR 32 (0x00000020) Deleting Source Directory C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\
+The process cannot access the file because it is being used by another process.
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Tuesday, January 12, 2021 9:25:56 AM
+   Source : C:\Program Files\Author-it\Engines\Magellan\
+     Dest : C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /NP /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  12	C:\Program Files\Author-it\Engines\Magellan\
+	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\content\
+	  *EXTRA File 		    1170	indexerLog.log
+	  *EXTRA File 		     944	magellan-script.log
+	  *EXTRA File 		    3952	robocopy.log
+	  *EXTRA File 		    1750	saxon.log
+	    New File  		   12491	3rdpartylicenses.txt
+	    New File  		    5430	favicon.ico
+	    New File  		    2699	index.html
+	    New File  		     798	inline.31e1fb380eb7cf3d75b1.bundle.js
+	    New File  		    5083	logo.png
+	    New File  		  406857	main.bb1f61b7092385f4ba1e.bundle.js
+	    New File  		  115285	polyfills.ef59c4914bd69e024385.bundle.js
+	    New File  		  404323	scripts.6e22b6b7916fdc122797.bundle.js
+	    New File  		    4179	siteconfig.json
+	    New File  		       0	styles.ac89bfdd6de82636b768.bundle.css
+	    New File  		  777878	vendor.e4d437197b465110d9e5.bundle.js
+	    New File  		       8	version
+	  New Dir          0	C:\Program Files\Author-it\Engines\Magellan\assets\
+	  New Dir          0	C:\Program Files\Author-it\Engines\Magellan\assets\resources\
+	  New Dir          2	C:\Program Files\Author-it\Engines\Magellan\assets\resources\ar\
+	    New File  		    2908	ar-ar.json
+	    New File  		    2908	ar-qa.json
+	  New Dir          1	C:\Program Files\Author-it\Engines\Magellan\assets\resources\da\
+	    New File  		    2596	da-da.json
+	  New Dir          1	C:\Program Files\Author-it\Engines\Magellan\assets\resources\de\
+	    New File  		    3524	de-de.json
+	  New Dir          1	C:\Program Files\Author-it\Engines\Magellan\assets\resources\en\
+	    New File  		    3419	en-us.json
+	  New Dir          1	C:\Program Files\Author-it\Engines\Magellan\assets\resources\es\
+	    New File  		    2747	es-es.json
+	  New Dir          1	C:\Program Files\Author-it\Engines\Magellan\assets\resources\fi\
+	    New File  		    2641	fi-fi.json
+	  New Dir          1	C:\Program Files\Author-it\Engines\Magellan\assets\resources\fr\
+	    New File  		    2768	fr-fr.json
+	  New Dir          1	C:\Program Files\Author-it\Engines\Magellan\assets\resources\hu\
+	    New File  		    2564	hu-hu.json
+	  New Dir          1	C:\Program Files\Author-it\Engines\Magellan\assets\resources\it\
+	    New File  		    2643	it-it.json
+	  New Dir          1	C:\Program Files\Author-it\Engines\Magellan\assets\resources\ja\
+	    New File  		    2811	ja-ja.json
+	  New Dir          1	C:\Program Files\Author-it\Engines\Magellan\assets\resources\nl\
+	    New File  		    2660	nl-nl.json
+	  New Dir          1	C:\Program Files\Author-it\Engines\Magellan\assets\resources\pl\
+	    New File  		    3405	pl-pl.json
+	  New Dir          1	C:\Program Files\Author-it\Engines\Magellan\assets\resources\ro\
+	    New File  		    2680	ro-ro.json
+	  New Dir          1	C:\Program Files\Author-it\Engines\Magellan\assets\resources\ru\
+	    New File  		    3314	ru-ru.json
+	  New Dir          1	C:\Program Files\Author-it\Engines\Magellan\assets\resources\sv\
+	    New File  		    2628	sv-sv.json
+	  New Dir          1	C:\Program Files\Author-it\Engines\Magellan\assets\resources\th\
+	    New File  		    3618	th-th.json
+	  New Dir          1	C:\Program Files\Author-it\Engines\Magellan\assets\resources\tr\
+	    New File  		    2629	tr-tr.json
+	  New Dir          1	C:\Program Files\Author-it\Engines\Magellan\assets\resources\vi\
+	    New File  		    2558	vi-vi.json
+	  New Dir          2	C:\Program Files\Author-it\Engines\Magellan\assets\resources\zh\
+	    New File  		    2535	zh-tw.json
+	    New File  		    2542	zh-zh.json
+	  New Dir         10	C:\Program Files\Author-it\Engines\Magellan\css\
+	    New File  		    3121	32px.png
+	    New File  		    1880	40px.png
+	    New File  		  187820	allcss.min.css
+	    New File  		   50196	bootstrap-rtl.min.css
+	    New File  		   23186	contentstyles.css
+	    New File  		   29063	font-awesome.min.css
+	    New File  		     711	jquery.rateyo.min.css
+	    New File  		   81350	mainstyles.css
+	    New File  		    3074	themestyles.css
+	    New File  		    1720	throbber.gif
+	  New Dir         11	C:\Program Files\Author-it\Engines\Magellan\fonts\
+	    New File  		   76518	fontawesome-webfont.eot
+	    New File  		  391622	fontawesome-webfont.svg
+	    New File  		  152796	fontawesome-webfont.ttf
+	    New File  		   90412	fontawesome-webfont.woff
+	    New File  		   71896	fontawesome-webfont.woff2
+	    New File  		  124988	FontAwesome.otf
+	    New File  		   20127	glyphicons-halflings-regular.eot
+	    New File  		  108738	glyphicons-halflings-regular.svg
+	    New File  		   45404	glyphicons-halflings-regular.ttf
+	    New File  		   23424	glyphicons-halflings-regular.woff
+	    New File  		   18028	glyphicons-halflings-regular.woff2
+	  New Dir         30	C:\Program Files\Author-it\Engines\Magellan\images\
+	    New File  		     701	add_fav_icon.png
+	    New File  		    1147	arrow_right.png
+	    New File  		    1105	arrow_top.png
+	    New File  		     281	arrow_top_grey.png
+	    New File  		     281	cancel_icon.png
+	    New File  		    1032	disqus-social-icon-dark.png
+	    New File  		     723	dis_icon.png
+	    New File  		     723	dis_icon2.png
+	    New File  		    1008	down_arrow.png
+	    New File  		    1751	fb_icon.png
+	    New File  		    1109	file_icon.png
+	    New File  		     618	heart_icon.png
+	    New File  		  980125	landing_bg.jpg
+	    New File  		    1963	ln_icon.png
+	    New File  		   10379	ln_icon_bw.png
+	    New File  		    3148	logo.png
+	    New File  		    3772	logo2.png
+	    New File  		    2024	mail_icon.png
+	    New File  		     668	most_recent_icon.png
+	    New File  		     651	my_saved_icon.png
+	    New File  		    1326	pdf_icon.png
+	    New File  		     703	recent_icon.png
+	    New File  		     717	resources_icon.png
+	    New File  		     697	share_icon.png
+	    New File  		    1795	star_icon.png
+	    New File  		    2190	twitter_icon.png
+	    New File  		    1771	vertical_ellipsis.svg
+	    New File  		     700	what_icon.png
+	    New File  		    1323	word_icon.png
+	    New File  		    3925	xls.png
+	  New Dir          4	C:\Program Files\Author-it\Engines\Magellan\js\
+	    New File  		  470688	all.min.js
+	    New File  		   23595	ie11CustomProperties.js
+	    New File  		    9203	jquery.rateyo.min.js
+	    New File  		  113525	tree.jquery.js
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :        26        25         1         0         0         1
+   Files :        88        88         0         0         0         4
+   Bytes :    4.71 m    4.71 m         0         0         0     7.6 k
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :             8109131 Bytes/sec.
+   Speed :             464.008 MegaBytes/min.
+   Ended : Tuesday, January 12, 2021 9:25:57 AM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Tuesday, January 12, 2021 9:25:57 AM
+   Source : \\corporate\shares\AuthorIT\NewData\Templates\Magellan\VertexKM\
+     Dest : C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /NP /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   2	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\VertexKM\
+	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\assets\
+	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\content\
+	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\fonts\
+	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\js\
+	  *EXTRA File 		   12491	3rdpartylicenses.txt
+	  *EXTRA File 		    5430	favicon.ico
+	  *EXTRA File 		    2699	index.html
+	  *EXTRA File 		    1170	indexerLog.log
+	  *EXTRA File 		     798	inline.31e1fb380eb7cf3d75b1.bundle.js
+	  *EXTRA File 		    1151	magellan-script.log
+	  *EXTRA File 		  406857	main.bb1f61b7092385f4ba1e.bundle.js
+	  *EXTRA File 		  115285	polyfills.ef59c4914bd69e024385.bundle.js
+	  *EXTRA File 		   11577	robocopy.log
+	  *EXTRA File 		    1750	saxon.log
+	  *EXTRA File 		  404323	scripts.6e22b6b7916fdc122797.bundle.js
+	  *EXTRA File 		    4179	siteconfig.json
+	  *EXTRA File 		       0	styles.ac89bfdd6de82636b768.bundle.css
+	  *EXTRA File 		  777878	vendor.e4d437197b465110d9e5.bundle.js
+	  *EXTRA File 		       8	version
+	    Older     		    2604	logo.png
+	    New File  		    5120	Thumbs.db
+	                   2	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\VertexKM\css\
+	  *EXTRA File 		    3121	32px.png
+	  *EXTRA File 		    1880	40px.png
+	  *EXTRA File 		  187820	allcss.min.css
+	  *EXTRA File 		   50196	bootstrap-rtl.min.css
+	  *EXTRA File 		   29063	font-awesome.min.css
+	  *EXTRA File 		     711	jquery.rateyo.min.css
+	  *EXTRA File 		   81350	mainstyles.css
+	  *EXTRA File 		    1720	throbber.gif
+	    Newer     		   25477	contentstyles.css
+	    Newer     		    8787	themestyles.css
+	  New Dir          6	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\VertexKM\css\backup\
+	    New File  		   23096	contentstyles-09102020.css
+	    New File  		   23268	contentstyles.css
+	    New File  		    3073	themestyles - Copy.css
+	    New File  		    7048	themestyles-09102020.css
+	    New File  		    4190	themestyles.css
+	    New File  		    6851	themestyles9-9.css
+	                   6	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\VertexKM\images\
+	  *EXTRA File 		     701	add_fav_icon.png
+	  *EXTRA File 		    1147	arrow_right.png
+	  *EXTRA File 		    1105	arrow_top.png
+	  *EXTRA File 		     281	arrow_top_grey.png
+	  *EXTRA File 		     281	cancel_icon.png
+	  *EXTRA File 		    1032	disqus-social-icon-dark.png
+	  *EXTRA File 		     723	dis_icon.png
+	  *EXTRA File 		     723	dis_icon2.png
+	  *EXTRA File 		    1008	down_arrow.png
+	  *EXTRA File 		    1751	fb_icon.png
+	  *EXTRA File 		    1109	file_icon.png
+	  *EXTRA File 		     618	heart_icon.png
+	  *EXTRA File 		    1963	ln_icon.png
+	  *EXTRA File 		   10379	ln_icon_bw.png
+	  *EXTRA File 		    2024	mail_icon.png
+	  *EXTRA File 		     668	most_recent_icon.png
+	  *EXTRA File 		     651	my_saved_icon.png
+	  *EXTRA File 		    1326	pdf_icon.png
+	  *EXTRA File 		     703	recent_icon.png
+	  *EXTRA File 		     717	resources_icon.png
+	  *EXTRA File 		     697	share_icon.png
+	  *EXTRA File 		    1795	star_icon.png
+	  *EXTRA File 		    2190	twitter_icon.png
+	  *EXTRA File 		    1771	vertical_ellipsis.svg
+	  *EXTRA File 		     700	what_icon.png
+	  *EXTRA File 		    1323	word_icon.png
+	  *EXTRA File 		    3925	xls.png
+	    New File  		  633756	landing_bg-default.jpg
+	    Older     		  488775	landing_bg.jpg
+	    New File  		   1.3 m	landing_bg.png
+	    Older     		    4479	logo.png
+	    Older     		    4479	logo2.png
+	    New File  		    5632	Thumbs.db
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         4         1         3         0         0         4
+   Files :        16        16         0         0         0        50
+   Bytes :    2.56 m    2.56 m         0         0         0    2.04 m
+   Times :   0:00:02   0:00:02                       0:00:00   0:00:00
+
+
+   Speed :             1187762 Bytes/sec.
+   Speed :              67.964 MegaBytes/min.
+   Ended : Tuesday, January 12, 2021 9:26:00 AM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Tuesday, January 12, 2021 9:26:03 AM
+   Source : C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\
+     Dest : C:\inetpub\wwwroot\magellan\136957\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /NP /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  17	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\
+	    New File  		   12491	3rdpartylicenses.txt
+	    New File  		    5430	favicon.ico
+	    New File  		    2699	index.html
+	    New File  		    1170	indexerLog.log
+	    New File  		     798	inline.31e1fb380eb7cf3d75b1.bundle.js
+	    New File  		    2604	logo.png
+	    New File  		    1635	magellan-script.log
+	    New File  		  406857	main.bb1f61b7092385f4ba1e.bundle.js
+	    New File  		  115285	polyfills.ef59c4914bd69e024385.bundle.js
+	    New File  		   16649	robocopy.log
+	    New File  		    1750	saxon.log
+	    New File  		  404323	scripts.6e22b6b7916fdc122797.bundle.js
+	    New File  		    4179	siteconfig.json
+	    New File  		       0	styles.ac89bfdd6de82636b768.bundle.css
+	    New File  		    5120	Thumbs.db
+	    New File  		  777878	vendor.e4d437197b465110d9e5.bundle.js
+	    New File  		       8	version
+	  New Dir          0	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\assets\
+	  New Dir          0	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\assets\resources\
+	  New Dir          2	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\assets\resources\ar\
+	    New File  		    2908	ar-ar.json
+	    New File  		    2908	ar-qa.json
+	  New Dir          1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\assets\resources\da\
+	    New File  		    2596	da-da.json
+	  New Dir          1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\assets\resources\de\
+	    New File  		    3524	de-de.json
+	  New Dir          1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\assets\resources\en\
+	    New File  		    3419	en-us.json
+	  New Dir          1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\assets\resources\es\
+	    New File  		    2747	es-es.json
+	  New Dir          1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\assets\resources\fi\
+	    New File  		    2641	fi-fi.json
+	  New Dir          1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\assets\resources\fr\
+	    New File  		    2768	fr-fr.json
+	  New Dir          1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\assets\resources\hu\
+	    New File  		    2564	hu-hu.json
+	  New Dir          1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\assets\resources\it\
+	    New File  		    2643	it-it.json
+	  New Dir          1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\assets\resources\ja\
+	    New File  		    2811	ja-ja.json
+	  New Dir          1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\assets\resources\nl\
+	    New File  		    2660	nl-nl.json
+	  New Dir          1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\assets\resources\pl\
+	    New File  		    3405	pl-pl.json
+	  New Dir          1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\assets\resources\ro\
+	    New File  		    2680	ro-ro.json
+	  New Dir          1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\assets\resources\ru\
+	    New File  		    3314	ru-ru.json
+	  New Dir          1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\assets\resources\sv\
+	    New File  		    2628	sv-sv.json
+	  New Dir          1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\assets\resources\th\
+	    New File  		    3618	th-th.json
+	  New Dir          1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\assets\resources\tr\
+	    New File  		    2629	tr-tr.json
+	  New Dir          1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\assets\resources\vi\
+	    New File  		    2558	vi-vi.json
+	  New Dir          2	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\assets\resources\zh\
+	    New File  		    2535	zh-tw.json
+	    New File  		    2542	zh-zh.json
+	  New Dir          0	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\content\
+	  New Dir         47	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\content\en\
+	    New File  		     355	124.gif
+	    New File  		     353	125.gif
+	    New File  		     357	126.gif
+	    New File  		     804	126432.png
+	    New File  		   25246	130997.png
+	    New File  		     577	135167.png
+	    New File  		    5686	135818.png
+	    New File  		    5476	135822.png
+	    New File  		    7730	135823.png
+	    New File  		   35190	136367.png
+	    New File  		   57769	136369.png
+	    New File  		   53965	136375.png
+	    New File  		     286	136970.html
+	    New File  		     457	136971.html
+	    New File  		     485	136972.html
+	    New File  		  376601	136973.png
+	    New File  		     279	136974.html
+	    New File  		     266	136975.html
+	    New File  		     420	136976.html
+	    New File  		    3940	136977.html
+	    New File  		   11842	136978.html
+	    New File  		    2721	136979.html
+	    New File  		   10340	19936.gif
+	    New File  		     577	67352.png
+	    New File  		     216	footer.json
+	    New File  		    2361	f_109.html
+	    New File  		    6118	f_121286.html
+	    New File  		     142	f_135111.html
+	    New File  		     283	f_4756.html
+	    New File  		     751	index.json
+	    New File  		     622	landingpage.json
+	    New File  		     140	l_135096.html
+	    New File  		     147	l_135098.html
+	    New File  		     196	l_136949.html
+	    New File  		     180	l_136950.html
+	    New File  		     180	l_136951.html
+	    New File  		     465	l_136952.html
+	    New File  		     209	l_136953.html
+	    New File  		     209	l_136954.html
+	    New File  		     209	l_136955.html
+	    New File  		     209	l_136956.html
+	    New File  		     273	metadata.json
+	    New File  		     806	modifiedtopics.json
+	    New File  		    1354	open_parent.js
+	    New File  		       2	resources.json
+	    New File  		   70880	searchindex.json
+	    New File  		    2930	toc.json
+	  New Dir         10	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\css\
+	    New File  		    3121	32px.png
+	    New File  		    1880	40px.png
+	    New File  		  187820	allcss.min.css
+	    New File  		   50196	bootstrap-rtl.min.css
+	    New File  		   25477	contentstyles.css
+	    New File  		   29063	font-awesome.min.css
+	    New File  		     711	jquery.rateyo.min.css
+	    New File  		   81350	mainstyles.css
+	    New File  		    8787	themestyles.css
+	    New File  		    1720	throbber.gif
+	  New Dir          6	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\css\backup\
+	    New File  		   23096	contentstyles-09102020.css
+	    New File  		   23268	contentstyles.css
+	    New File  		    3073	themestyles - Copy.css
+	    New File  		    7048	themestyles-09102020.css
+	    New File  		    4190	themestyles.css
+	    New File  		    6851	themestyles9-9.css
+	  New Dir         11	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\fonts\
+	    New File  		   76518	fontawesome-webfont.eot
+	    New File  		  391622	fontawesome-webfont.svg
+	    New File  		  152796	fontawesome-webfont.ttf
+	    New File  		   90412	fontawesome-webfont.woff
+	    New File  		   71896	fontawesome-webfont.woff2
+	    New File  		  124988	FontAwesome.otf
+	    New File  		   20127	glyphicons-halflings-regular.eot
+	    New File  		  108738	glyphicons-halflings-regular.svg
+	    New File  		   45404	glyphicons-halflings-regular.ttf
+	    New File  		   23424	glyphicons-halflings-regular.woff
+	    New File  		   18028	glyphicons-halflings-regular.woff2
+	  New Dir         33	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\images\
+	    New File  		     701	add_fav_icon.png
+	    New File  		    1147	arrow_right.png
+	    New File  		    1105	arrow_top.png
+	    New File  		     281	arrow_top_grey.png
+	    New File  		     281	cancel_icon.png
+	    New File  		    1032	disqus-social-icon-dark.png
+	    New File  		     723	dis_icon.png
+	    New File  		     723	dis_icon2.png
+	    New File  		    1008	down_arrow.png
+	    New File  		    1751	fb_icon.png
+	    New File  		    1109	file_icon.png
+	    New File  		     618	heart_icon.png
+	    New File  		  633756	landing_bg-default.jpg
+	    New File  		  488775	landing_bg.jpg
+	    New File  		   1.3 m	landing_bg.png
+	    New File  		    1963	ln_icon.png
+	    New File  		   10379	ln_icon_bw.png
+	    New File  		    4479	logo.png
+	    New File  		    4479	logo2.png
+	    New File  		    2024	mail_icon.png
+	    New File  		     668	most_recent_icon.png
+	    New File  		     651	my_saved_icon.png
+	    New File  		    1326	pdf_icon.png
+	    New File  		     703	recent_icon.png
+	    New File  		     717	resources_icon.png
+	    New File  		     697	share_icon.png
+	    New File  		    1795	star_icon.png
+	    New File  		    5632	Thumbs.db
+	    New File  		    2190	twitter_icon.png
+	    New File  		    1771	vertical_ellipsis.svg
+	    New File  		     700	what_icon.png
+	    New File  		    1323	word_icon.png
+	    New File  		    3925	xls.png
+	  New Dir          4	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\js\
+	    New File  		  470688	all.min.js
+	    New File  		   23595	ie11CustomProperties.js
+	    New File  		    9203	jquery.rateyo.min.js
+	    New File  		  113525	tree.jquery.js
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :        29        28         1         0         0         0
+   Files :       149       149         0         0         0         0
+   Bytes :    6.98 m    6.98 m         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :            11467755 Bytes/sec.
+   Speed :             656.190 MegaBytes/min.
+   Ended : Tuesday, January 12, 2021 9:26:04 AM
+

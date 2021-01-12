@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<div id="136979" data-aitid="136979" data-modifieddate="2021-01-12" data-aitvariantparent="0" class="concept_moredetailtemplate">
+   <script type="text/javascript">$('[data-toggle="popover"]').popover(); </script>
+   
+   <h4>Identify the commodity code used in a calculation</h4>
+   <p class="bodytext">The commodity code that the Calculation Engine uses for tax determination on a line
+      item can differ from the commodity code that is passed to Your Vertex product in the transaction XML request message. How do you know which commodity code O Series
+      applied to the calculation of tax? There's an easy way to find out.</p>
+   <p class="paragraphheading">Why there may be a difference</p>
+   <p class="bodytext">The difference between the commodity code in the request message and that used in
+      calculation can occur when Vertex data does not provide rate and rule data for the
+      specific commodity code that is passed with the transaction. O Series then uses the
+      commodity code from the next highest level of the commodity code tree for which rates
+      and rules are supported.</p>
+   <p class="paragraphheading">Where to compare the code requested vs. the code used for tax calculation</p>
+   <p class="bodytext">You can review the commodity codes that are associated with a transaction by running
+      the Transaction Detail data extract in the Custom Reports - VRA feature. Review the
+      following:</p>
+   <ul class="bullet">
+      <li class="bullet">
+         <p class="bullet">For the commodity code that was passed to O Series in the transaction XML request
+            message, see the <span class="procedureinterfaceelement">Passed In Commodity Code</span> field.</p>
+      </li>
+      <li class="bullet">
+         <p class="bullet">For the commodity code that was used by the Calculation Engine in tax calculations,
+            review the <span class="procedureinterfaceelement">Commodity Code</span> field. You can also see this code in the <span class="procedurecodeinsentence">usedCommodityCode</span> element in the transaction XML response message.</p>
+      </li>
+   </ul>
+   <p class="bodytext">Here is a sample extract definition that looks at both commodity codes:<br></p>
+   <p class="figure"><img src="136369.png" class="embeddedpngfile_80_template"></p>
+   <p class="spacer"></p>
+   <p class="paragraphheading">Related articles</p>
+   <p class="bodytext"><span class="jumptemplate_textstring">Commodity codes in O Series</span></p>
+   <p class="bodytext"><span class="jumptemplate_textstring">Review the taxability of a commodity code</span></p>
+   <p class="bodytext"><span class="jumptemplate_textstring">Add custom commodity codes</span></p>
+</div>

@@ -1,0 +1,7 @@
+[32m2021-01-12T09:25:55-0500 <info> search_index_builder.js:134 (Object.<anonymous>) inputFolder=>C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines[39m
+[32m2021-01-12T09:25:55-0500 <info> search_index_builder.js:135 (Object.<anonymous>) inputPath=>C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\metadataindex.json[39m
+[32m2021-01-12T09:25:55-0500 <info> search_index_builder.js:137 (Object.<anonymous>) language=>en-us[39m
+[32m2021-01-12T09:25:55-0500 <info> search_index_builder.js:136 (Object.<anonymous>) outPutPath=>C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines\searchindex.json[39m
+[32m2021-01-12T09:25:55-0500 <info> search_index_builder.js:266 (Object.<anonymous>) en-us : language not Supported [39m
+[32m2021-01-12T09:25:55-0500 <info> search_index_builder.js:66 () success! created  searchindex.json[39m
+[32m2021-01-12T09:25:55-0500 <info> search_index_builder.js:69 () success!  searchindex.json copied to => C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines[39m

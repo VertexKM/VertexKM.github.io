@@ -1,0 +1,42 @@
+Publishing Knowledge Modernization Guidelines (136957) to Resolved XML started at 9:25:03 AM
+Finding book relationships
+202 objects found in 0 minutes 1 seconds
+Object not exported - no read permissions (31)
+Creating output folder
+Export to XML
+Filtering by publishing profile and release state
+Checking Release States (< 1 Second)
+Exporting Objects
+Object not exported - no read permissions (31)
+Copying additional files
+Action - Publishing to Xml (46 Second(s))
+Executing After Publish Actions
+   Command Line: Compile Magellan Site
+   Filename: "c:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"
+   Arguments: -WindowStyle Hidden -ExecutionPolicy bypass -File "\\corporate\shares\AuthorIT\NewData\Templates\Magellan\SupportFiles\magellan.ps1" -PublishFolder "C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Modernization Guidelines" -SaxonFolder "C:\Program Files\Saxonica\SaxonPE9.9N" -ResolvedXML "Knowledge Modernization Guidelines.xml" -LocaleCode "en-us" -MagellanFolder "C:\Program Files\Author-it\Engines\Magellan" -IndexerFolder "C:\Program Files\Author-it\Compilers\Magellan" -LibraryPath "\\corporate\shares\AuthorIT\NewData\Libraries" -ThemeFolder "\\corporate\shares\AuthorIT\NewData\Templates\Magellan\VertexKM" -ContentFolder "en" -WebserverFolder "C:\inetpub\wwwroot\magellan\136957"
+   Process-ID: 15472
+   Start time: 1/12/2021 9:25:50 AM
+   End time: 1/12/2021 9:26:04 AM
+   Exit code: 0
+Command Line - Compile Magellan Site (13 Second(s))
+Configure Output Location: Open Magellan Output
+Checking Hyperlinks
+Object Hypertext-Link 'Adding and mapping a commodity code' (132796) does not have any targets in this book
+Object Hypertext-Link 'What'sNew-KMTraining' (135212) does not have any targets in this book
+Object Hypertext-Link 'Knowledge Management knowledge base' (135218) does not have any targets in this book
+Object Hypertext-Link 'Overview of writing knowledge articles' (135741) does not have any targets in this book
+Object Hypertext-Link 'Overview' (135806) does not have any targets in this book
+Object Hypertext-Link 'Knowledge Management Site Overview' (135820) does not have any targets in this book
+Object Hypertext-Link 'Author-it Training' (135824) does not have any targets in this book
+Object Hypertext-Link 'Brazilian NCM codes and Service codes' (136412) does not have any targets in this book
+Object Hypertext-Link 'Review the taxability of a commodity code' (136413) does not have any targets in this book
+Object Hypertext-Link 'Add and map user-defined commodity codes' (136414) does not have any targets in this book
+Object Hypertext-Link 'UNSPSC commodity codes' (136415) does not have any targets in this book
+Object Hypertext-Link 'HSN commodity codes' (136416) does not have any targets in this book
+Object Hypertext-Link 'Identify the commodity code used in a calculation' (136417) does not have any targets in this book
+Object Hypertext-Link 'Commodity codes in O Series' (136418) does not have any targets in this book
+Object Hypertext-Link 'Service codes for Brazilian taxation' (136419) does not have any targets in this book
+Object Hypertext-Link 'NCM commodity codes for Brazilian taxation' (136420) does not have any targets in this book
+Object Hypertext-Link 'Review the commodity code used in a transaction' (136421) does not have any targets in this book
+Object Hypertext-Link 'Always consider the As of Date' (136681) does not have any targets in this book
+Publishing Knowledge Modernization Guidelines (136957) to Resolved XML finished at 9:26:04 AM
