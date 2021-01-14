@@ -1,0 +1,33 @@
+web.xslt found in C:\Program Files\Author-it\Transformations\
+ 
+[14-Jan-2021 03:01:07:PM] Generate Magellan output started
+----------------------------------------------
+ 
+[14-Jan-2021 03:01:07:PM] Saxon Transform started
+[14-Jan-2021 03:01:12:PM] Saxon Transform completed
+----------------------------------------------
+ 
+[14-Jan-2021 03:01:12:PM] Building Search Index started
+[14-Jan-2021 03:01:13:PM] Building Search Index completed
+----------------------------------------------
+ 
+[14-Jan-2021 03:01:13:PM] Delete unwanted files started
+[14-Jan-2021 03:01:13:PM] Delete unwanted files completed
+----------------------------------------------
+ 
+[14-Jan-2021 03:01:13:PM] Move Published Content into Sub folder started
+[14-Jan-2021 03:01:14:PM] Move Published Content into Sub folder completed
+----------------------------------------------
+ 
+[14-Jan-2021 03:01:14:PM] Copy Magellan Engine to Publishing Folder started
+[14-Jan-2021 03:01:15:PM] Copy Magellan Engine to Publishing Folder completed
+----------------------------------------------
+ 
+[14-Jan-2021 03:01:15:PM] Copy Magellan Themes to Publishing Folder started
+[14-Jan-2021 03:01:18:PM] Copy Magellan Theme to Publishing Folder completed
+----------------------------------------------
+ 
+[14-Jan-2021 03:01:18:PM] Copy the output to the web server folder started
+[14-Jan-2021 03:01:19:PM] Copy the output to the web server folder completed
+----------------------------------------------
+ 
