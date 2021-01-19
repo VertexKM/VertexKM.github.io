@@ -109,8 +109,8 @@ table.table td, table.table th {
     height: auto;
     white-space: normal;
 }
-.bodytextright 
-{font-family: 'Montserrat', sans-serif;
+.bodytextright {
+		font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-variant: normal;
         font-weight: normal;
@@ -139,8 +139,8 @@ table.table td, table.table th {
         height: auto;
         white-space: normal;
        }
-.strong, .specialbold
-{display: inline;
+.strong, .specialbold {
+		display: inline;
         font-family: "Arial", verdana, arial, helvetica, sans-serif;
         font-weight: 600;
         color: var(--text-color);
@@ -164,7 +164,7 @@ li.listbullet, p.listbullet, li.listbullet2, p.listbullet2, li.listbullet3, p.li
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 12px;
     color: var(--dark-gray-color);
     background-color: inherit;
     word-spacing: normal;
@@ -189,8 +189,6 @@ li.listbullet, p.listbullet, li.listbullet2, p.listbullet2, li.listbullet3, p.li
     height: auto;
     white-space: normal;
 }
-
-
 .warning, .marginnote {
     font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
     font-style: normal;
@@ -230,7 +228,6 @@ li.listbullet, p.listbullet, li.listbullet2, p.listbullet2, li.listbullet3, p.li
     /*color: var(--dark-gray-color);*/
     font-weight: normal;
 }
-
 .marginnote {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -259,8 +256,8 @@ li.listbullet, p.listbullet, li.listbullet2, p.listbullet2, li.listbullet3, p.li
     height: auto;
     white-space: normal;
 }
-.emphasis 
-{display: inline;
+.emphasis {
+		display: inline;
         font-style: italic;
         font-weight:600;
         color: inherit;
@@ -271,9 +268,8 @@ li.listbullet, p.listbullet, li.listbullet2, p.listbullet2, li.listbullet3, p.li
         padding-left: 0pt;
         padding-right: 0pt;
        }
-
-.superscript 
-{display: inline;
+.superscript {
+		display: inline;
         font-size: 6pt;
         color: inherit;
         background-color: inherit;
@@ -283,52 +279,14 @@ li.listbullet, p.listbullet, li.listbullet2, p.listbullet2, li.listbullet3, p.li
         padding-left: 0pt;
         padding-right: 0pt;
        }
-ul.tablebullet {
-    list-style-type: Round;
-    list-style-image: none;
-    list-style-position: outside;
-    margin-top: 4pt;
-    margin-bottom: 0pt;
-    padding-left: 12pt;
-}
-li.tablebullet, .tablebullet, li.s796 {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    font-size: 14px;
-    color: var(--dark-gray-color);
-    background-color: inherit;
-    word-spacing: normal;
-    letter-spacing: normal;
-    vertical-align: baseline;
-    text-decoration: none;
-    text-transform: none;
-    line-height: 1.5;
-    margin-top: 4pt;
-    margin-bottom: 0pt;
-    margin-left: 0cm;
-    margin-right: 0cm;
-    padding-top: 0pt;
-    padding-bottom: 0pt;
-    padding-left: 0pt;
-    padding-right: 0pt;
-    float: none;
-    clear: none;
-    text-align: left;
-    text-indent: 0cm;
-    width: auto;
-    height: auto;
-    white-space: normal;
-}
-ol.listalpha2 
-{list-style-type: Lower-Alpha;
+ol.listalpha2 {
+		list-style-type: Lower-Alpha;
         list-style-position: outside;
         margin-top: 6pt;
         margin-bottom: 0pt;
         }
-li.listalpha2, li.s793 
-{font-family: 'Montserrat', sans-serif;
+li.listalpha2, li.s793 {
+		font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-variant: normal;
         font-weight: normal;
@@ -357,8 +315,11 @@ li.listalpha2, li.s793
         height: auto;
         white-space: normal;
        }
-.tableheading 
-{font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
+li.bullet {
+	font-size: 12px;
+}
+.tableheading {
+		font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
         font-style: normal;
         font-variant: normal;
         font-weight: bold;
@@ -387,12 +348,12 @@ li.listalpha2, li.s793
         height: auto;
         white-space: normal;
        }
-.tabletext 
-{font-family: 'Montserrat', sans-serif;
+.tabletext {
+		font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-variant: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 12px;
         color: var(--dark-gray-color);
         background-color: inherit;
         word-spacing: normal;
@@ -417,8 +378,46 @@ li.listalpha2, li.s793
         height: auto;
         white-space: normal;
        }
-.expandingblock 
-{font-family: "Tahoma", verdana, arial, helvetica, sans-serif;
+ul.tablebullet {
+    list-style-type: Round;
+    list-style-image: none;
+    list-style-position: outside;
+    margin-top: 4pt;
+    margin-bottom: 0pt;
+    padding-left: 12pt;
+}
+li.tablebullet, .tablebullet, li.s796 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: var(--dark-gray-color);
+    background-color: inherit;
+    word-spacing: normal;
+    letter-spacing: normal;
+    vertical-align: baseline;
+    text-decoration: none;
+    text-transform: none;
+    line-height: 1.5;
+    margin-top: 4pt;
+    margin-bottom: 0pt;
+    margin-left: 0cm;
+    margin-right: 0cm;
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    padding-left: 0pt;
+    padding-right: 0pt;
+    float: none;
+    clear: none;
+    text-align: left;
+    text-indent: 0cm;
+    width: auto;
+    height: auto;
+    white-space: normal;
+}
+.expandingblock {
+		font-family: "Tahoma", verdana, arial, helvetica, sans-serif;
         font-style: normal;
         font-variant: normal;
         font-weight: normal;
@@ -460,8 +459,8 @@ li.listalpha2, li.s793
         height: auto;
         white-space: normal;
        }
-.keyboard 
-{display: inline;
+.keyboard {
+		display: inline;
         font-family: "Courier New", verdana, arial, helvetica, sans-serif;
         color: inherit;
         background-color: inherit;
@@ -471,8 +470,8 @@ li.listalpha2, li.s793
         padding-left: 0pt;
         padding-right: 0pt;
        }
-.procedureheading 
-{font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
+.procedureheading {
+		font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
 		list-style: none;
         font-style: normal;
         font-variant: normal;
@@ -502,7 +501,6 @@ li.listalpha2, li.s793
         height: auto;
         white-space: normal;
        }
-
     p.procedureheading::before {
         content: '\f0da';
         padding-right:8px;
@@ -510,16 +508,16 @@ li.listalpha2, li.s793
         /*color: var(--dark-gray-color);*/
         font-weight: bold;
     }
-ol.listnumber 
-{list-style-type: Decimal;
+ol.listnumber {
+		list-style-type: Decimal;
         list-style-position: outside;
         margin-top: 6pt;
         margin-bottom: 0pt;
 		padding-left:12pt;
 		
         }
-li.listnumber, li.s561 
-{font-family: 'Montserrat', sans-serif;
+li.listnumber, li.s561 {
+		font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-variant: normal;
         font-weight: normal;
@@ -548,8 +546,50 @@ li.listnumber, li.s561
         height: auto;
         white-space: normal;
        }
-.note, listnote 
-{font-family: 'Montserrat', sans-serif;
+li.numberlist {
+	font-size: 12px;
+}
+ol.numberlist2 {
+		list-style-type: Lower-Alpha;
+        list-style-position: outside;
+        margin-top: 6pt;
+        margin-bottom: 0pt;
+        }
+li.numberlist2 {
+		font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: var(--dark-gray-color);
+        background-color: inherit;
+        word-spacing: normal;
+        letter-spacing: normal;
+        vertical-align: baseline;
+        text-decoration: none;
+        text-transform: none;
+        line-height: 1.5;
+        margin-top: 6pt;
+        margin-bottom: 0pt;
+        margin-left: 0pt;
+        margin-right: 0pt;
+        padding-top: 0pt;
+        padding-bottom: 0pt;
+        padding-left: 0pt;
+        padding-right: 0pt;
+        float: none;
+        clear: none;
+        text-align: left;
+        text-indent: 0cm;
+        width: auto;
+        height: auto;
+        white-space: normal;
+       }
+li.numberbullet {
+	font-size: 12px;
+}
+.note, listnote {
+		font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-variant: normal;
         font-weight: normal;
@@ -576,7 +616,6 @@ li.listnumber, li.s561
         height: auto;
         white-space: normal;
        }
-
 p.note::before {
         content: '\f05a';
         padding-right:8px;
@@ -584,9 +623,8 @@ p.note::before {
         /*color: var(--dark-gray-color);*/
         font-weight: bold;
     }
-	
-.buttons 
-{display: inline;
+.buttons {
+		display: inline;
         font-weight: 600;
         color: var(--dark-gray-color);
         background-color: inherit;
@@ -627,38 +665,8 @@ p.note::before {
     height: auto;
     white-space: normal;
 }
-.heading4, h4 
-{font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
-        font-style: normal;
-        font-variant: normal;
-        font-weight: bold;
-        font-size: 14px;
-        color: var(--primary-color);
-        background-color: inherit;
-        word-spacing: normal;
-        letter-spacing: normal;
-        vertical-align: baseline;
-        text-decoration: none;
-        text-transform: none;
-        line-height: 1.5;
-        margin-top: 12pt;
-        margin-bottom: 6pt;
-        margin-left: 0cm;
-        margin-right: 0cm;
-        padding-top: 0pt;
-        padding-bottom: 0pt;
-        padding-left: 0pt;
-        padding-right: 0pt;
-        float: none;
-        clear: none;
-        text-align: left;
-        text-indent: 0cm;
-        width: auto;
-        height: auto;
-        white-space: normal;
-       }
-.wingdings 
-{display: inline;
+.wingdings {
+		display: inline;
         font-family: "Wingdings", webdings, verdana, arial, helvetica, sans-serif;
         color: var(--dark-gray-color);
         background-color: inherit;
@@ -668,27 +676,26 @@ p.note::before {
         padding-left: 0pt;
         padding-right: 0pt;
        }
-
-.heading1,h1 
-{font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
+.heading1,h1 {
+		font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
         font-style: normal;
         font-variant: normal;
         font-weight: bold;
-        font-size: 24px;
+        font-size: 30px;
         color: var(--secondary-color);
-        background-color: inherit;
+        /*background-color: var(--light-gray-color);*/
         word-spacing: normal;
         letter-spacing: normal;
         vertical-align: baseline;
         text-decoration: none;
         text-transform: none;
         line-height: 1.5;
-        margin-top: 12pt;
-        margin-bottom: 6pt;
+		margin-top: 0pt;
+        margin-bottom: 16pt;
         margin-left: 0cm;
         margin-right: 0cm;
-        padding-top: 6pt;
-        padding-bottom: 0pt;
+        padding-top: 5pt;
+        padding-bottom: 5pt;
         padding-left: 0pt;
         padding-right: 0pt;
         float: none;
@@ -698,9 +705,10 @@ p.note::before {
         width: auto;
         height: auto;
         white-space: normal;
+		border-bottom: 1px solid #e4e7ed;
        }
-.heading2, h2
-{font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
+.heading2, h2 {
+		font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
         font-style: normal;
         font-variant: normal;
         font-weight: bold;
@@ -713,12 +721,12 @@ p.note::before {
         text-decoration: none;
         text-transform: none;
         line-height: 1.5;
-        margin-top: 12pt;
-        margin-bottom: 6pt;
+        margin-top: 0pt;
+        margin-bottom: 16pt;
         margin-left: 0cm;
         margin-right: 0cm;
-        padding-top: 6pt;
-        padding-bottom: 0pt;
+        padding-top: 5pt;
+        padding-bottom: 5pt;
         padding-left: 0pt;
         padding-right: 0pt;
         float: none;
@@ -728,13 +736,14 @@ p.note::before {
         width: auto;
         height: auto;
         white-space: normal;
+		border-bottom: 1px solid #e4e7ed;
        }
-.heading3, h3
-{font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
+.heading3, h3 {
+		font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
         font-style: normal;
         font-variant: normal;
         font-weight: bold;
-        font-size: 17px;
+        font-size: 18px;
         color: var(--primary-color);
         background-color: inherit;
         word-spacing: normal;
@@ -743,12 +752,12 @@ p.note::before {
         text-decoration: none;
         text-transform: none;
         line-height: 1.5;
-        margin-top: 12pt;
-        margin-bottom: 6pt;
+        margin-top: 0pt;
+        margin-bottom: 16pt;
         margin-left: 0cm;
         margin-right: 0cm;
-        padding-top: 6pt;
-        padding-bottom: 0pt;
+        padding-top: 5pt;
+        padding-bottom: 5pt;
         padding-left: 0pt;
         padding-right: 0pt;
         float: none;
@@ -758,9 +767,41 @@ p.note::before {
         width: auto;
         height: auto;
         white-space: normal;
+		border-bottom: 1px solid #e4e7ed;
        }
-.heading5, h5, .subheading 
-{font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
+.heading4, h4 {
+		font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        font-size: 16px;
+        color: var(--primary-color);
+        background-color: inherit;
+        word-spacing: normal;
+        letter-spacing: normal;
+        vertical-align: baseline;
+        text-decoration: none;
+        text-transform: none;
+        line-height: 1.5;
+        margin-top: 0pt;
+        margin-bottom: 16pt;
+        margin-left: 0cm;
+        margin-right: 0cm;
+        padding-top: 5pt;
+        padding-bottom: 5pt;
+        padding-left: 0pt;
+        padding-right: 0pt;
+        float: none;
+        clear: none;
+        text-align: left;
+        text-indent: 0cm;
+        width: auto;
+        height: auto;
+        white-space: normal;
+		border-bottom: 1px solid #e4e7ed;
+       }
+.heading5, h5, .subheading {
+		font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
         font-style: normal;
         font-variant: normal;
         font-weight: bold;
@@ -773,12 +814,12 @@ p.note::before {
         text-decoration: none;
         text-transform: none;
         line-height: 1.5;
-        margin-top: 12pt;
-        margin-bottom: 6pt;
+        margin-top: 0pt;
+        margin-bottom: 16pt;
         margin-left: 0cm;
         margin-right: 0cm;
-        padding-top: 6pt;
-        padding-bottom: 0pt;
+        padding-top: 5pt;
+        padding-bottom: 5pt;
         padding-left: 0pt;
         padding-right: 0pt;
         float: none;
@@ -788,9 +829,10 @@ p.note::before {
         width: auto;
         height: auto;
         white-space: normal;
+		border-bottom: 1px solid #e4e7ed;
        }
-.heading6, h6
-{font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
+.heading6, h6 {
+		font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
         font-style: italic;
         font-variant: normal;
         font-weight: bold;
@@ -803,11 +845,49 @@ p.note::before {
         text-decoration: none;
         text-transform: none;
         line-height: 1.5;
-        margin-top: 12pt;
+        margin-top: 0pt;
+        margin-bottom: 16pt;
+        margin-left: 0cm;
+        margin-right: 0cm;
+        padding-top: 5pt;
+        padding-bottom: 5pt;
+        padding-left: 0pt;
+        padding-right: 0pt;
+        float: none;
+        clear: none;
+        text-align: left;
+        text-indent: 0cm;
+        width: auto;
+        height: auto;
+        white-space: normal;
+		border-bottom: 1px solid #e4e7ed;
+       }
+.mainpage_block.jumbotron > h1 {
+	border-bottom: none;
+}
+.optional {
+	font-style: italic;
+	color: var(--secondary-color);
+}
+.paragraphheading {
+		font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        font-size: 14px;
+        color: var(--primary-color);
+        background-color: inherit;
+        word-spacing: normal;
+        letter-spacing: normal;
+        vertical-align: baseline;
+        text-decoration: none;
+        text-transform: none;
+        line-height: 1.5;
+        margin-top: 10pt;
         margin-bottom: 6pt;
         margin-left: 0cm;
         margin-right: 0cm;
-        padding-top: 6pt;
+        padding-top: 0pt;
         padding-bottom: 0pt;
         padding-left: 0pt;
         padding-right: 0pt;
@@ -818,6 +898,74 @@ p.note::before {
         width: auto;
         height: auto;
         white-space: normal;
-       }
+}
 
-/*#endregion COONTENT */
+.caution {
+	color: var(--dark-gray-color);
+    background-color: #DFDFDF;
+	font-weight: bold;
+}
+
+.procedurecodeinsentence 
+{display: inline;
+        font-family: Courier New,sans-serif !important;
+        font-size: small;
+        color: #000000;
+        background-color: inherit;
+        vertical-align: baseline;
+        padding-top: 0pt;
+        padding-bottom: 0pt;
+        padding-left: 0pt;
+        padding-right: 0pt;
+}
+
+.procedureinterfaceelement {
+	font-size: small;
+    font-weight: bold;
+	color: #000000;
+    background-color: inherit;
+    vertical-align: baseline;
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    padding-left: 0pt;
+    padding-right: 0pt;
+}
+
+.jumptemplate_referto, .jumptemplate_textstring {
+	text-decoration: underline;
+    text-decoration-style: dotted;
+}
+	   
+p.video {
+	width: calc(100% - 20px);
+	max-width: 700px;
+	height: 100%;
+}
+
+.video video {
+	width: 100%
+	height: 100%
+}
+
+.video .video-iframe {
+	display: block;
+	position: relative;
+	padding-top: calc(56% + 5px);
+}
+
+/*.video .video-iframe iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%
+}*/
+
+.video .video-iframe .iframe videotemplate {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%
+}
+/*#endregion CONTENT */
