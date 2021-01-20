@@ -1,0 +1,504 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Wednesday, January 20, 2021 3:24:31 PM
+   Source : C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\
+     Dest : C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\content\en\
+
+    Files : *.*
+	    
+Exc Files : Customer Support Business Processes.xml
+	    *.log
+	    
+ Exc Dirs : content
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /MOVE /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  New Dir         79	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\
+	    New File  		    2485	109.html100%  
+	    New File  		     355	124.gif100%  
+	    New File  		     353	125.gif100%  
+	    New File  		     357	126.gif100%  
+	    New File  		     804	126432.png100%  
+	    New File  		    2834	130997.png100%  
+	    New File  		   37390	170529.html100%  
+	    New File  		    4562	170530.html100%  
+	    New File  		    8364	170531.html100%  
+	    New File  		   29582	170894.html100%  
+	    New File  		     432	170895.html100%  
+	    New File  		     464	170896.html100%  
+	    New File  		     419	170897.html100%  
+	    New File  		     464	170899.html100%  
+	    New File  		     420	170901.html100%  
+	    New File  		     296	171380.html100%  
+	    New File  		     296	171525.html100%  
+	    New File  		     302	171526.html100%  
+	    New File  		     297	171527.html100%  
+	    New File  		     441	171530.html100%  
+	    New File  		     443	171532.html100%  
+	    New File  		     431	171547.html100%  
+	    New File  		     423	171549.html100%  
+	    New File  		     438	171550.html100%  
+	    New File  		     431	171551.html100%  
+	    New File  		     465	171552.html100%  
+	    New File  		     430	171553.html100%  
+	    New File  		     450	171554.html100%  
+	    New File  		     466	171555.html100%  
+	    New File  		     426	171556.html100%  
+	    New File  		     413	171557.html100%  
+	    New File  		     437	171558.html100%  
+	    New File  		     424	171560.html100%  
+	    New File  		     423	171561.html100%  
+	    New File  		     434	171566.html100%  
+	    New File  		     458	171568.html100%  
+	    New File  		     472	171569.html100%  
+	    New File  		     462	171570.html100%  
+	    New File  		     464	171571.html100%  
+	    New File  		     451	171572.html100%  
+	    New File  		     440	171573.html100%  
+	    New File  		     471	171574.html100%  
+	    New File  		     439	171575.html100%  
+	    New File  		     435	171577.html100%  
+	    New File  		     491	171579.html100%  
+	    New File  		     438	171580.html100%  
+	    New File  		     449	171581.html100%  
+	    New File  		     417	171583.html100%  
+	    New File  		     441	171584.html100%  
+	    New File  		     472	171586.html100%  
+	    New File  		     443	171587.html100%  
+	    New File  		     444	171588.html100%  
+	    New File  		     446	171589.html100%  
+	    New File  		   10340	19936.gif100%  
+	    New File  		    1752	dhtml_toc.js100%  
+	    New File  		     216	footer.json100%  
+	    New File  		    2361	f_109.html100%  
+	    New File  		    6415	f_121286.html100%  
+	    New File  		     142	f_171273.html100%  
+	    New File  		     283	f_4756.html100%  
+	    New File  		    3821	index.json100%  
+	    New File  		     468	landingpage.json100%  
+	    New File  		     140	l_171258.html100%  
+	    New File  		     147	l_171260.html100%  
+	    New File  		     186	l_171685.html100%  
+	    New File  		     186	l_171686.html100%  
+	    New File  		     465	l_171687.html100%  
+	    New File  		     186	l_171688.html100%  
+	    New File  		     186	l_171689.html100%  
+	    New File  		     412	metadata.json100%  
+	    New File  		    4566	modifiedtopics.json100%  
+	    New File  		    1354	open_parent.js100%  
+	    New File  		       2	resources.json100%  
+	    New File  		  242686	searchindex.json 54%  100%  
+	    New File  		   23037	toc.json100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         1         1         0         0         0
+   Files :        79        75         4         0         0         0
+   Bytes :   399.0 k   395.4 k     3.5 k         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :              876482 Bytes/sec.
+   Speed :              50.152 MegaBytes/min.
+   Ended : Wednesday, January 20, 2021 3:24:31 PM
+
+
+2021/01/20 15:24:31 ERROR 32 (0x00000020) Deleting Source Directory C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\
+The process cannot access the file because it is being used by another process.
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Wednesday, January 20, 2021 3:24:31 PM
+   Source : \\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine\
+     Dest : C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /NP /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  13	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine\
+	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\content\
+	  *EXTRA File 		    1174	indexerLog.log
+	  *EXTRA File 		     944	magellan-script.log
+	  *EXTRA File 		    5244	robocopy.log
+	  *EXTRA File 		    1750	saxon.log
+	    New File  		   12491	3rdpartylicenses.txt
+	    New File  		    1150	favicon.ico
+	    New File  		    2699	index.html
+	    New File  		     798	inline.31e1fb380eb7cf3d75b1.bundle.js
+	    New File  		    5083	logo.png
+	    New File  		  406857	main.bb1f61b7092385f4ba1e.bundle.js
+	    New File  		  115285	polyfills.ef59c4914bd69e024385.bundle.js
+	    New File  		  404323	scripts.6e22b6b7916fdc122797.bundle.js
+	    New File  		    4185	siteconfig.json
+	    New File  		    4179	siteconfig01202021.json
+	    New File  		       0	styles.ac89bfdd6de82636b768.bundle.css
+	    New File  		  777878	vendor.e4d437197b465110d9e5.bundle.js
+	    New File  		       8	version
+	  New Dir          0	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine\assets\
+	  New Dir          0	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine\assets\resources\
+	  New Dir          2	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine\assets\resources\ar\
+	    New File  		    2908	ar-ar.json
+	    New File  		    2908	ar-qa.json
+	  New Dir          1	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine\assets\resources\da\
+	    New File  		    2596	da-da.json
+	  New Dir          1	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine\assets\resources\de\
+	    New File  		    3524	de-de.json
+	  New Dir          1	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine\assets\resources\en\
+	    New File  		    3419	en-us.json
+	  New Dir          1	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine\assets\resources\es\
+	    New File  		    2747	es-es.json
+	  New Dir          1	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine\assets\resources\fi\
+	    New File  		    2641	fi-fi.json
+	  New Dir          1	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine\assets\resources\fr\
+	    New File  		    2768	fr-fr.json
+	  New Dir          1	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine\assets\resources\hu\
+	    New File  		    2564	hu-hu.json
+	  New Dir          1	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine\assets\resources\it\
+	    New File  		    2643	it-it.json
+	  New Dir          1	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine\assets\resources\ja\
+	    New File  		    2811	ja-ja.json
+	  New Dir          1	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine\assets\resources\nl\
+	    New File  		    2660	nl-nl.json
+	  New Dir          1	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine\assets\resources\pl\
+	    New File  		    3405	pl-pl.json
+	  New Dir          1	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine\assets\resources\ro\
+	    New File  		    2680	ro-ro.json
+	  New Dir          1	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine\assets\resources\ru\
+	    New File  		    3314	ru-ru.json
+	  New Dir          1	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine\assets\resources\sv\
+	    New File  		    2628	sv-sv.json
+	  New Dir          1	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine\assets\resources\th\
+	    New File  		    3618	th-th.json
+	  New Dir          1	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine\assets\resources\tr\
+	    New File  		    2629	tr-tr.json
+	  New Dir          1	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine\assets\resources\vi\
+	    New File  		    2558	vi-vi.json
+	  New Dir          2	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine\assets\resources\zh\
+	    New File  		    2535	zh-tw.json
+	    New File  		    2542	zh-zh.json
+	  New Dir         10	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine\css\
+	    New File  		    3121	32px.png
+	    New File  		    1880	40px.png
+	    New File  		  187820	allcss.min.css
+	    New File  		   50196	bootstrap-rtl.min.css
+	    New File  		   23186	contentstyles.css
+	    New File  		   29063	font-awesome.min.css
+	    New File  		     711	jquery.rateyo.min.css
+	    New File  		   81350	mainstyles.css
+	    New File  		    3074	themestyles.css
+	    New File  		    1720	throbber.gif
+	  New Dir         11	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine\fonts\
+	    New File  		   76518	fontawesome-webfont.eot
+	    New File  		  391622	fontawesome-webfont.svg
+	    New File  		  152796	fontawesome-webfont.ttf
+	    New File  		   90412	fontawesome-webfont.woff
+	    New File  		   71896	fontawesome-webfont.woff2
+	    New File  		  124988	FontAwesome.otf
+	    New File  		   20127	glyphicons-halflings-regular.eot
+	    New File  		  108738	glyphicons-halflings-regular.svg
+	    New File  		   45404	glyphicons-halflings-regular.ttf
+	    New File  		   23424	glyphicons-halflings-regular.woff
+	    New File  		   18028	glyphicons-halflings-regular.woff2
+	  New Dir         30	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine\images\
+	    New File  		     701	add_fav_icon.png
+	    New File  		    1147	arrow_right.png
+	    New File  		    1105	arrow_top.png
+	    New File  		     281	arrow_top_grey.png
+	    New File  		     281	cancel_icon.png
+	    New File  		    1032	disqus-social-icon-dark.png
+	    New File  		     723	dis_icon.png
+	    New File  		     723	dis_icon2.png
+	    New File  		    1008	down_arrow.png
+	    New File  		    1751	fb_icon.png
+	    New File  		    1109	file_icon.png
+	    New File  		     618	heart_icon.png
+	    New File  		  980125	landing_bg.jpg
+	    New File  		    1963	ln_icon.png
+	    New File  		   10379	ln_icon_bw.png
+	    New File  		    3148	logo.png
+	    New File  		    3772	logo2.png
+	    New File  		    2024	mail_icon.png
+	    New File  		     668	most_recent_icon.png
+	    New File  		     651	my_saved_icon.png
+	    New File  		    1326	pdf_icon.png
+	    New File  		     703	recent_icon.png
+	    New File  		     717	resources_icon.png
+	    New File  		     697	share_icon.png
+	    New File  		    1795	star_icon.png
+	    New File  		    2190	twitter_icon.png
+	    New File  		    1771	vertical_ellipsis.svg
+	    New File  		     700	what_icon.png
+	    New File  		    1323	word_icon.png
+	    New File  		    3925	xls.png
+	  New Dir          4	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine\js\
+	    New File  		  470688	all.min.js
+	    New File  		   23595	ie11CustomProperties.js
+	    New File  		    9203	jquery.rateyo.min.js
+	    New File  		  113525	tree.jquery.js
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :        26        25         1         0         0         1
+   Files :        89        89         0         0         0         4
+   Bytes :    4.71 m    4.71 m         0         0         0     8.8 k
+   Times :   0:00:15   0:00:10                       0:00:00   0:00:04
+
+
+   Speed :              456274 Bytes/sec.
+   Speed :              26.108 MegaBytes/min.
+   Ended : Wednesday, January 20, 2021 3:24:47 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Wednesday, January 20, 2021 3:24:47 PM
+   Source : \\corporate\shares\AuthorIT\NewData\Templates\Magellan\Themes\Vertex\
+     Dest : C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /NP /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   2	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Themes\Vertex\
+	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\assets\
+	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\content\
+	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\fonts\
+	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\js\
+	  *EXTRA File 		   12491	3rdpartylicenses.txt
+	  *EXTRA File 		    1150	favicon.ico
+	  *EXTRA File 		    2699	index.html
+	  *EXTRA File 		    1174	indexerLog.log
+	  *EXTRA File 		     798	inline.31e1fb380eb7cf3d75b1.bundle.js
+	  *EXTRA File 		    1151	magellan-script.log
+	  *EXTRA File 		  406857	main.bb1f61b7092385f4ba1e.bundle.js
+	  *EXTRA File 		  115285	polyfills.ef59c4914bd69e024385.bundle.js
+	  *EXTRA File 		   13655	robocopy.log
+	  *EXTRA File 		    1750	saxon.log
+	  *EXTRA File 		  404323	scripts.6e22b6b7916fdc122797.bundle.js
+	  *EXTRA File 		    4185	siteconfig.json
+	  *EXTRA File 		    4179	siteconfig01202021.json
+	  *EXTRA File 		       0	styles.ac89bfdd6de82636b768.bundle.css
+	  *EXTRA File 		  777878	vendor.e4d437197b465110d9e5.bundle.js
+	  *EXTRA File 		       8	version
+	    Newer     		    2216	logo.png
+	    New File  		    5120	Thumbs.db
+	                   2	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Themes\Vertex\css\
+	  *EXTRA File 		    3121	32px.png
+	  *EXTRA File 		    1880	40px.png
+	  *EXTRA File 		  187820	allcss.min.css
+	  *EXTRA File 		   50196	bootstrap-rtl.min.css
+	  *EXTRA File 		   29063	font-awesome.min.css
+	  *EXTRA File 		     711	jquery.rateyo.min.css
+	  *EXTRA File 		   81350	mainstyles.css
+	  *EXTRA File 		    1720	throbber.gif
+	    Newer     		   59147	contentstyles.css
+	    Newer     		    8787	themestyles.css
+	  New Dir          7	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Themes\Vertex\css\backup\
+	    New File  		   26777	contentstyles-01202021.css
+	    New File  		   23096	contentstyles-09102020.css
+	    New File  		   23268	contentstyles.css
+	    New File  		    3073	themestyles - Copy.css
+	    New File  		    7048	themestyles-09102020.css
+	    New File  		    4190	themestyles.css
+	    New File  		    6851	themestyles9-9.css
+	                   6	\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Themes\Vertex\images\
+	  *EXTRA File 		     701	add_fav_icon.png
+	  *EXTRA File 		    1147	arrow_right.png
+	  *EXTRA File 		    1105	arrow_top.png
+	  *EXTRA File 		     281	arrow_top_grey.png
+	  *EXTRA File 		     281	cancel_icon.png
+	  *EXTRA File 		    1032	disqus-social-icon-dark.png
+	  *EXTRA File 		     723	dis_icon.png
+	  *EXTRA File 		     723	dis_icon2.png
+	  *EXTRA File 		    1008	down_arrow.png
+	  *EXTRA File 		    1751	fb_icon.png
+	  *EXTRA File 		    1109	file_icon.png
+	  *EXTRA File 		     618	heart_icon.png
+	  *EXTRA File 		    1963	ln_icon.png
+	  *EXTRA File 		   10379	ln_icon_bw.png
+	  *EXTRA File 		    2024	mail_icon.png
+	  *EXTRA File 		     668	most_recent_icon.png
+	  *EXTRA File 		     651	my_saved_icon.png
+	  *EXTRA File 		    1326	pdf_icon.png
+	  *EXTRA File 		     703	recent_icon.png
+	  *EXTRA File 		     717	resources_icon.png
+	  *EXTRA File 		     697	share_icon.png
+	  *EXTRA File 		    1795	star_icon.png
+	  *EXTRA File 		    2190	twitter_icon.png
+	  *EXTRA File 		    1771	vertical_ellipsis.svg
+	  *EXTRA File 		     700	what_icon.png
+	  *EXTRA File 		    1323	word_icon.png
+	  *EXTRA File 		    3925	xls.png
+	    New File  		  633756	landing_bg-default.jpg
+	    Older     		  488775	landing_bg.jpg
+	    New File  		   1.3 m	landing_bg.png
+	    Older     		   56725	logo.png
+	    Older     		   56725	logo2.png
+	    New File  		    5632	Thumbs.db
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         4         1         3         0         0         4
+   Files :        17        17         0         0         0        51
+   Bytes :    2.72 m    2.72 m         0         0         0    2.04 m
+   Times :   0:00:03   0:00:02                       0:00:00   0:00:00
+
+
+   Speed :             1154373 Bytes/sec.
+   Speed :              66.053 MegaBytes/min.
+   Ended : Wednesday, January 20, 2021 3:24:51 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Wednesday, January 20, 2021 3:24:51 PM
+   Source : C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\
+     Dest : C:\inetpub\wwwroot\magellan\171690\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /NP /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  18	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\
+	    Newer     		    1174	indexerLog.log
+	    Newer     		    1356	magellan-script.log
+	    Newer     		   18866	robocopy.log
+	    Newer     		    1750	saxon.log
+	                   0	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\assets\
+	                   0	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\assets\resources\
+	                   2	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\assets\resources\ar\
+	                   1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\assets\resources\da\
+	                   1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\assets\resources\de\
+	                   1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\assets\resources\en\
+	                   1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\assets\resources\es\
+	                   1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\assets\resources\fi\
+	                   1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\assets\resources\fr\
+	                   1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\assets\resources\hu\
+	                   1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\assets\resources\it\
+	                   1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\assets\resources\ja\
+	                   1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\assets\resources\nl\
+	                   1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\assets\resources\pl\
+	                   1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\assets\resources\ro\
+	                   1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\assets\resources\ru\
+	                   1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\assets\resources\sv\
+	                   1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\assets\resources\th\
+	                   1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\assets\resources\tr\
+	                   1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\assets\resources\vi\
+	                   2	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\assets\resources\zh\
+	                   0	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\content\
+	                  75	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\content\en\
+	    Newer     		    2485	109.html
+	    Newer     		     355	124.gif
+	    Newer     		     353	125.gif
+	    Newer     		     357	126.gif
+	    Newer     		     804	126432.png
+	    Newer     		    2834	130997.png
+	    Newer     		   37390	170529.html
+	    Newer     		    4562	170530.html
+	    Newer     		    8364	170531.html
+	    Newer     		   29582	170894.html
+	    Newer     		     432	170895.html
+	    Newer     		     464	170896.html
+	    Newer     		     419	170897.html
+	    Newer     		     464	170899.html
+	    Newer     		     420	170901.html
+	    Newer     		     296	171380.html
+	    Newer     		     296	171525.html
+	    Newer     		     302	171526.html
+	    Newer     		     297	171527.html
+	    Newer     		     441	171530.html
+	    Newer     		     443	171532.html
+	    Newer     		     431	171547.html
+	    Newer     		     423	171549.html
+	    Newer     		     438	171550.html
+	    Newer     		     431	171551.html
+	    Newer     		     465	171552.html
+	    Newer     		     430	171553.html
+	    Newer     		     450	171554.html
+	    Newer     		     466	171555.html
+	    Newer     		     426	171556.html
+	    Newer     		     413	171557.html
+	    Newer     		     437	171558.html
+	    Newer     		     424	171560.html
+	    Newer     		     423	171561.html
+	    Newer     		     434	171566.html
+	    Newer     		     458	171568.html
+	    Newer     		     472	171569.html
+	    Newer     		     462	171570.html
+	    Newer     		     464	171571.html
+	    Newer     		     451	171572.html
+	    Newer     		     440	171573.html
+	    Newer     		     471	171574.html
+	    Newer     		     439	171575.html
+	    Newer     		     435	171577.html
+	    Newer     		     491	171579.html
+	    Newer     		     438	171580.html
+	    Newer     		     449	171581.html
+	    Newer     		     417	171583.html
+	    Newer     		     441	171584.html
+	    Newer     		     472	171586.html
+	    Newer     		     443	171587.html
+	    Newer     		     444	171588.html
+	    Newer     		     446	171589.html
+	    Newer     		   10340	19936.gif
+	    Newer     		    1752	dhtml_toc.js
+	    Newer     		     216	footer.json
+	    Newer     		    2361	f_109.html
+	    Newer     		    6415	f_121286.html
+	    Newer     		     142	f_171273.html
+	    Newer     		     283	f_4756.html
+	    Newer     		    3821	index.json
+	    Newer     		     468	landingpage.json
+	    Newer     		     140	l_171258.html
+	    Newer     		     147	l_171260.html
+	    Newer     		     186	l_171685.html
+	    Newer     		     186	l_171686.html
+	    Newer     		     465	l_171687.html
+	    Newer     		     186	l_171688.html
+	    Newer     		     186	l_171689.html
+	    Newer     		     412	metadata.json
+	    Newer     		    4566	modifiedtopics.json
+	    Newer     		    1354	open_parent.js
+	    Newer     		       2	resources.json
+	    Newer     		  242686	searchindex.json
+	    Newer     		   23037	toc.json
+	                  10	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\css\
+	                   7	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\css\backup\
+	                  11	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\fonts\
+	                  33	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\images\
+	                   4	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\js\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :        29         0        29         0         0         0
+   Files :       179        79       100         0         0         0
+   Bytes :    6.87 m   418.0 k    6.46 m         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :             2326527 Bytes/sec.
+   Speed :             133.124 MegaBytes/min.
+   Ended : Wednesday, January 20, 2021 3:24:51 PM
+
