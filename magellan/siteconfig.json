@@ -8,9 +8,9 @@
   "imageClickPopOver": true,
   "config": {
     "disqus": {
-      "enabled": true,
-      "visible": true,
-      "defaultValue": true
+      "enabled": false,
+      "visible": false,
+      "defaultValue": false
     },
     "favourites_pages": {
       "enabled": true,
@@ -18,9 +18,9 @@
       "defaultValue": false
     },
     "glossary": {
-      "enabled": true,
-      "visible": true,
-      "defaultValue": true
+      "enabled": false,
+      "visible": false,
+      "defaultValue": false
     },
     "hambuger_menu": {
       "enabled": true,
