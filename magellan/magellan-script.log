@@ -1,33 +1,33 @@
 web.xslt found in C:\Program Files\Author-it\Transformations\
  
-[21-Jan-2021 08:31:04:AM] Generate Magellan output started
+[21-Jan-2021 08:38:12:AM] Generate Magellan output started
 ----------------------------------------------
  
-[21-Jan-2021 08:31:04:AM] Saxon Transform started
-[21-Jan-2021 08:31:08:AM] Saxon Transform completed
+[21-Jan-2021 08:38:12:AM] Saxon Transform started
+[21-Jan-2021 08:38:17:AM] Saxon Transform completed
 ----------------------------------------------
  
-[21-Jan-2021 08:31:08:AM] Building Search Index started
-[21-Jan-2021 08:31:09:AM] Building Search Index completed
+[21-Jan-2021 08:38:17:AM] Building Search Index started
+[21-Jan-2021 08:38:17:AM] Building Search Index completed
 ----------------------------------------------
  
-[21-Jan-2021 08:31:09:AM] Delete unwanted files started
-[21-Jan-2021 08:31:09:AM] Delete unwanted files completed
+[21-Jan-2021 08:38:17:AM] Delete unwanted files started
+[21-Jan-2021 08:38:17:AM] Delete unwanted files completed
 ----------------------------------------------
  
-[21-Jan-2021 08:31:09:AM] Move Published Content into Sub folder started
-[21-Jan-2021 08:31:10:AM] Move Published Content into Sub folder completed
+[21-Jan-2021 08:38:17:AM] Move Published Content into Sub folder started
+[21-Jan-2021 08:38:19:AM] Move Published Content into Sub folder completed
 ----------------------------------------------
  
-[21-Jan-2021 08:31:10:AM] Copy Magellan Engine to Publishing Folder started
-[21-Jan-2021 08:31:22:AM] Copy Magellan Engine to Publishing Folder completed
+[21-Jan-2021 08:38:19:AM] Copy Magellan Engine to Publishing Folder started
+[21-Jan-2021 08:38:32:AM] Copy Magellan Engine to Publishing Folder completed
 ----------------------------------------------
  
-[21-Jan-2021 08:31:22:AM] Copy Magellan Themes to Publishing Folder started
-[21-Jan-2021 08:31:25:AM] Copy Magellan Theme to Publishing Folder completed
+[21-Jan-2021 08:38:32:AM] Copy Magellan Themes to Publishing Folder started
+[21-Jan-2021 08:38:34:AM] Copy Magellan Theme to Publishing Folder completed
 ----------------------------------------------
  
-[21-Jan-2021 08:31:25:AM] Copy the output to the web server folder started
-[21-Jan-2021 08:31:26:AM] Copy the output to the web server folder completed
+[21-Jan-2021 08:38:34:AM] Copy the output to the web server folder started
+[21-Jan-2021 08:38:35:AM] Copy the output to the web server folder completed
 ----------------------------------------------
  
