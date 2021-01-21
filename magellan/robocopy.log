@@ -3,7 +3,7 @@
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Wednesday, January 20, 2021 2:25:20 PM
+  Started : Thursday, January 21, 2021 8:31:09 AM
    Source : C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Management Knowledge Center\
      Dest : C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Management Knowledge Center\content\en\
 
@@ -133,7 +133,7 @@ Exc Files : Knowledge Management Knowledge Center.xml
 	    New File  		    1854	166081.html100%  
 	    New File  		   27979	166096.png100%  
 	    New File  		   52609	166189.png100%  
-	    New File  		    3232	166191.html100%  
+	    New File  		    3236	166191.html100%  
 	    New File  		    5613	166194.png100%  
 	    New File  		    1164	166204.html100%  
 	    New File  		    1402	166207.html100%  
@@ -210,7 +210,7 @@ Exc Files : Knowledge Management Knowledge Center.xml
 	    New File  		    4452	modifiedtopics.json100%  
 	    New File  		    1354	open_parent.js100%  
 	    New File  		       2	resources.json100%  
-	    New File  		  529002	searchindex.json 49%   99%  100%  
+	    New File  		  528740	searchindex.json 49%   99%  100%  
 	    New File  		   48183	toc.json100%  
 
 ------------------------------------------------------------------------------
@@ -219,22 +219,22 @@ Exc Files : Knowledge Management Knowledge Center.xml
     Dirs :         2         1         1         0         0         0
    Files :       197       193         4         0         0         0
    Bytes :    2.55 m    2.54 m     3.5 k         0         0         0
-   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Times :   0:00:01   0:00:01                       0:00:00   0:00:00
 
 
-   Speed :             3341851 Bytes/sec.
-   Speed :             191.222 MegaBytes/min.
-   Ended : Wednesday, January 20, 2021 2:25:21 PM
+   Speed :             2470631 Bytes/sec.
+   Speed :             141.370 MegaBytes/min.
+   Ended : Thursday, January 21, 2021 8:31:10 AM
 
 
-2021/01/20 14:25:21 ERROR 32 (0x00000020) Deleting Source Directory C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Management Knowledge Center\
+2021/01/21 08:31:10 ERROR 32 (0x00000020) Deleting Source Directory C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Management Knowledge Center\
 The process cannot access the file because it is being used by another process.
 
 -------------------------------------------------------------------------------
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Wednesday, January 20, 2021 2:25:21 PM
+  Started : Thursday, January 21, 2021 8:31:10 AM
    Source : \\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine\
      Dest : C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Management Knowledge Center\
 
@@ -248,7 +248,7 @@ The process cannot access the file because it is being used by another process.
 	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Management Knowledge Center\content\
 	  *EXTRA File 		    1182	indexerLog.log
 	  *EXTRA File 		     944	magellan-script.log
-	  *EXTRA File 		   10676	robocopy.log
+	  *EXTRA File 		   10674	robocopy.log
 	  *EXTRA File 		    1750	saxon.log
 	    New File  		   12491	3rdpartylicenses.txt
 	    New File  		    1150	favicon.ico
@@ -371,19 +371,19 @@ The process cannot access the file because it is being used by another process.
     Dirs :        26        25         1         0         0         1
    Files :        89        89         0         0         0         4
    Bytes :    4.71 m    4.71 m         0         0         0    14.2 k
-   Times :   0:00:14   0:00:10                       0:00:00   0:00:04
+   Times :   0:00:12   0:00:08                       0:00:00   0:00:03
 
 
-   Speed :              472849 Bytes/sec.
-   Speed :              27.056 MegaBytes/min.
-   Ended : Wednesday, January 20, 2021 2:25:37 PM
+   Speed :              573970 Bytes/sec.
+   Speed :              32.842 MegaBytes/min.
+   Ended : Thursday, January 21, 2021 8:31:22 AM
 
 
 -------------------------------------------------------------------------------
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Wednesday, January 20, 2021 2:25:37 PM
+  Started : Thursday, January 21, 2021 8:31:22 AM
    Source : \\corporate\shares\AuthorIT\NewData\Templates\Magellan\Themes\VertexKM\
      Dest : C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Management Knowledge Center\
 
@@ -406,7 +406,7 @@ The process cannot access the file because it is being used by another process.
 	  *EXTRA File 		    1151	magellan-script.log
 	  *EXTRA File 		  406857	main.bb1f61b7092385f4ba1e.bundle.js
 	  *EXTRA File 		  115285	polyfills.ef59c4914bd69e024385.bundle.js
-	  *EXTRA File 		   19091	robocopy.log
+	  *EXTRA File 		   19087	robocopy.log
 	  *EXTRA File 		    1750	saxon.log
 	  *EXTRA File 		  404323	scripts.6e22b6b7916fdc122797.bundle.js
 	  *EXTRA File 		    4185	siteconfig.json
@@ -476,19 +476,19 @@ The process cannot access the file because it is being used by another process.
     Dirs :         4         1         3         0         0         4
    Files :        17        17         0         0         0        51
    Bytes :    2.62 m    2.62 m         0         0         0    2.05 m
-   Times :   0:00:02   0:00:02                       0:00:00   0:00:00
+   Times :   0:00:02   0:00:01                       0:00:00   0:00:00
 
 
-   Speed :             1230789 Bytes/sec.
-   Speed :              70.426 MegaBytes/min.
-   Ended : Wednesday, January 20, 2021 2:25:40 PM
+   Speed :             1505946 Bytes/sec.
+   Speed :              86.170 MegaBytes/min.
+   Ended : Thursday, January 21, 2021 8:31:25 AM
 
 
 -------------------------------------------------------------------------------
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Wednesday, January 20, 2021 2:25:40 PM
+  Started : Thursday, January 21, 2021 8:31:25 AM
    Source : C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Management Knowledge Center\
      Dest : C:\inetpub\wwwroot\magellan\171312\
 
@@ -502,7 +502,7 @@ The process cannot access the file because it is being used by another process.
 	*EXTRA Dir        -1	C:\inetpub\wwwroot\magellan\171312\demo\
 	    Newer     		    1182	indexerLog.log
 	    Newer     		    1356	magellan-script.log
-	    Newer     		   24322	robocopy.log
+	    Newer     		   24316	robocopy.log
 	    Newer     		    1750	saxon.log
 	                   0	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Management Knowledge Center\assets\
 	                   0	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Management Knowledge Center\assets\resources\
@@ -645,6 +645,7 @@ The process cannot access the file because it is being used by another process.
 	  *EXTRA File 		   13130	171354.html
 	  *EXTRA File 		    1600	171357.html
 	  *EXTRA File 		    1381	171626.html
+	  *EXTRA File 		    2404	171720.html
 	  *EXTRA File 		     577	67352.png
 	    Newer     		     355	124.gif
 	    Newer     		     353	125.gif
@@ -760,7 +761,7 @@ The process cannot access the file because it is being used by another process.
 	    Newer     		    1854	166081.html
 	    Newer     		   27979	166096.png
 	    Newer     		   52609	166189.png
-	    Newer     		    3232	166191.html
+	    Newer     		    3236	166191.html
 	    Newer     		    5613	166194.png
 	    Newer     		    1164	166204.html
 	    Newer     		    1402	166207.html
@@ -837,12 +838,10 @@ The process cannot access the file because it is being used by another process.
 	    Newer     		    4452	modifiedtopics.json
 	    Newer     		    1354	open_parent.js
 	    Newer     		       2	resources.json
-	    Newer     		  529002	searchindex.json
+	    Newer     		  528740	searchindex.json
 	    Newer     		   48183	toc.json
 	                  10	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Management Knowledge Center\css\
-	    Newer     		   59147	contentstyles.css
 	                   7	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Management Knowledge Center\css\backup\
-	    New File  		   26777	contentstyles-01202021.css
 	                  11	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Management Knowledge Center\fonts\
 	                  33	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Management Knowledge Center\images\
 	                   4	C:\Program Files\Author-it\Publishing\Magellan Help Center\Knowledge Management Knowledge Center\js\
@@ -851,12 +850,12 @@ The process cannot access the file because it is being used by another process.
 
                Total    Copied   Skipped  Mismatch    FAILED    Extras
     Dirs :        29         0        29         0         0         2
-   Files :       297       199        98         0         0       118
-   Bytes :    8.94 m    2.65 m    6.28 m         0         0   782.8 k
+   Files :       297       197       100         0         0       119
+   Bytes :    8.94 m    2.57 m    6.36 m         0         0   785.2 k
    Times :   0:00:00   0:00:00                       0:00:00   0:00:00
 
 
-   Speed :             5403129 Bytes/sec.
-   Speed :             309.169 MegaBytes/min.
-   Ended : Wednesday, January 20, 2021 2:25:41 PM
+   Speed :             4131233 Bytes/sec.
+   Speed :             236.391 MegaBytes/min.
+   Ended : Thursday, January 21, 2021 8:31:26 AM
 

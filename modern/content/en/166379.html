@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<div id="166379" data-aitid="166379" data-modifieddate="2020-06-22" data-aitvariantparent="0" class="concept_moredetailtemplate">
+   <script type="text/javascript">$('[data-toggle="popover"]').popover(); </script>
+   
+   <h5>Variable hierarchy</h5>
+   <p class="bodytext">When you use a variable, Author-it inserts the replacement variable value based on
+      a hierarchy. The following table describes how variables are applied based on the
+      hierarchy:</p>
+   <p class="marginresetbody_tablesonly_"></p>
+   <div class="table-responsive header borders shading marginresetbody_tablesonly_ tableheading">
+      <table class="table" data-width="582px">
+         <tbody>
+            <tr>
+               <th style="border-style: solid; border-width:0.5pt;border-color:#010101;background-color:#00609C;" data-width="84px">
+                  <p class="tableheading">Level</p>
+               </th>
+               <th style="border-style: solid; border-width:0.5pt;border-color:#010101;background-color:#00609C;" data-width="498px">
+                  <p class="tableheading">Descripition</p>
+               </th>
+            </tr>
+            <tr>
+               <th style="border-style: solid; border-width:0.5pt;border-color:#010101;" data-width="84px">
+                  <p class="tabletext">Library</p>
+               </th>
+               <th style="border-style: solid; border-width:0.5pt;border-color:#010101;" data-width="498px">
+                  <p class="tabletext">The replacement value defined for the variable is applied to all topics using the
+                     variable. For example, the replacement value is <span class="emphasis">O Series</span>.</p>
+               </th>
+            </tr>
+            <tr>
+               <td style="border-style: solid; border-width:0.5pt;border-color:#010101;" data-width="84px">
+                  <p class="tabletext">Book</p>
+               </td>
+               <td style="border-style: solid; border-width:0.5pt;border-color:#010101;" data-width="498px">
+                  <p class="tabletext">The replacement value defined for the variable is applied to all topics in the selected
+                     book. This level takes precedence over the library level. By applying the value at
+                     the book level, you can use a value that is different than what is set at the library
+                     level. For example, if your book is specific to the U.S., then the replacement value
+                     is <span class="emphasis">O Series U.S.</span> instead of just O Series.</p>
+               </td>
+            </tr>
+            <tr>
+               <td style="border-style: solid; border-width:0.5pt;border-color:#010101;" data-width="84px">
+                  <p class="tabletext">Topic</p>
+               </td>
+               <td style="border-style: solid; border-width:0.5pt;border-color:#010101;" data-width="498px">
+                  <p class="tabletext">The replacement value defined for the variable is applied to just the selected topic.
+                     This level takes precedence over the book level. For example, if your book is for
+                     the U.S. but you have a topic that references the book for the U.K., the replacement
+                     value for the variable used in that topic is <span class="emphasis">O Series U.K.</span> while the rest of the uses in the book would remain O Series U.S.</p>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+   <p class="spacer"></p>
+</div>
