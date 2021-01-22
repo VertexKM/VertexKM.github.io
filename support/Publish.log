@@ -1,23 +1,25 @@
-Publishing Customer Support Business Processes (171690) to Resolved XML started at 3:23:49 PM
+Publishing Customer Support Business Processes (171690) to Resolved XML started at 7:24:39 AM
 Finding book relationships
-155 objects found in 0 minutes 0 seconds
+168 objects found in 0 minutes 1 seconds
+Object not exported - no read permissions (31)
 Creating output folder
 Export to XML
 Filtering by publishing profile and release state
 Checking Release States (< 1 Second)
 Exporting Objects
+Object not exported - no read permissions (31)
 Copying additional files
-Action - Publishing to Xml (36 Second(s))
+Action - Publishing to Xml (37 Second(s))
 Executing After Publish Actions
    Command Line: Compile Magallan Site
    Filename: "c:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"
    Arguments: -WindowStyle Hidden -ExecutionPolicy bypass -File "\\corporate\shares\AuthorIT\NewData\Templates\Magellan\SupportFiles\magellan.ps1" -PublishFolder "C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes" -SaxonFolder "C:\Program Files\Saxonica\SaxonPE9.9N" -ResolvedXML "Customer Support Business Processes.xml" -LocaleCode "en-us" -MagellanFolder "\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine" -IndexerFolder "C:\Program Files\Author-it\Compilers\Magellan" -LibraryPath "\\corporate\shares\AuthorIT\NewData\Libraries" -ThemeFolder "\\corporate\shares\AuthorIT\NewData\Templates\Magellan\Themes\Vertex" -ContentFolder "en" -WebserverFolder "C:\inetpub\wwwroot\magellan\171690"
-   Process-ID: 20024
-   Start time: 1/20/2021 3:24:26 PM
-   End time: 1/20/2021 3:24:51 PM
+   Process-ID: 12620
+   Start time: 1/22/2021 7:25:17 AM
+   End time: 1/22/2021 7:25:41 AM
    Exit code: 0
 Command Line - Compile Magallan Site (24 Second(s))
 Configure Output Location: Open Magellan Output
 Checking Hyperlinks
 Object Hypertext-Link 'Styles Testing Home Page' (171657) does not have any targets in this book
-Publishing Customer Support Business Processes (171690) to Resolved XML finished at 3:24:51 PM
+Publishing Customer Support Business Processes (171690) to Resolved XML finished at 7:25:42 AM

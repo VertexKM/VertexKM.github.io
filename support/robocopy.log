@@ -3,7 +3,7 @@
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Wednesday, January 20, 2021 3:24:31 PM
+  Started : Friday, January 22, 2021 7:25:24 AM
    Source : C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\
      Dest : C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\content\en\
 
@@ -18,7 +18,7 @@ Exc Files : Customer Support Business Processes.xml
 
 ------------------------------------------------------------------------------
 
-	  New Dir         79	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\
+	  New Dir         85	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\
 	    New File  		    2485	109.html100%  
 	    New File  		     355	124.gif100%  
 	    New File  		     353	125.gif100%  
@@ -55,7 +55,7 @@ Exc Files : Customer Support Business Processes.xml
 	    New File  		     423	171561.html100%  
 	    New File  		     434	171566.html100%  
 	    New File  		     458	171568.html100%  
-	    New File  		     472	171569.html100%  
+	    New File  		     473	171569.html100%  
 	    New File  		     462	171570.html100%  
 	    New File  		     464	171571.html100%  
 	    New File  		     451	171572.html100%  
@@ -69,9 +69,12 @@ Exc Files : Customer Support Business Processes.xml
 	    New File  		     417	171583.html100%  
 	    New File  		     441	171584.html100%  
 	    New File  		     472	171586.html100%  
-	    New File  		     443	171587.html100%  
+	    New File  		     436	171587.html100%  
 	    New File  		     444	171588.html100%  
 	    New File  		     446	171589.html100%  
+	    New File  		     429	171693.html100%  
+	    New File  		     450	171698.html100%  
+	    New File  		     452	171701.html100%  
 	    New File  		   10340	19936.gif100%  
 	    New File  		    1752	dhtml_toc.js100%  
 	    New File  		     216	footer.json100%  
@@ -79,44 +82,47 @@ Exc Files : Customer Support Business Processes.xml
 	    New File  		    6415	f_121286.html100%  
 	    New File  		     142	f_171273.html100%  
 	    New File  		     283	f_4756.html100%  
-	    New File  		    3821	index.json100%  
-	    New File  		     468	landingpage.json100%  
+	    New File  		    4027	index.json100%  
+	    New File  		     644	landingpage.json100%  
 	    New File  		     140	l_171258.html100%  
 	    New File  		     147	l_171260.html100%  
-	    New File  		     186	l_171685.html100%  
-	    New File  		     186	l_171686.html100%  
-	    New File  		     465	l_171687.html100%  
+	    New File  		     217	l_171685.html100%  
+	    New File  		     220	l_171686.html100%  
+	    New File  		     232	l_171687.html100%  
 	    New File  		     186	l_171688.html100%  
 	    New File  		     186	l_171689.html100%  
+	    New File  		     193	l_171759.html100%  
+	    New File  		     187	l_171761.html100%  
+	    New File  		     211	l_171763.html100%  
 	    New File  		     412	metadata.json100%  
-	    New File  		    4566	modifiedtopics.json100%  
+	    New File  		    4637	modifiedtopics.json100%  
 	    New File  		    1354	open_parent.js100%  
 	    New File  		       2	resources.json100%  
-	    New File  		  242686	searchindex.json 54%  100%  
-	    New File  		   23037	toc.json100%  
+	    New File  		  247270	searchindex.json 53%  100%  
+	    New File  		   24549	toc.json100%  
 
 ------------------------------------------------------------------------------
 
                Total    Copied   Skipped  Mismatch    FAILED    Extras
     Dirs :         2         1         1         0         0         0
-   Files :        79        75         4         0         0         0
-   Bytes :   399.0 k   395.4 k     3.5 k         0         0         0
+   Files :        85        81         4         0         0         0
+   Bytes :   407.1 k   403.5 k     3.5 k         0         0         0
    Times :   0:00:00   0:00:00                       0:00:00   0:00:00
 
 
-   Speed :              876482 Bytes/sec.
-   Speed :              50.152 MegaBytes/min.
-   Ended : Wednesday, January 20, 2021 3:24:31 PM
+   Speed :             1051480 Bytes/sec.
+   Speed :              60.166 MegaBytes/min.
+   Ended : Friday, January 22, 2021 7:25:25 AM
 
 
-2021/01/20 15:24:31 ERROR 32 (0x00000020) Deleting Source Directory C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\
+2021/01/22 07:25:25 ERROR 32 (0x00000020) Deleting Source Directory C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\
 The process cannot access the file because it is being used by another process.
 
 -------------------------------------------------------------------------------
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Wednesday, January 20, 2021 3:24:31 PM
+  Started : Friday, January 22, 2021 7:25:25 AM
    Source : \\corporate\shares\AuthorIT\NewData\Templates\Magellan\Magellan Engine\
      Dest : C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\
 
@@ -130,7 +136,7 @@ The process cannot access the file because it is being used by another process.
 	*EXTRA Dir        -1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\content\
 	  *EXTRA File 		    1174	indexerLog.log
 	  *EXTRA File 		     944	magellan-script.log
-	  *EXTRA File 		    5244	robocopy.log
+	  *EXTRA File 		    5520	robocopy.log
 	  *EXTRA File 		    1750	saxon.log
 	    New File  		   12491	3rdpartylicenses.txt
 	    New File  		    1150	favicon.ico
@@ -252,20 +258,20 @@ The process cannot access the file because it is being used by another process.
                Total    Copied   Skipped  Mismatch    FAILED    Extras
     Dirs :        26        25         1         0         0         1
    Files :        89        89         0         0         0         4
-   Bytes :    4.71 m    4.71 m         0         0         0     8.8 k
-   Times :   0:00:15   0:00:10                       0:00:00   0:00:04
+   Bytes :    4.71 m    4.71 m         0         0         0     9.1 k
+   Times :   0:00:12   0:00:08                       0:00:00   0:00:03
 
 
-   Speed :              456274 Bytes/sec.
-   Speed :              26.108 MegaBytes/min.
-   Ended : Wednesday, January 20, 2021 3:24:47 PM
+   Speed :              551507 Bytes/sec.
+   Speed :              31.557 MegaBytes/min.
+   Ended : Friday, January 22, 2021 7:25:38 AM
 
 
 -------------------------------------------------------------------------------
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Wednesday, January 20, 2021 3:24:47 PM
+  Started : Friday, January 22, 2021 7:25:38 AM
    Source : \\corporate\shares\AuthorIT\NewData\Templates\Magellan\Themes\Vertex\
      Dest : C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\
 
@@ -288,7 +294,7 @@ The process cannot access the file because it is being used by another process.
 	  *EXTRA File 		    1151	magellan-script.log
 	  *EXTRA File 		  406857	main.bb1f61b7092385f4ba1e.bundle.js
 	  *EXTRA File 		  115285	polyfills.ef59c4914bd69e024385.bundle.js
-	  *EXTRA File 		   13655	robocopy.log
+	  *EXTRA File 		   13925	robocopy.log
 	  *EXTRA File 		    1750	saxon.log
 	  *EXTRA File 		  404323	scripts.6e22b6b7916fdc122797.bundle.js
 	  *EXTRA File 		    4185	siteconfig.json
@@ -358,19 +364,19 @@ The process cannot access the file because it is being used by another process.
     Dirs :         4         1         3         0         0         4
    Files :        17        17         0         0         0        51
    Bytes :    2.72 m    2.72 m         0         0         0    2.04 m
-   Times :   0:00:03   0:00:02                       0:00:00   0:00:00
+   Times :   0:00:02   0:00:02                       0:00:00   0:00:00
 
 
-   Speed :             1154373 Bytes/sec.
-   Speed :              66.053 MegaBytes/min.
-   Ended : Wednesday, January 20, 2021 3:24:51 PM
+   Speed :             1291873 Bytes/sec.
+   Speed :              73.921 MegaBytes/min.
+   Ended : Friday, January 22, 2021 7:25:41 AM
 
 
 -------------------------------------------------------------------------------
    ROBOCOPY     ::     Robust File Copy for Windows                              
 -------------------------------------------------------------------------------
 
-  Started : Wednesday, January 20, 2021 3:24:51 PM
+  Started : Friday, January 22, 2021 7:25:41 AM
    Source : C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\
      Dest : C:\inetpub\wwwroot\magellan\171690\
 
@@ -383,7 +389,7 @@ The process cannot access the file because it is being used by another process.
 	                  18	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\
 	    Newer     		    1174	indexerLog.log
 	    Newer     		    1356	magellan-script.log
-	    Newer     		   18866	robocopy.log
+	    Newer     		   19130	robocopy.log
 	    Newer     		    1750	saxon.log
 	                   0	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\assets\
 	                   0	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\assets\resources\
@@ -407,7 +413,7 @@ The process cannot access the file because it is being used by another process.
 	                   1	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\assets\resources\vi\
 	                   2	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\assets\resources\zh\
 	                   0	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\content\
-	                  75	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\content\en\
+	                  81	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\content\en\
 	    Newer     		    2485	109.html
 	    Newer     		     355	124.gif
 	    Newer     		     353	125.gif
@@ -444,7 +450,7 @@ The process cannot access the file because it is being used by another process.
 	    Newer     		     423	171561.html
 	    Newer     		     434	171566.html
 	    Newer     		     458	171568.html
-	    Newer     		     472	171569.html
+	    Newer     		     473	171569.html
 	    Newer     		     462	171570.html
 	    Newer     		     464	171571.html
 	    Newer     		     451	171572.html
@@ -458,9 +464,12 @@ The process cannot access the file because it is being used by another process.
 	    Newer     		     417	171583.html
 	    Newer     		     441	171584.html
 	    Newer     		     472	171586.html
-	    Newer     		     443	171587.html
+	    Newer     		     436	171587.html
 	    Newer     		     444	171588.html
 	    Newer     		     446	171589.html
+	    Newer     		     429	171693.html
+	    Newer     		     450	171698.html
+	    Newer     		     452	171701.html
 	    Newer     		   10340	19936.gif
 	    Newer     		    1752	dhtml_toc.js
 	    Newer     		     216	footer.json
@@ -468,21 +477,24 @@ The process cannot access the file because it is being used by another process.
 	    Newer     		    6415	f_121286.html
 	    Newer     		     142	f_171273.html
 	    Newer     		     283	f_4756.html
-	    Newer     		    3821	index.json
-	    Newer     		     468	landingpage.json
+	    Newer     		    4027	index.json
+	    Newer     		     644	landingpage.json
 	    Newer     		     140	l_171258.html
 	    Newer     		     147	l_171260.html
-	    Newer     		     186	l_171685.html
-	    Newer     		     186	l_171686.html
-	    Newer     		     465	l_171687.html
+	    Newer     		     217	l_171685.html
+	    Newer     		     220	l_171686.html
+	    Newer     		     232	l_171687.html
 	    Newer     		     186	l_171688.html
 	    Newer     		     186	l_171689.html
+	    New File  		     193	l_171759.html
+	    New File  		     187	l_171761.html
+	    New File  		     211	l_171763.html
 	    Newer     		     412	metadata.json
-	    Newer     		    4566	modifiedtopics.json
+	    Newer     		    4637	modifiedtopics.json
 	    Newer     		    1354	open_parent.js
 	    Newer     		       2	resources.json
-	    Newer     		  242686	searchindex.json
-	    Newer     		   23037	toc.json
+	    Newer     		  247270	searchindex.json
+	    Newer     		   24549	toc.json
 	                  10	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\css\
 	                   7	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\css\backup\
 	                  11	C:\Program Files\Author-it\Publishing\Magellan Help Center\Customer Support Business Processes\fonts\
@@ -493,12 +505,12 @@ The process cannot access the file because it is being used by another process.
 
                Total    Copied   Skipped  Mismatch    FAILED    Extras
     Dirs :        29         0        29         0         0         0
-   Files :       179        79       100         0         0         0
-   Bytes :    6.87 m   418.0 k    6.46 m         0         0         0
+   Files :       185        85       100         0         0         0
+   Bytes :    6.88 m   426.4 k    6.46 m         0         0         0
    Times :   0:00:00   0:00:00                       0:00:00   0:00:00
 
 
-   Speed :             2326527 Bytes/sec.
-   Speed :             133.124 MegaBytes/min.
-   Ended : Wednesday, January 20, 2021 3:24:51 PM
+   Speed :             1295673 Bytes/sec.
+   Speed :              74.139 MegaBytes/min.
+   Ended : Friday, January 22, 2021 7:25:41 AM
 
