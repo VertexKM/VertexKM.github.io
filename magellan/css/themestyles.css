@@ -139,6 +139,28 @@ div.procedure_orderedlisttemplate {
 	padding-right: 20px;	
 	background-color: white;
 }
+div.process_orderedlisttemplate {
+	display: block;
+	border: 1px solid var(--light-gray-color);
+	box-shadow: 3px 3px 3px 1px var(--dark-gray-color);
+	margin-top: 26px;
+	padding-left: 20px;
+	padding-right: 20px;	
+	background-color: white;
+}
+
+/*Landing Page*/
+.landing_content_box h3 {
+    margin: 0;
+    padding:10px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color:#E5E9EF;
+    color: var(--panel-head-text-color);
+    text-align:center;
+ 
+}
+
 /* HIDE NAV ICONS */
 /* Hamburger Icon
 ul.top_icons > li:nth-child(1), ul.m_top_icons > li.m_top_menu {

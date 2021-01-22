@@ -1538,7 +1538,7 @@ li.numberbullet2, li.s9336 {
         font-variant: normal;
         font-weight: normal;
         color: var(--dark-gray-color);
-        background-color: #DFDFDF;
+        background-color: var(--light-gray-color);
         word-spacing: normal;
         letter-spacing: normal;
         vertical-align: baseline;
@@ -1599,10 +1599,10 @@ p.note::before {
     p.warning::before {
     /* content: '\f071'; */
 	content: \f06a;
-    padding-right: 5px;
+    padding-right: 8px;
     font-family: FontAwesome;
     /*color: var(--dark-gray-color);*/
-    font-weight: normal;
+    font-weight: bold;
 }
 .caution {
 	color: var(--dark-gray-color);
@@ -1622,14 +1622,16 @@ ul.notesbullet {
 	list-style-type: Square;
         list-style-image: none;
         list-style-position: outside;
-        margin-top: 0pt;
+        margin-top: -6pt;
         margin-bottom: 0pt;
+        background-color: var(--light-gray-color);
+        padding-bottom: 3pt;
         }
 li.notesbullet, li.s2287 {
         font-style: normal;
         font-variant: normal;
         font-weight: normal;
-        background-color: #E5E9EF;
+        background-color: var(--light-gray-color);
         word-spacing: normal;
         letter-spacing: normal;
         vertical-align: baseline;
